@@ -1,0 +1,402 @@
+================================================================================
+SPLIT PROMPTS FOR PART III — Replacing Failed Prompts 5 & 6
+================================================================================
+Original Prompt 5 (32 SC docs) → Split into 4 batches of 8 (Prompts 5A-5D)
+Original Prompt 6 (16 MED docs) → Split into 2 batches of 8 (Prompts 6A-6B)
+Total: 6 prompts to run through Gemini
+================================================================================
+
+================================================================================
+PROMPT 5A: Supply Chain Batch 1 (Documents 1-8 of 32)
+================================================================================
+
+You are an expert document quality analyst specializing in detecting
+intentional text contaminations embedded in academic research documents.
+
+I have 8 contaminated PDF documents from a Supply Chain Knowledge Base.
+Each document has been intentionally contaminated with exactly 3 contaminants
+of these types:
+1. TYPOS — deliberate misspellings of words
+2. CONFLICTING INFORMATION — words or phrases replaced with their opposites
+   or contradictions that change the meaning
+3. NONSENSE — domain-relevant terms replaced with absurd, contextually
+   inappropriate words or phrases
+
+Please access, read, and analyze EACH of the following 8 documents to find
+ALL contaminants embedded in them.
+
+Document 1 (SC_D9F09A): Artificial intelligence in supply chain management - A systematic literature
+  URL: https://adta2026group4.com/pdfs/supply_chain/Artificial%20intelligence%20in%20supply%20chain%20management%20-%20A%20systematic%20literature.pdf
+Document 2 (SC_C6698C): Logistics Warehouse Optimization- Proposal and Implementation 
+  URL: https://adta2026group4.com/pdfs/supply_chain/Logistics%20Warehouse%20Optimization-%20Proposal%20and%20Implementation%20.pdf
+Document 3 (SC_F0F386): Optimization Approaches for Green Supply Chain Management
+  URL: https://adta2026group4.com/pdfs/supply_chain/Optimization%20Approaches%20for%20Green%20Supply%20Chain%20Management.pdf
+Document 4 (SC_61EBC9): Insights of Strategic Approach to Global Sourcing and Modes of Entry
+  URL: https://adta2026group4.com/pdfs/supply_chain/Insights%20of%20Strategic%20Approach%20to%20Global%20Sourcing%20and%20Modes%20of%20Entry.pdf
+Document 5 (SC_C229E9): The Essential Guide to Procurement Management Best Practices
+  URL: https://adta2026group4.com/pdfs/supply_chain/The%20Essential%20Guide%20to%20Procurement%20Management%20Best%20Practices.pdf
+Document 6 (SC_8E4A08): Global Sourcing in Procurement Management- International Strategies 
+  URL: https://adta2026group4.com/pdfs/supply_chain/Global%20Sourcing%20in%20Procurement%20Management-%20International%20Strategies%20.pdf
+Document 7 (SC_E92095): Digital Sustainable Supply Chain Competitiveness under Uncertainties
+  URL: https://adta2026group4.com/pdfs/supply_chain/Digital%20Sustainable%20Supply%20Chain%20Competitiveness%20under%20Uncertainties.pdf
+Document 8 (SC_7CB134): Industrial Procurement Management Efficiency Guidelines and Best Practices
+  URL: https://adta2026group4.com/pdfs/supply_chain/Industrial%20Procurement%20Management%20Efficiency%20Guidelines%20and%20Best%20Practices.pdf
+
+For EACH document, please:
+1. Access and read the entire PDF content from the URL
+2. Identify ALL contaminants (typos, conflicting info, nonsense)
+3. For each contaminant found, report:
+   a) Document ID and title
+   b) The contaminated text as it appears in the document
+   c) The contaminant type (Typo, Conflicting Information, or Nonsense)
+   d) The exact location (page number, paragraph, surrounding sentence)
+   e) The likely original text before contamination
+   f) Your reasoning for classifying this as a contaminant
+
+Organize your report by document. End with a comprehensive summary table:
+Document ID | Contaminant # | Type | Found Text | Original Text | Page
+
+
+================================================================================
+PROMPT 5B: Supply Chain Batch 2 (Documents 9-16 of 32)
+================================================================================
+
+You are an expert document quality analyst specializing in detecting
+intentional text contaminations embedded in academic research documents.
+
+I have 8 contaminated PDF documents from a Supply Chain Knowledge Base.
+Each document has been intentionally contaminated with exactly 3 contaminants
+of these types:
+1. TYPOS — deliberate misspellings of words
+2. CONFLICTING INFORMATION — words or phrases replaced with their opposites
+   or contradictions that change the meaning
+3. NONSENSE — domain-relevant terms replaced with absurd, contextually
+   inappropriate words or phrases
+
+Please access, read, and analyze EACH of the following 8 documents to find
+ALL contaminants embedded in them.
+
+Document 1 (SC_9DFEB7): International Procurement Module 1 Basics and Fundamentals
+  URL: https://adta2026group4.com/pdfs/supply_chain/International%20Procurement%20Module%201%20Basics%20and%20Fundamentals.pdf
+Document 2 (SC_0195E1): Global Purchasing and Supply Management
+  URL: https://adta2026group4.com/pdfs/supply_chain/Global%20Purchasing%20and%20Supply%20Management.pdf
+Document 3 (SC_6476B2): Green Logistics Practices and Their Impact on Environmental Sustainability
+  URL: https://adta2026group4.com/pdfs/supply_chain/Green%20Logistics%20Practices%20and%20Their%20Impact%20on%20Environmental%20Sustainability.pdf
+Document 4 (SC_FB3B87): Privacy-Preserving Blockchain Framework for Supply Chain Management
+  URL: https://adta2026group4.com/pdfs/supply_chain/Privacy-Preserving%20Blockchain%20Framework%20for%20Supply%20Chain%20Management.pdf
+Document 5 (SC_AC5C4F): Warehouse & Distribution Science - Comprehensive Guide
+  URL: https://adta2026group4.com/pdfs/supply_chain/Warehouse%20%26%20Distribution%20Science%20-%20Comprehensive%20Guide.pdf
+Document 6 (SC_97CA22): Sustainable Procurement and Supply Chain Management - Environmental Compliance and Cost Reduction
+  URL: https://adta2026group4.com/pdfs/supply_chain/Sustainable%20Procurement%20and%20Supply%20Chain%20Management%20-%20Environmental%20Compliance%20and%20Cost%20Reduction.pdf
+Document 7 (SC_F37F7B): Inventory Management Optimization
+  URL: https://adta2026group4.com/pdfs/supply_chain/Inventory%20Management%20Optimization.pdf
+Document 8 (SC_85DC77): Supplier Selection and Assessment - Impact on Business Performance
+  URL: https://adta2026group4.com/pdfs/supply_chain/Supplier%20Selection%20and%20Assessment%20-%20Impact%20on%20Business%20Performance.pdf
+
+For EACH document, please:
+1. Access and read the entire PDF content from the URL
+2. Identify ALL contaminants (typos, conflicting info, nonsense)
+3. For each contaminant found, report:
+   a) Document ID and title
+   b) The contaminated text as it appears in the document
+   c) The contaminant type (Typo, Conflicting Information, or Nonsense)
+   d) The exact location (page number, paragraph, surrounding sentence)
+   e) The likely original text before contamination
+   f) Your reasoning for classifying this as a contaminant
+
+Organize your report by document. End with a comprehensive summary table:
+Document ID | Contaminant # | Type | Found Text | Original Text | Page
+
+
+================================================================================
+PROMPT 5C: Supply Chain Batch 3 (Documents 17-24 of 32)
+================================================================================
+
+You are an expert document quality analyst specializing in detecting
+intentional text contaminations embedded in academic research documents.
+
+I have 8 contaminated PDF documents from a Supply Chain Knowledge Base.
+Each document has been intentionally contaminated with exactly 3 contaminants
+of these types:
+1. TYPOS — deliberate misspellings of words
+2. CONFLICTING INFORMATION — words or phrases replaced with their opposites
+   or contradictions that change the meaning
+3. NONSENSE — domain-relevant terms replaced with absurd, contextually
+   inappropriate words or phrases
+
+Please access, read, and analyze EACH of the following 8 documents to find
+ALL contaminants embedded in them.
+
+Document 1 (SC_7B5444): Systematic Review of Sustainable Supply Chain Network Design
+  URL: https://adta2026group4.com/pdfs/supply_chain/Systematic%20Review%20of%20Sustainable%20Supply%20Chain%20Network%20Design.pdf
+Document 2 (SC_FEF54D): New-Generation Supply Chain - Digital Transformation Strategies
+  URL: https://adta2026group4.com/pdfs/supply_chain/New-Generation%20Supply%20Chain%20-%20Digital%20Transformation%20Strategies.pdf
+Document 3 (SC_8E7E30): A Review of Supply Chain Risk Management - Definition, Theory, and Research Agenda
+  URL: https://adta2026group4.com/pdfs/supply_chain/A%20Review%20of%20Supply%20Chain%20Risk%20Management%20-%20Definition%2C%20Theory%2C%20and%20Research%20Agenda.pdf
+Document 4 (SC_DA2127): Sustainable and Resilient Supply Chain Network Design under Disruption Risks
+  URL: https://adta2026group4.com/pdfs/supply_chain/Sustainable%20and%20Resilient%20Supply%20Chain%20Network%20Design%20under%20Disruption%20Risks.pdf
+Document 5 (SC_B6D996): Revolutionizing Supply Chain Management Emerging Trends and Strategies for the Future
+  URL: https://adta2026group4.com/pdfs/supply_chain/Revolutionizing%20Supply%20Chain%20Management%20Emerging%20Trends%20and%20Strategies%20for%20the%20Future.pdf
+Document 6 (SC_48C646): Asymmetric Inventory Management
+  URL: https://adta2026group4.com/pdfs/supply_chain/Asymmetric%20Inventory%20Management.pdf
+Document 7 (SC_8500A5): A Literature Analysis of Walmart's Supply Chain Excellence in terms of Integration, Distribution and Operations
+  URL: https://adta2026group4.com/pdfs/supply_chain/A%20Literature%20Analysis%20of%20Walmart%27s%20Supply%20Chain%20Excellence%20in%20terms%20of%20Integration%2C%20Distribution%20and%20Operations.pdf
+Document 8 (SC_BEDE1A): Contingency Management and Supply Chain Performance COVID-19 Pandemic
+  URL: https://adta2026group4.com/pdfs/supply_chain/Contingency%20Management%20and%20Supply%20Chain%20Performance%20COVID-19%20Pandemic.pdf
+
+For EACH document, please:
+1. Access and read the entire PDF content from the URL
+2. Identify ALL contaminants (typos, conflicting info, nonsense)
+3. For each contaminant found, report:
+   a) Document ID and title
+   b) The contaminated text as it appears in the document
+   c) The contaminant type (Typo, Conflicting Information, or Nonsense)
+   d) The exact location (page number, paragraph, surrounding sentence)
+   e) The likely original text before contamination
+   f) Your reasoning for classifying this as a contaminant
+
+Organize your report by document. End with a comprehensive summary table:
+Document ID | Contaminant # | Type | Found Text | Original Text | Page
+
+
+================================================================================
+PROMPT 5D: Supply Chain Batch 4 (Documents 25-32 of 32)
+================================================================================
+
+You are an expert document quality analyst specializing in detecting
+intentional text contaminations embedded in academic research documents.
+
+I have 8 contaminated PDF documents from a Supply Chain Knowledge Base.
+Each document has been intentionally contaminated with exactly 3 contaminants
+of these types:
+1. TYPOS — deliberate misspellings of words
+2. CONFLICTING INFORMATION — words or phrases replaced with their opposites
+   or contradictions that change the meaning
+3. NONSENSE — domain-relevant terms replaced with absurd, contextually
+   inappropriate words or phrases
+
+Please access, read, and analyze EACH of the following 8 documents to find
+ALL contaminants embedded in them.
+
+Document 1 (SC_8A2924): Supply Chain Performance - Performance Measurements and Metrics
+  URL: https://adta2026group4.com/pdfs/supply_chain/Supply%20Chain%20Performance%20-%20Performance%20Measurements%20and%20Metrics.pdf
+Document 2 (SC_E7ADA0): Digital Transformation in Supply Chains AI, Blockchain and IoT Integration
+  URL: https://adta2026group4.com/pdfs/supply_chain/Digital%20Transformation%20in%20Supply%20Chains%20AI%2C%20Blockchain%20and%20IoT%20Integration.pdf
+Document 3 (SC_34187C): Developments in Logistics and Supply Chain Management Past, Present and Future
+  URL: https://adta2026group4.com/pdfs/supply_chain/Developments%20in%20Logistics%20and%20Supply%20Chain%20Management%20Past%2C%20Present%20and%20Future.pdf
+Document 4 (SC_1031D5): Supply Chain Optimization via Generative Simulation and Iterative Decision-Making
+  URL: https://adta2026group4.com/pdfs/supply_chain/Supply%20Chain%20Optimization%20via%20Generative%20Simulation%20and%20Iterative%20Decision-Making.pdf
+Document 5 (SC_F66C40): Impact of Perceived Benefits on Blockchain Adoption in SCM
+  URL: https://adta2026group4.com/pdfs/supply_chain/Impact%20of%20Perceived%20Benefits%20on%20Blockchain%20Adoption%20in%20SCM.pdf
+Document 6 (SC_15404A): Warehouse Optimization BEDNAR - Technical Analysis and Implementation
+  URL: https://adta2026group4.com/pdfs/supply_chain/Warehouse%20Optimization%20BEDNAR%20-%20Technical%20Analysis%20and%20Implementation.pdf
+Document 7 (SC_FAC84A): Research of Logistics Coordination Level in Supply Chain Procurement (1)
+  URL: https://adta2026group4.com/pdfs/supply_chain/Research%20of%20Logistics%20Coordination%20Level%20in%20Supply%20Chain%20Procurement.pdf
+Document 8 (SC_DBB77D): Supply Chain Risk Management - Building Resilience and Flexibility
+  URL: https://adta2026group4.com/pdfs/supply_chain/Supply%20Chain%20Risk%20Management%20-%20Building%20Resilience%20and%20Flexibility.pdf
+
+For EACH document, please:
+1. Access and read the entire PDF content from the URL
+2. Identify ALL contaminants (typos, conflicting info, nonsense)
+3. For each contaminant found, report:
+   a) Document ID and title
+   b) The contaminated text as it appears in the document
+   c) The contaminant type (Typo, Conflicting Information, or Nonsense)
+   d) The exact location (page number, paragraph, surrounding sentence)
+   e) The likely original text before contamination
+   f) Your reasoning for classifying this as a contaminant
+
+Organize your report by document. End with a comprehensive summary table:
+Document ID | Contaminant # | Type | Found Text | Original Text | Page
+
+
+================================================================================
+PROMPT 6A: Medical Batch 1 (Documents 1-8 of 16)
+================================================================================
+
+You are an expert document quality analyst specializing in detecting
+intentional text contaminations embedded in academic research documents.
+
+I have 8 contaminated PDF documents from a Medical Knowledge Base.
+Each document has been intentionally contaminated with exactly 3 contaminants
+of these types:
+1. TYPOS — deliberate misspellings of words
+2. CONFLICTING INFORMATION — words or phrases replaced with their opposites
+   or contradictions that change the meaning
+3. NONSENSE — domain-relevant terms replaced with absurd, contextually
+   inappropriate words or phrases
+
+Please access, read, and analyze EACH of the following 8 documents to find
+ALL contaminants embedded in them.
+
+Document 1 (MED_36F1BD): An essential bifunctional enzyme in Mycobacterium tuberculosis
+  URL: https://adta2026group4.com/pdfs/medical/An%20essential%20bifunctional%20enzyme%20in%20Mycobacterium%20tuberculosis.pdf
+Document 2 (MED_378E06): TENSOR GENERALIZED ESTIMATING EQUATIONS FOR LONGITUDINAL IMAGING ANALYSIS
+  URL: https://adta2026group4.com/pdfs/medical/TENSOR%20GENERALIZED%20ESTIMATING%20EQUATIONS%20FOR%20LONGITUDINAL%20IMAGING%20ANALYSIS.pdf
+Document 3 (MED_ABE610): Gene Encoding a Serine-Threonine Protein Kinase
+  URL: https://adta2026group4.com/pdfs/medical/Gene%20Encoding%20a%20Serine-Threonine%20Protein%20Kinase.pdf
+Document 4 (MED_F520FE): Genetics of Lipodystrophy
+  URL: https://adta2026group4.com/pdfs/medical/Genetics%20of%20Lipodystrophy.pdf
+Document 5 (MED_9589DA): Ultrasound Therapy on Myofascial Pain Syndrome of the Upper Trapezius
+  URL: https://adta2026group4.com/pdfs/medical/Ultrasound%20Therapy%20on%20Myofascial%20Pain%20Syndrome%20of%20the%20Upper%20Trapezius.pdf
+Document 6 (MED_583321): Novel Coronavirus from Patients with Pneumonia in China
+  URL: https://adta2026group4.com/pdfs/medical/Novel%20Coronavirus%20from%20Patients%20with%20Pneumonia%20in%20China.pdf
+Document 7 (MED_E011BF): SARS treatment
+  URL: https://adta2026group4.com/pdfs/medical/SARS%20treatment.pdf
+Document 8 (MED_07B97B): Engaged Physical Sciences and Oncology Research
+  URL: https://adta2026group4.com/pdfs/medical/Engaged%20Physical%20Sciences%20and%20Oncology%20Research.pdf
+
+For EACH document, please:
+1. Access and read the entire PDF content from the URL
+2. Identify ALL contaminants (typos, conflicting info, nonsense)
+3. For each contaminant found, report:
+   a) Document ID and title
+   b) The contaminated text as it appears in the document
+   c) The contaminant type (Typo, Conflicting Information, or Nonsense)
+   d) The exact location (page number, paragraph, surrounding sentence)
+   e) The likely original text before contamination
+   f) Your reasoning for classifying this as a contaminant
+
+Organize your report by document. End with a comprehensive summary table:
+Document ID | Contaminant # | Type | Found Text | Original Text | Page
+
+
+================================================================================
+PROMPT 6B: Medical Batch 2 (Documents 9-16 of 16)
+================================================================================
+
+You are an expert document quality analyst specializing in detecting
+intentional text contaminations embedded in academic research documents.
+
+I have 8 contaminated PDF documents from a Medical Knowledge Base.
+Each document has been intentionally contaminated with exactly 3 contaminants
+of these types:
+1. TYPOS — deliberate misspellings of words
+2. CONFLICTING INFORMATION — words or phrases replaced with their opposites
+   or contradictions that change the meaning
+3. NONSENSE — domain-relevant terms replaced with absurd, contextually
+   inappropriate words or phrases
+
+Please access, read, and analyze EACH of the following 8 documents to find
+ALL contaminants embedded in them.
+
+Document 1 (MED_AE7761): Efficacy of Vitamin C Supplementation on Collagen Synthesis and Oxidative Stress
+  URL: https://adta2026group4.com/pdfs/medical/Efficacy%20of%20Vitamin%20C%20Supplementation%20on%20Collagen%20Synthesis%20and%20Oxidative%20Stress.pdf
+Document 2 (MED_DFB0B9): Haemothoraces in blunt thoracic trauma
+  URL: https://adta2026group4.com/pdfs/medical/Haemothoraces%20in%20blunt%20thoracic%20trauma.pdf
+Document 3 (MED_C68DED): Prescription opioids for misuse among young adults
+  URL: https://adta2026group4.com/pdfs/medical/Prescription%20opioids%20for%20misuse%20among%20young%20adults.pdf
+Document 4 (MED_507619): Effect of capped biparametric magnetic resonance imaging slots on weekly prostate cancer
+  URL: https://adta2026group4.com/pdfs/medical/Effect%20of%20capped%20biparametric%20magnetic%20resonance%20imaging%20slots%20on%20weekly%20prostate%20cancer.pdf
+Document 5 (MED_6C7571): Targeting an electrotonic effect with ablation
+  URL: https://adta2026group4.com/pdfs/medical/Targeting%20an%20electrotonic%20effect%20with%20ablation.pdf
+Document 6 (MED_998FA0): Cardiac Sympathetic Denervation for Refractory Ventricular Arrhythmias
+  URL: https://adta2026group4.com/pdfs/medical/Cardiac%20Sympathetic%20Denervation%20for%20Refractory%20Ventricular%20Arrhythmias.pdf
+Document 7 (MED_29AA9B): Molecular Diagnostics for COVID-19
+  URL: https://adta2026group4.com/pdfs/medical/Molecular%20Diagnostics%20for%20COVID-19.pdf
+Document 8 (MED_F552C1): New Approaches to Target Inflammation in Heart Failure
+  URL: https://adta2026group4.com/pdfs/medical/New%20Approaches%20to%20Target%20Inflammation%20in%20Heart%20Failure.pdf
+
+For EACH document, please:
+1. Access and read the entire PDF content from the URL
+2. Identify ALL contaminants (typos, conflicting info, nonsense)
+3. For each contaminant found, report:
+   a) Document ID and title
+   b) The contaminated text as it appears in the document
+   c) The contaminant type (Typo, Conflicting Information, or Nonsense)
+   d) The exact location (page number, paragraph, surrounding sentence)
+   e) The likely original text before contamination
+   f) Your reasoning for classifying this as a contaminant
+
+Organize your report by document. End with a comprehensive summary table:
+Document ID | Contaminant # | Type | Found Text | Original Text | Page
+
+
+================================================================================
+ANSWER KEY REFERENCE (DO NOT include in prompts)
+================================================================================
+
+PROMPT 5A (SC Batch 1):
+  SC_D9F09A: CID_00077 [Typo] "assesment" P6, CID_00078 [Conflicting] "deteriorations" P11, CID_00079 [Nonsense] "dolphin choir" P14
+  SC_C6698C: CID_00360 [Typo] "buisness" P6, CID_00361 [Conflicting] "increasing" P1, CID_00362 [Nonsense] "dolphin choir" P8
+  SC_F0F386: CID_00336 [Typo] "efficency" P12, CID_00337 [Conflicting] "deteriorations" P16, CID_00338 [Nonsense] "dolphin choir" P3
+  SC_61EBC9: CID_00044 [Typo] "competion" P7, CID_00045 [Conflicting] "lower" P5, CID_00046 [Nonsense] "dolphin choir" P4
+  SC_C229E9: CID_00270 [Typo] "particullarly" P152, CID_00271 [Conflicting] "disadvantage" P13, CID_00272 [Nonsense] "dolphin choir" P10
+  SC_8E4A08: CID_00273 [Typo] "referance" P9, CID_00274 [Conflicting] "unsuccessful" P4, CID_00275 [Nonsense] "dolphin choir" P7
+  SC_E92095: CID_00333 [Typo] "methodolgy" P3, CID_00334 [Conflicting] "inaccurate" P16, CID_00335 [Nonsense] "dolphin choir" P11
+  SC_7CB134: CID_00209 [Typo] "efficency" P2, CID_00210 [Conflicting] "worsening" P24, CID_00211 [Nonsense] "dolphin choir" P7
+
+PROMPT 5B (SC Batch 2):
+  SC_9DFEB7: CID_00221 [Typo] "commitee" P33, CID_00222 [Conflicting] "instability" P45, CID_00223 [Nonsense] "astrology" P2
+  SC_0195E1: CID_00420 [Typo] "methodolgy" P437, CID_00421 [Conflicting] "degradation" P11, CID_00422 [Nonsense] "dolphin choir" P12
+  SC_6476B2: CID_00351 [Typo] "sufficent" P1, CID_00352 [Conflicting] "disadvantage" P3, CID_00353 [Nonsense] "dolphin choir" P6
+  SC_FB3B87: CID_00176 [Typo] "enviroment" P3, CID_00177 [Conflicting] "disadvantages" P2, CID_00178 [Nonsense] "parachute" P14
+  SC_AC5C4F: CID_00152 [Typo] "seperate" P10, CID_00153 [Conflicting] "unreliable" P148, CID_00154 [Nonsense] "dolphin choir" P9
+  SC_97CA22: CID_00110 [Typo] "guarentee" P11, CID_00111 [Conflicting] "instability" P2, CID_00112 [Nonsense] "dolphin choir" P9
+  SC_F37F7B: CID_00158 [Typo] "begining" P14, CID_00159 [Conflicting] "decline" P70, CID_00160 [Nonsense] "dolphin choir" P12
+  SC_85DC77: CID_00435 [Typo] "knowlege" P11, CID_00436 [Conflicting] "deterioration" P3, CID_00437 [Nonsense] "dolphin choir" P13
+
+PROMPT 5C (SC Batch 3):
+  SC_7B5444: CID_00366 [Typo] "efficency" P11, CID_00367 [Conflicting] "decreasing" P10, CID_00368 [Nonsense] "dolphin choir" P6
+  SC_FEF54D: CID_00228 [Typo] "methodolgy" P3, CID_00229 [Conflicting] "maximize" P77, CID_00230 [Nonsense] "dolphin choir" P13
+  SC_8E7E30: CID_00378 [Typo] "sufficent" P33, CID_00379 [Conflicting] "decreased" P3, CID_00380 [Nonsense] "dolphin choir" P9
+  SC_DA2127: CID_00134 [Typo] "assesment" P20, CID_00135 [Conflicting] "increases" P17, CID_00136 [Nonsense] "dolphin choir" P4
+  SC_B6D996: CID_00402 [Typo] "particullarly" P11, CID_00403 [Conflicting] "fragile" P14, CID_00404 [Nonsense] "dolphin choir" P12
+  SC_48C646: CID_00164 [Typo] "anaylsis" P13, CID_00165 [Conflicting] "maximize" P5, CID_00166 [Nonsense] "cloud wrestling" P10
+  SC_8500A5: CID_00035 [Typo] "knowlege" P5, CID_00036 [Conflicting] "worse" P12, CID_00037 [Nonsense] "dolphin choir" P3
+  SC_BEDE1A: CID_00218 [Typo] "methodolgy" P3, CID_00219 [Conflicting] "decline" P2, CID_00220 [Nonsense] "dolphin choir" P10
+
+PROMPT 5D (SC Batch 4):
+  SC_8A2924: CID_00282 [Typo] "reccomend" P2, CID_00283 [Conflicting] "disadvantage" P12, CID_00284 [Nonsense] "dolphin choir" P13
+  SC_E7ADA0: CID_00300 [Typo] "buisness" P5, CID_00301 [Conflicting] "deteriorations" P7, CID_00302 [Nonsense] "dolphin choir" P9
+  SC_34187C: CID_00339 [Typo] "efficency" P219, CID_00340 [Conflicting] "decline" P284, CID_00341 [Nonsense] "dolphin choir" P8
+  SC_1031D5: CID_00206 [Typo] "neccessary" P6, CID_00207 [Conflicting] "minimizes" P7, CID_00208 [Nonsense] "dolphin choir" P4
+  SC_F66C40: CID_00441 [Typo] "enviromental" P8, CID_00442 [Conflicting] "deterioration" P16, CID_00443 [Nonsense] "dolphin choir" P10
+  SC_15404A: CID_00252 [Typo] "begining" P2, CID_00253 [Conflicting] "unsuccessful" P21, CID_00254 [Nonsense] "dolphin choir" P3
+  SC_FAC84A: CID_00387 [Typo] "efficency" P10, CID_00388 [Conflicting] "inaccurate" P8, CID_00389 [Nonsense] "dolphin choir" P2
+  SC_DBB77D: CID_00053 [Typo] "buisness" P13, CID_00054 [Conflicting] "maximize" P5, CID_00055 [Nonsense] "dolphin choir" P6
+
+PROMPT 6A (MED Batch 1):
+  MED_36F1BD: CID_00122 [Typo] "independant" P4, CID_00123 [Conflicting] "disadvantage" P6, CID_00124 [Nonsense] "parsnip" P7
+  MED_378E06: CID_00140 [Typo] "methodolgy" P3, CID_00141 [Conflicting] "expansion" P5, CID_00142 [Nonsense] "volcano dance" P9
+  MED_ABE610: CID_00059 [Typo] "approximatly" P11, CID_00060 [Conflicting] "decreasing" P10, CID_00061 [Nonsense] "accordion" P27
+  MED_F520FE: CID_00240 [Typo] "developement" P2, CID_00241 [Conflicting] "negative" P4, CID_00242 [Nonsense] "penguins" P5
+  MED_9589DA: CID_00194 [Typo] "enviroment" P5, CID_00195 [Conflicting] "weaker" P2, CID_00196 [Nonsense] "culinary" P4
+  MED_583321: CID_00004 [Typo] "anaylsis" P3, CID_00005 [Conflicting] "unsuccessful" P7, CID_00006 [Nonsense] "penguins" P2
+  MED_E011BF: CID_00224 [Typo] "significent" P2, CID_00444 [Conflicting] "ineffective" P2, CID_00446 [Nonsense] "kangaroo lemonade" P2
+  MED_07B97B: CID_00161 [Typo] "aquisition" P2, CID_00162 [Conflicting] "detrimental" P5, CID_00163 [Nonsense] "time travelers" P6
+
+PROMPT 6B (MED Batch 2):
+  MED_AE7761: CID_00297 [Typo] "neccessary" P8, CID_00298 [Conflicting] "detrimental" P7, CID_00299 [Nonsense] "origami" P2
+  MED_DFB0B9: CID_00345 [Typo] "approriate" P3, CID_00346 [Conflicting] "suboptimal" P1, CID_00347 [Nonsense] "culinary" P4
+  MED_C68DED: CID_00327 [Typo] "knowlege" P3, CID_00328 [Conflicting] "unreliable" P9, CID_00329 [Nonsense] "snorkeling" P10
+  MED_507619: CID_00246 [Typo] "knowlege" P5, CID_00247 [Conflicting] "lower" P3, CID_00248 [Nonsense] "culinary" P4
+  MED_6C7571: CID_00098 [Typo] "managment" P2, CID_00099 [Conflicting] "regression" P3, CID_00100 [Nonsense] "symphonies" P1
+  MED_998FA0: CID_00372 [Typo] "occurance" P5, CID_00373 [Conflicting] "worse" P13, CID_00374 [Nonsense] "puppetry" P9
+  MED_29AA9B: CID_00399 [Typo] "consistancy" P5, CID_00400 [Conflicting] "maximize" P3, CID_00401 [Nonsense] "culinary" P10
+  MED_F552C1: CID_00047 [Typo] "knowlege" P13, CID_00048 [Conflicting] "lower" P4, CID_00049 [Nonsense] "histrionics" P9
+
+================================================================================
+EXECUTION INSTRUCTIONS
+================================================================================
+
+1. Open Gemini (gemini.google.com)
+2. Run each prompt in a NEW chat (don't use the same conversation)
+3. Copy-paste each prompt exactly as written above
+4. Wait for full response before proceeding to next prompt
+5. Copy each complete response and save it
+
+Order to run:
+  [ ] Prompt 5A (SC docs 1-8)
+  [ ] Prompt 5B (SC docs 9-16)
+  [ ] Prompt 5C (SC docs 17-24)
+  [ ] Prompt 5D (SC docs 25-32)
+  [ ] Prompt 6A (MED docs 1-8)
+  [ ] Prompt 6B (MED docs 9-16)
+
+After getting all 6 responses, share them back and we'll:
+  - Analyze accuracy against the answer key
+  - Fill in the Word template
+  - Complete the Excel evaluation sheets
+  - Do the Part IV statistical analysis
+================================================================================

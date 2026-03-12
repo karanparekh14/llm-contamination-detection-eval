@@ -1,0 +1,473 @@
+================================================================================
+  Prompt 1 (Part I SC)
+================================================================================
+
+  SC_7E5AA0: 3 contaminants in answer key, Gemini reported 6 items
+    CID_00197 [Typo] "efficency" → FOUND: NO
+    CID_00198 [Conflicting] "negatively" → FOUND: NO
+    CID_00199 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  >>> Prompt 1 (Part I SC) TOTAL: 0/3
+
+================================================================================
+  Prompt 2 (Part I MED)
+================================================================================
+
+  MED_0A4C1E: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00188 [Typo] "reccomend" → FOUND: YES (Gemini: "reccomend ations")
+    CID_00189 [Conflicting] "fragile" → FOUND: YES (Gemini: "fragile ness")
+    CID_00190 [Nonsense] "parachute" → FOUND: YES (Gemini: "model parachute")
+    Score: 3/3
+
+  >>> Prompt 2 (Part I MED) TOTAL: 3/3
+
+================================================================================
+  Prompt 3 (Part II SC - 7 docs)
+================================================================================
+
+  SC_E256CF: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00191 [Typo] "significent" → FOUND: YES (Gemini: "significent")
+    CID_00192 [Conflicting] "increases" → FOUND: NO
+    CID_00193 [Nonsense] "dolphin choir" → FOUND: YES (Gemini: "dolphin choir")
+    Score: 2/3
+
+  SC_82604E: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00414 [Typo] "significane" → FOUND: NO
+    CID_00415 [Conflicting] "ineffective" → FOUND: NO
+    CID_00416 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_A4CC09: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00041 [Typo] "infastructure" → FOUND: NO
+    CID_00042 [Conflicting] "disadvantage" → FOUND: YES (Gemini: "disadvantage")
+    CID_00043 [Nonsense] "dolphin choir" → FOUND: YES (Gemini: "dolphin choirresilience")
+    Score: 2/3
+
+  SC_046CB7: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00306 [Typo] "threshhold" → FOUND: YES (Gemini: "threshhol")
+    CID_00307 [Conflicting] "disadvantages" → FOUND: YES (Gemini: "disadvantage")
+    CID_00308 [Nonsense] "dolphin choir" → FOUND: YES (Gemini: "dolphin choir")
+    Score: 3/3
+
+  SC_7B0EBD: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00234 [Typo] "aquisition" → FOUND: YES (Gemini: "aquisition")
+    CID_00235 [Conflicting] "decreases" → FOUND: YES (Gemini: "decreases")
+    CID_00236 [Nonsense] "dolphin choir" → FOUND: YES (Gemini: "dolphin choir")
+    Score: 3/3
+
+  SC_799B06: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00011 [Typo] "responsibilty" → FOUND: NO
+    CID_00012 [Conflicting] "expansion" → FOUND: YES (Gemini: "expansion")
+    CID_00013 [Nonsense] "dolphin choir" → FOUND: YES (Gemini: "dolphin choir")
+    Score: 2/3
+
+  SC_8F419D: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00324 [Typo] "privelege" → FOUND: YES (Gemini: "privelege")
+    CID_00325 [Conflicting] "degradation" → FOUND: YES (Gemini: "degradation")
+    CID_00326 [Nonsense] "dolphin choir" → FOUND: YES (Gemini: "dolphin choir")
+    Score: 3/3
+
+  >>> Prompt 3 (Part II SC - 7 docs) TOTAL: 15/21
+
+================================================================================
+  Prompt 4 (Part II MED - 3 docs)
+================================================================================
+
+  MED_67B704: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00131 [Typo] "labratory" → FOUND: YES (Gemini: "labratory")
+    CID_00132 [Conflicting] "increasing" → FOUND: NO
+    CID_00133 [Nonsense] "penguins" → FOUND: NO
+    Score: 1/3
+
+  MED_1C56DA: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00074 [Typo] "knowlege" → FOUND: NO
+    CID_00075 [Conflicting] "unfavorable" → FOUND: NO
+    CID_00076 [Nonsense] "snorkeling" → FOUND: YES (Gemini: "snorkeling")
+    Score: 1/3
+
+  MED_B6A65F: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00104 [Typo] "knowlege" → FOUND: NO
+    CID_00105 [Conflicting] "decreased" → FOUND: NO
+    CID_00106 [Nonsense] "fishbowl" → FOUND: YES (Gemini: "fishbowl")
+    Score: 1/3
+
+  >>> Prompt 4 (Part II MED - 3 docs) TOTAL: 3/9
+
+================================================================================
+  Prompt 5A (Part III SC batch 1)
+================================================================================
+
+  SC_D9F09A: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00077 [Typo] "assesment" → FOUND: NO
+    CID_00078 [Conflicting] "deteriorations" → FOUND: NO
+    CID_00079 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_C6698C: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00360 [Typo] "buisness" → FOUND: NO
+    CID_00361 [Conflicting] "increasing" → FOUND: NO
+    CID_00362 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_F0F386: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00336 [Typo] "efficency" → FOUND: NO
+    CID_00337 [Conflicting] "deteriorations" → FOUND: NO
+    CID_00338 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_61EBC9: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00044 [Typo] "competion" → FOUND: NO
+    CID_00045 [Conflicting] "lower" → FOUND: NO
+    CID_00046 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_C229E9: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00270 [Typo] "particullarly" → FOUND: NO
+    CID_00271 [Conflicting] "disadvantage" → FOUND: NO
+    CID_00272 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_8E4A08: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00273 [Typo] "referance" → FOUND: NO
+    CID_00274 [Conflicting] "unsuccessful" → FOUND: NO
+    CID_00275 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_E92095: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00333 [Typo] "methodolgy" → FOUND: NO
+    CID_00334 [Conflicting] "inaccurate" → FOUND: NO
+    CID_00335 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_7CB134: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00209 [Typo] "efficency" → FOUND: NO
+    CID_00210 [Conflicting] "worsening" → FOUND: NO
+    CID_00211 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  >>> Prompt 5A (Part III SC batch 1) TOTAL: 0/24
+
+================================================================================
+  Prompt 5B (Part III SC batch 2)
+================================================================================
+
+  SC_9DFEB7: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00221 [Typo] "commitee" → FOUND: NO
+    CID_00222 [Conflicting] "instability" → FOUND: NO
+    CID_00223 [Nonsense] "astrology" → FOUND: YES (Gemini: "Center of astrology")
+    Score: 1/3
+
+  SC_0195E1: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00420 [Typo] "methodolgy" → FOUND: NO
+    CID_00421 [Conflicting] "degradation" → FOUND: NO
+    CID_00422 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_6476B2: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00351 [Typo] "sufficent" → FOUND: NO
+    CID_00352 [Conflicting] "disadvantage" → FOUND: NO
+    CID_00353 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_FB3B87: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00176 [Typo] "enviroment" → FOUND: NO
+    CID_00177 [Conflicting] "disadvantages" → FOUND: NO
+    CID_00178 [Nonsense] "parachute" → FOUND: NO
+    Score: 0/3
+
+  SC_AC5C4F: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00152 [Typo] "seperate" → FOUND: NO
+    CID_00153 [Conflicting] "unreliable" → FOUND: NO
+    CID_00154 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_97CA22: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00110 [Typo] "guarentee" → FOUND: NO
+    CID_00111 [Conflicting] "instability" → FOUND: NO
+    CID_00112 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_F37F7B: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00158 [Typo] "begining" → FOUND: NO
+    CID_00159 [Conflicting] "decline" → FOUND: NO
+    CID_00160 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_85DC77: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00435 [Typo] "knowlege" → FOUND: NO
+    CID_00436 [Conflicting] "deterioration" → FOUND: NO
+    CID_00437 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  >>> Prompt 5B (Part III SC batch 2) TOTAL: 1/24
+
+================================================================================
+  Prompt 5C (Part III SC batch 3)
+================================================================================
+
+  SC_7B5444: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00366 [Typo] "efficency" → FOUND: NO
+    CID_00367 [Conflicting] "decreasing" → FOUND: NO
+    CID_00368 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_FEF54D: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00228 [Typo] "methodolgy" → FOUND: NO
+    CID_00229 [Conflicting] "maximize" → FOUND: NO
+    CID_00230 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_8E7E30: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00378 [Typo] "sufficent" → FOUND: NO
+    CID_00379 [Conflicting] "decreased" → FOUND: NO
+    CID_00380 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_DA2127: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00134 [Typo] "assesment" → FOUND: NO
+    CID_00135 [Conflicting] "increases" → FOUND: NO
+    CID_00136 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_B6D996: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00402 [Typo] "particullarly" → FOUND: NO
+    CID_00403 [Conflicting] "fragile" → FOUND: NO
+    CID_00404 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_48C646: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00164 [Typo] "anaylsis" → FOUND: NO
+    CID_00165 [Conflicting] "maximize" → FOUND: NO
+    CID_00166 [Nonsense] "cloud wrestling" → FOUND: NO
+    Score: 0/3
+
+  SC_8500A5: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00035 [Typo] "knowlege" → FOUND: NO
+    CID_00036 [Conflicting] "worse" → FOUND: NO
+    CID_00037 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_BEDE1A: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00218 [Typo] "methodolgy" → FOUND: NO
+    CID_00219 [Conflicting] "decline" → FOUND: NO
+    CID_00220 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  >>> Prompt 5C (Part III SC batch 3) TOTAL: 0/24
+
+================================================================================
+  Prompt 5D (Part III SC batch 4)
+================================================================================
+
+  SC_8A2924: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00282 [Typo] "reccomend" → FOUND: NO
+    CID_00283 [Conflicting] "disadvantage" → FOUND: NO
+    CID_00284 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_E7ADA0: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00300 [Typo] "buisness" → FOUND: NO
+    CID_00301 [Conflicting] "deteriorations" → FOUND: NO
+    CID_00302 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_34187C: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00339 [Typo] "efficency" → FOUND: NO
+    CID_00340 [Conflicting] "decline" → FOUND: NO
+    CID_00341 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_1031D5: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00206 [Typo] "neccessary" → FOUND: NO
+    CID_00207 [Conflicting] "minimizes" → FOUND: NO
+    CID_00208 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_F66C40: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00441 [Typo] "enviromental" → FOUND: NO
+    CID_00442 [Conflicting] "deterioration" → FOUND: NO
+    CID_00443 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_15404A: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00252 [Typo] "begining" → FOUND: NO
+    CID_00253 [Conflicting] "unsuccessful" → FOUND: NO
+    CID_00254 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_FAC84A: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00387 [Typo] "efficency" → FOUND: NO
+    CID_00388 [Conflicting] "inaccurate" → FOUND: NO
+    CID_00389 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  SC_DBB77D: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00053 [Typo] "buisness" → FOUND: NO
+    CID_00054 [Conflicting] "maximize" → FOUND: NO
+    CID_00055 [Nonsense] "dolphin choir" → FOUND: NO
+    Score: 0/3
+
+  >>> Prompt 5D (Part III SC batch 4) TOTAL: 0/24
+
+================================================================================
+  Prompt 6A (Part III MED batch 1)
+================================================================================
+
+  MED_36F1BD: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00122 [Typo] "independant" → FOUND: NO
+    CID_00123 [Conflicting] "disadvantage" → FOUND: NO
+    CID_00124 [Nonsense] "parsnip" → FOUND: NO
+    Score: 0/3
+
+  MED_378E06: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00140 [Typo] "methodolgy" → FOUND: NO
+    CID_00141 [Conflicting] "expansion" → FOUND: NO
+    CID_00142 [Nonsense] "volcano dance" → FOUND: YES (Gemini: "disco dance")
+    Score: 1/3
+
+  MED_ABE610: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00059 [Typo] "approximatly" → FOUND: NO
+    CID_00060 [Conflicting] "decreasing" → FOUND: NO
+    CID_00061 [Nonsense] "accordion" → FOUND: NO
+    Score: 0/3
+
+  MED_F520FE: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00240 [Typo] "developement" → FOUND: NO
+    CID_00241 [Conflicting] "negative" → FOUND: NO
+    CID_00242 [Nonsense] "penguins" → FOUND: NO
+    Score: 0/3
+
+  MED_9589DA: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00194 [Typo] "enviroment" → FOUND: NO
+    CID_00195 [Conflicting] "weaker" → FOUND: NO
+    CID_00196 [Nonsense] "culinary" → FOUND: NO
+    Score: 0/3
+
+  MED_583321: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00004 [Typo] "anaylsis" → FOUND: NO
+    CID_00005 [Conflicting] "unsuccessful" → FOUND: NO
+    CID_00006 [Nonsense] "penguins" → FOUND: NO
+    Score: 0/3
+
+  MED_E011BF: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00224 [Typo] "significent" → FOUND: NO
+    CID_00444 [Conflicting] "ineffective" → FOUND: YES (Gemini: "Ineffective")
+    CID_00446 [Nonsense] "kangaroo lemonade" → FOUND: NO
+    Score: 1/3
+
+  MED_07B97B: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00161 [Typo] "aquisition" → FOUND: NO
+    CID_00162 [Conflicting] "detrimental" → FOUND: NO
+    CID_00163 [Nonsense] "time travelers" → FOUND: NO
+    Score: 0/3
+
+  >>> Prompt 6A (Part III MED batch 1) TOTAL: 2/24
+
+================================================================================
+  Prompt 6B (Part III MED batch 2)
+================================================================================
+
+  MED_AE7761: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00297 [Typo] "neccessary" → FOUND: NO
+    CID_00298 [Conflicting] "detrimental" → FOUND: NO
+    CID_00299 [Nonsense] "origami" → FOUND: NO
+    Score: 0/3
+
+  MED_DFB0B9: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00345 [Typo] "approriate" → FOUND: NO
+    CID_00346 [Conflicting] "suboptimal" → FOUND: NO
+    CID_00347 [Nonsense] "culinary" → FOUND: NO
+    Score: 0/3
+
+  MED_C68DED: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00327 [Typo] "knowlege" → FOUND: NO
+    CID_00328 [Conflicting] "unreliable" → FOUND: NO
+    CID_00329 [Nonsense] "snorkeling" → FOUND: NO
+    Score: 0/3
+
+  MED_507619: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00246 [Typo] "knowlege" → FOUND: NO
+    CID_00247 [Conflicting] "lower" → FOUND: NO
+    CID_00248 [Nonsense] "culinary" → FOUND: NO
+    Score: 0/3
+
+  MED_6C7571: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00098 [Typo] "managment" → FOUND: NO
+    CID_00099 [Conflicting] "regression" → FOUND: NO
+    CID_00100 [Nonsense] "symphonies" → FOUND: NO
+    Score: 0/3
+
+  MED_998FA0: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00372 [Typo] "occurance" → FOUND: NO
+    CID_00373 [Conflicting] "worse" → FOUND: YES (Gemini: "worsen cardiac rhythm")
+    CID_00374 [Nonsense] "puppetry" → FOUND: NO
+    Score: 1/3
+
+  MED_29AA9B: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00399 [Typo] "consistancy" → FOUND: NO
+    CID_00400 [Conflicting] "maximize" → FOUND: NO
+    CID_00401 [Nonsense] "culinary" → FOUND: NO
+    Score: 0/3
+
+  MED_F552C1: 3 contaminants in answer key, Gemini reported 3 items
+    CID_00047 [Typo] "knowlege" → FOUND: NO
+    CID_00048 [Conflicting] "lower" → FOUND: NO
+    CID_00049 [Nonsense] "histrionics" → FOUND: NO
+    Score: 0/3
+
+  >>> Prompt 6B (Part III MED batch 2) TOTAL: 1/24
+
+
+================================================================================
+  OVERALL SUMMARY
+================================================================================
+
+  Prompt 1 (Part I SC)                             0/3    (  0.0%)  ░░░░░░░░░░░░░░░░░░░░
+  Prompt 2 (Part I MED)                            3/3    (100.0%)  ████████████████████
+  Prompt 3 (Part II SC - 7 docs)                  15/21   ( 71.4%)  ██████████████░░░░░░
+  Prompt 4 (Part II MED - 3 docs)                  3/9    ( 33.3%)  ██████░░░░░░░░░░░░░░
+  Prompt 5A (Part III SC batch 1)                  0/24   (  0.0%)  ░░░░░░░░░░░░░░░░░░░░
+  Prompt 5B (Part III SC batch 2)                  1/24   (  4.2%)  ░░░░░░░░░░░░░░░░░░░░
+  Prompt 5C (Part III SC batch 3)                  0/24   (  0.0%)  ░░░░░░░░░░░░░░░░░░░░
+  Prompt 5D (Part III SC batch 4)                  0/24   (  0.0%)  ░░░░░░░░░░░░░░░░░░░░
+  Prompt 6A (Part III MED batch 1)                 2/24   (  8.3%)  █░░░░░░░░░░░░░░░░░░░
+  Prompt 6B (Part III MED batch 2)                 1/24   (  4.2%)  ░░░░░░░░░░░░░░░░░░░░
+
+  GRAND TOTAL: 25/180 contaminants matched (13.9%)
+
+  Part I  (2 docs,   6 contaminants): 3/6
+  Part II (10 docs, 30 contaminants): 18/30
+  Part III(48 docs,144 contaminants): 4/144
+
+================================================================================
+  CRITICAL OBSERVATION
+================================================================================
+
+  Prompts 5A-5D and 6A-6B: Gemini is HALLUCINATING contaminants.
+  
+  Instead of actually reading the PDFs, Gemini appears to be:
+  - Inventing plausible-sounding contaminants
+  - Using made-up nonsense terms like "quantum-powered toaster", "telepathic 
+    squirrel", "disco-dancing warehouse", "flying pancake", "magic carpet",
+    "pizza cutter", "pogo stick equation", etc.
+  - These are NOT the actual contaminants embedded in our documents
+  
+  Our actual contaminants are things like:
+  - "dolphin choir" replacing "supply chain"
+  - "efficency" (typo for "efficiency")
+  - "buisness" (typo for "business")
+  - "deteriorations" replacing "improvements"
+  
+  Gemini found NONE of these in the split batch responses.
+  
+  However, this is FINE for the HW3 submission because:
+  1. The assignment evaluates GenAI capabilities — poor results ARE valid data
+  2. We score each response on 5 criteria (Likert 1-5)
+  3. Low scores for bad responses are expected and acceptable 
+  4. The FOUND: YES/NO comparison against the answer key is exactly what
+     demonstrates the gap between GenAI capability and ground truth
+  5. Part IV statistical analysis will show the performance patterns
+  
+  BOTTOM LINE: We have everything needed to proceed with the HW3 submission.
+  All 10 prompts have responses (even if most are wrong for Part III).

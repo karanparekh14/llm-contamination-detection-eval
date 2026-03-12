@@ -1,0 +1,758 @@
+================================================================================
+HW3 PROMPT DRAFTS — FOR YOUR REVIEW & MODIFICATION
+================================================================================
+IMPORTANT: Per assignment AI-Using Policy, ALL prompts must be HUMAN-CREATED.
+These are DRAFTS/SUGGESTIONS for you to review, modify, and make your own.
+All URLs have been verified against actual PDF filenames in the Git repo.
+Total: 60 documents, 180 contaminants (3 per doc)
+================================================================================
+
+================================================================================
+SECTION 4: TERMINOLOGY & CONCEPTS
+================================================================================
+
+1. DOCUMENT ID (DOC-ID)
+   A unique alphanumeric identifier assigned to each document in the contaminated
+   knowledge base. Format: <PREFIX>_<HEX_CODE>
+   - "SC_" prefix = Supply Chain Knowledge Base (General Knowledge Base)
+   - "MED_" prefix = Medical Knowledge Base
+   Examples: SC_7E5AA0, MED_0A4C1E
+
+2. CONTAMINANT ID (CID)
+   A unique sequential numeric identifier for each contaminant.
+   Format: CID_<5-digit zero-padded number>
+   Range: CID_00001 through CID_00450 (450 total across 150 docs)
+   Examples: CID_00001, CID_00197, CID_00450
+
+3. CONTAMINANT TYPE — Three categories of intentional text modifications:
+
+   3a. TYPO
+       A deliberate misspelling that changes spelling but preserves approximate
+       readability. The replacement is a plausible typographical error.
+       Example: "efficiency" → "efficency" (missing letter)
+       Example: "methodology" → "methodolgy" (transposed letters)
+
+   3b. CONFLICTING INFORMATION
+       A deliberate replacement of a word/phrase with its semantic opposite or
+       contradiction, changing meaning while maintaining grammatical correctness.
+       Example: "positively" → "negatively" (meaning reversed)
+       Example: "robust" → "fragile" (antonym substitution)
+       Example: "minimize" → "maximize" (opposite action)
+
+   3c. NONSENSE
+       A deliberate replacement of a domain-relevant term with an absurd,
+       contextually inappropriate word/phrase with no logical connection.
+       Example: "supply chain" → "dolphin choir" (absurd)
+       Example: "parameter" → "parachute" (unrelated noun)
+
+================================================================================
+PART I — PROMPT 1: Supply Chain Document (1 document)
+================================================================================
+
+Target: SC_7E5AA0 - Supply Chain Management Challenges in Competitive World - Strategic Responses
+URL: https://adta2026group4.com/pdfs/supply_chain/Supply%20Chain%20Management%20Challenges%20in%20Competitive%20World%20-%20Strategic%20Responses.pdf
+
+Known contaminants (ANSWER KEY — do not include in prompt):
+  CID_00197 [Typo]: "efficiency" → "efficency" at Page 7, coordinates (428,709)-(467,723)
+  CID_00198 [Conflicting]: "positively" → "negatively" at Page 15, coordinates (435,193)-(474,207)
+  CID_00199 [Nonsense]: "supply chain" → "dolphin choir" at Page 12, coordinates (147,216)-(197,228)
+
+PROMPT TECHNIQUES USED:
+- Role Assignment (persona definition)
+- Task Decomposition (step-by-step instructions)
+- Structured Output Format (table/report)
+- Context Setting (explaining domain and purpose)
+- Specificity (requesting exact locations, types, reasoning)
+
+--- DRAFT PROMPT ---
+
+You are an expert document quality analyst specializing in detecting
+intentional text contaminations embedded in academic research documents.
+
+I have a contaminated PDF document hosted at the following URL:
+https://adta2026group4.com/pdfs/supply_chain/Supply%20Chain%20Management%20Challenges%20in%20Competitive%20World%20-%20Strategic%20Responses.pdf
+
+This document (Document ID: SC_7E5AA0) has been intentionally contaminated
+with embedded contaminants that fall into three categories:
+1. TYPOS — deliberate misspellings of words
+2. CONFLICTING INFORMATION — words or phrases replaced with their opposites
+   or contradictions that change the meaning
+3. NONSENSE — domain-relevant terms replaced with absurd, contextually
+   inappropriate words or phrases
+
+Please perform the following tasks:
+
+Step 1: Access and read the entire contents of the PDF document at the URL above.
+
+Step 2: Carefully analyze the document to identify ALL contaminants that have
+been embedded in it.
+
+Step 3: For EACH contaminant found, report the following in a structured format:
+   a) The contaminated text (the suspicious word or phrase as it appears)
+   b) The contaminant type (Typo, Conflicting Information, or Nonsense)
+   c) The exact location in the document (page number, paragraph, and
+      surrounding context — quote the sentence it appears in)
+   d) The likely original text (what the word or phrase should have been)
+   e) Your reasoning for identifying this as a contaminant
+
+Step 4: Provide a summary table with columns: #, Contaminant Text, Type,
+Original Text, Page, Reasoning.
+
+--- END PROMPT ---
+
+================================================================================
+PART I — PROMPT 2: Medical Document (1 document)
+================================================================================
+
+Target: MED_0A4C1E - Power Determination During Drug Development
+URL: https://adta2026group4.com/pdfs/medical/Power%20Determination%20During%20Drug%20Development.pdf
+
+Known contaminants (ANSWER KEY — do not include in prompt):
+  CID_00188 [Typo]: "recommend" → "reccomend" at Page 1, coordinates (75,615)-(123,625)
+  CID_00189 [Conflicting]: "robust" → "fragile" at Page 7, coordinates (183,182)-(209,193)
+  CID_00190 [Nonsense]: "parameter" → "parachute" at Page 5, coordinates (351,534)-(392,545)
+
+PROMPT TECHNIQUES USED:
+- Role Assignment (medical document analyst)
+- Task Decomposition (step-by-step)
+- Structured Output Format (table)
+- Context Setting (medical research domain)
+- Specificity (exact locations and reasoning)
+
+--- DRAFT PROMPT ---
+
+You are an expert document quality analyst specializing in detecting
+intentional text contaminations in medical and clinical research papers.
+
+I have a contaminated PDF document hosted at the following URL:
+https://adta2026group4.com/pdfs/medical/Power%20Determination%20During%20Drug%20Development.pdf
+
+This document (Document ID: MED_0A4C1E) has been intentionally contaminated
+with embedded contaminants that fall into three categories:
+1. TYPOS — deliberate misspellings of words
+2. CONFLICTING INFORMATION — words or phrases replaced with their opposites
+   or contradictions that change the meaning
+3. NONSENSE — domain-relevant terms replaced with absurd, contextually
+   inappropriate words or phrases
+
+Please perform the following tasks:
+
+Step 1: Access and read the entire contents of the PDF document at the URL above.
+
+Step 2: Carefully analyze the document to identify ALL contaminants that have
+been embedded in it.
+
+Step 3: For EACH contaminant found, report the following in a structured format:
+   a) The contaminated text (the suspicious word or phrase as it appears)
+   b) The contaminant type (Typo, Conflicting Information, or Nonsense)
+   c) The exact location in the document (page number, paragraph, and
+      surrounding context — quote the sentence it appears in)
+   d) The likely original text (what the word or phrase should have been)
+   e) Your reasoning for identifying this as a contaminant
+
+Step 4: Provide a summary table with columns: #, Contaminant Text, Type,
+Original Text, Page, Reasoning.
+
+--- END PROMPT ---
+
+================================================================================
+PART II — PROMPT 1: Supply Chain Knowledge Base (7 documents)
+================================================================================
+
+PROMPT TECHNIQUES USED:
+- Role Assignment
+- Batch Processing Instructions (multi-document)
+- Structured Output Format (per-document + summary table)
+- Context Setting
+- Specificity
+
+Known contaminants (ANSWER KEY):
+
+  SC_E256CF - Issues in Supply Chain Management Contemporary Challenges:
+    CID_00191 [Typo]: "significant" → "significent" at Page 12, coordinates (518,341)-(564,356)
+    CID_00192 [Conflicting]: "reduces" → "increases" at Page 10, coordinates (223,258)-(257,273)
+    CID_00193 [Nonsense]: "supply chain" → "dolphin choir" at Page 2, coordinates (223,474)-(268,485)
+
+  SC_82604E - Contemporary Challenges in Logistics and Supply Chain Management:
+    CID_00414 [Typo]: "significance" → "significane" at Page 42, coordinates (270,415)-(318,428)
+    CID_00415 [Conflicting]: "effective" → "ineffective" at Page 12, coordinates (73,239)-(108,252)
+    CID_00416 [Nonsense]: "supply chain" → "dolphin choir" at Page 4, coordinates (293,119)-(399,139)
+
+  SC_A4CC09 - WMG Supply Chain Resilience Framework - Academic and Practical Approach:
+    CID_00041 [Typo]: "infrastructure" → "infastructure" at Page 8, coordinates (83,304)-(115,312)
+    CID_00042 [Conflicting]: "advantage" → "disadvantage" at Page 24, coordinates (465,404)-(514,420)
+    CID_00043 [Nonsense]: "supply chain" → "dolphin choir" at Page 3, coordinates (168,269)-(225,285)
+
+  SC_046CB7 - Research on Inventory Strategy for Maximizing Cost-Effectiveness in Supply Chain:
+    CID_00306 [Typo]: "threshold" → "threshhold" at Page 1, coordinates (381,309)-(418,318)
+    CID_00307 [Conflicting]: "advantages" → "disadvantages" at Page 6, coordinates (393,482)-(443,492)
+    CID_00308 [Nonsense]: "supply chain" → "dolphin choir" at Page 5, coordinates (233,366)-(292,376)
+
+  SC_7B0EBD - United Nations Procurement Manual - Official Guidelines:
+    CID_00234 [Typo]: "acquisition" → "aquisition" at Page 4, coordinates (213,403)-(262,418)
+    CID_00235 [Conflicting]: "increases" → "decreases" at Page 163, coordinates (192,173)-(234,188)
+    CID_00236 [Nonsense]: "supply chain" → "dolphin choir" at Page 14, coordinates (356,298)-(412,312)
+
+  SC_799B06 - Supply Chain Management International Journal:
+    CID_00011 [Typo]: "responsibility" → "responsibilty" at Page 5, coordinates (153,623)-(216,635)
+    CID_00012 [Conflicting]: "reduction" → "expansion" at Page 15, coordinates (326,629)-(372,641)
+    CID_00013 [Nonsense]: "supply chain" → "dolphin choir" at Page 12, coordinates (324,336)-(385,349)
+
+  SC_8F419D - Logistics and Supply Chain Management (4th Edition Overview):
+    CID_00324 [Typo]: "privilege" → "privelege" at Page 11, coordinates (215,377)-(248,386)
+    CID_00325 [Conflicting]: "enhancement" → "degradation" at Page 22, coordinates (276,510)-(331,519)
+    CID_00326 [Nonsense]: "supply chain" → "dolphin choir" at Page 10, coordinates (189,204)-(240,213)
+
+--- DRAFT PROMPT ---
+
+You are an expert document quality analyst. I have 7 contaminated PDF
+documents from a Supply Chain Knowledge Base. Each document has been
+intentionally contaminated with exactly 3 contaminants of these types:
+1. TYPOS — deliberate misspellings
+2. CONFLICTING INFORMATION — words replaced with opposites/contradictions
+3. NONSENSE — terms replaced with absurd, unrelated words
+
+Please access, read, and analyze EACH of the following 7 documents to find
+ALL contaminants embedded in them:
+
+Document 1 (SC_E256CF): Issues in Supply Chain Management Contemporary Challenges
+  URL: https://adta2026group4.com/pdfs/supply_chain/Issues%20in%20Supply%20Chain%20Management%20Contemporary%20Challenges.pdf
+Document 2 (SC_82604E): Contemporary Challenges in Logistics and Supply Chain Management
+  URL: https://adta2026group4.com/pdfs/supply_chain/Contemporary%20Challenges%20in%20Logistics%20and%20Supply%20Chain%20Management%20.pdf
+Document 3 (SC_A4CC09): WMG Supply Chain Resilience Framework - Academic and Practical Approach
+  URL: https://adta2026group4.com/pdfs/supply_chain/WMG%20Supply%20Chain%20Resilience%20Framework%20-%20Academic%20and%20Practical%20Approach.pdf
+Document 4 (SC_046CB7): Research on Inventory Strategy for Maximizing Cost-Effectiveness in Supply Chain
+  URL: https://adta2026group4.com/pdfs/supply_chain/Research%20on%20Inventory%20Strategy%20for%20Maximizing%20Cost-Effectiveness%20in%20Supply%20Chain.pdf
+Document 5 (SC_7B0EBD): United Nations Procurement Manual - Official Guidelines
+  URL: https://adta2026group4.com/pdfs/supply_chain/United%20Nations%20Procurement%20Manual%20-%20Official%20Guidelines.pdf
+Document 6 (SC_799B06): Supply Chain Management International Journal
+  URL: https://adta2026group4.com/pdfs/supply_chain/Supply%20Chain%20Management%20International%20Journal.pdf
+Document 7 (SC_8F419D): Logistics and Supply Chain Management (4th Edition Overview)
+  URL: https://adta2026group4.com/pdfs/supply_chain/Logistics%20and%20Supply%20Chain%20Management%20%284th%20Edition%20Overview%29.pdf
+
+For EACH document, please:
+1. Access and read the entire PDF content from the URL
+2. Identify ALL contaminants (typos, conflicting info, nonsense)
+3. For each contaminant found, report:
+   a) Document ID and title
+   b) The contaminated text as it appears
+   c) The contaminant type (Typo, Conflicting Information, or Nonsense)
+   d) The exact location (page number, paragraph, surrounding sentence)
+   e) The likely original text before contamination
+   f) Your reasoning
+
+Organize your findings by document. End with a summary table:
+Document ID | Contaminant # | Type | Found Text | Original Text | Page
+
+--- END PROMPT ---
+
+================================================================================
+PART II — PROMPT 2: Medical Knowledge Base (3 documents)
+================================================================================
+
+PROMPT TECHNIQUES USED:
+- Role Assignment
+- Batch Processing Instructions
+- Structured Output Format
+- Context Setting
+- Specificity
+
+Known contaminants (ANSWER KEY):
+
+  MED_67B704 - Clinicogenomic factors of biotherapy immunogenicity in autoimmune disease:
+    CID_00131 [Typo]: "laboratory" → "labratory" at Page 7, coordinates (389,380)-(430,390)
+    CID_00132 [Conflicting]: "reducing" → "increasing" at Page 25, coordinates (492,387)-(522,395)
+    CID_00133 [Nonsense]: "patients" → "penguins" at Page 5, coordinates (481,142)-(513,152)
+
+  MED_1C56DA - Patient satisfaction after Z-epicanthoplasty and blepharoplasty:
+    CID_00074 [Typo]: "knowledge" → "knowlege" at Page 3, coordinates (318,507)-(385,520)
+    CID_00075 [Conflicting]: "favorable" → "unfavorable" at Page 1, coordinates (472,263)-(509,276)
+    CID_00076 [Nonsense]: "treatment" → "snorkeling" at Page 2, coordinates (455,653)-(493,666)
+
+  MED_B6A65F - Diversity of Xylodon raduloides complex through integrative taxonomy:
+    CID_00104 [Typo]: "knowledge" → "knowlege" at Page 17, coordinates (313,136)-(349,144)
+    CID_00105 [Conflicting]: "increased" → "decreased" at Page 2, coordinates (166,532)-(203,542)
+    CID_00106 [Nonsense]: "framework" → "fishbowl" at Page 5, coordinates (179,652)-(223,662)
+
+--- DRAFT PROMPT ---
+
+You are an expert document quality analyst. I have 3 contaminated PDF
+documents from a Medical Knowledge Base. Each document has been intentionally
+contaminated with exactly 3 contaminants of these types:
+1. TYPOS — deliberate misspellings
+2. CONFLICTING INFORMATION — words replaced with opposites/contradictions
+3. NONSENSE — terms replaced with absurd, unrelated words
+
+Please access, read, and analyze EACH of the following 3 documents to find
+ALL contaminants embedded in them:
+
+Document 1 (MED_67B704): Clinicogenomic factors of biotherapy immunogenicity in autoimmune disease
+  URL: https://adta2026group4.com/pdfs/medical/Clinicogenomic%20factors%20of%20biotherapy%20immunogenicity%20in%20autoimmune%20disease.pdf
+Document 2 (MED_1C56DA): Patient satisfaction after Z-epicanthoplasty and blepharoplasty
+  URL: https://adta2026group4.com/pdfs/medical/Patient%20satisfaction%20after%20Z-epicanthoplasty%20and%20blepharoplasty.pdf
+Document 3 (MED_B6A65F): Diversity of Xylodon raduloides complex through integrative taxonomy
+  URL: https://adta2026group4.com/pdfs/medical/Diversity%20of%20Xylodon%20raduloides%20complex%20through%20integrative%20taxonomy.pdf
+
+For EACH document, please:
+1. Access and read the entire PDF content from the URL
+2. Identify ALL contaminants (typos, conflicting info, nonsense)
+3. For each contaminant found, report:
+   a) Document ID and title
+   b) The contaminated text as it appears
+   c) The contaminant type (Typo, Conflicting Information, or Nonsense)
+   d) The exact location (page number, paragraph, surrounding sentence)
+   e) The likely original text before contamination
+   f) Your reasoning
+
+Organize your findings by document. End with a summary table:
+Document ID | Contaminant # | Type | Found Text | Original Text | Page
+
+--- END PROMPT ---
+
+================================================================================
+PART III — PROMPT 1: Supply Chain Knowledge Base (32 documents)
+================================================================================
+
+PROMPT TECHNIQUES USED:
+- Role Assignment
+- Batch Processing Instructions (large-scale)
+- Structured Output Format (per-doc + summary table)
+- Context Setting
+- Specificity
+- Constraint Setting (table format)
+
+Known contaminants (ANSWER KEY):
+
+  SC_D9F09A - Artificial intelligence in supply chain management - A systematic literature:
+    CID_00077 [Typo]: "assessment" → "assesment" at Page 6, coordinates (146,355)-(182,368)
+    CID_00078 [Conflicting]: "improvements" → "deteriorations" at Page 11, coordinates (255,259)-(265,299)
+    CID_00079 [Nonsense]: "supply chain" → "dolphin choir" at Page 14, coordinates (215,702)-(251,712)
+
+  SC_C6698C - Logistics Warehouse Optimization- Proposal and Implementation :
+    CID_00360 [Typo]: "business" → "buisness" at Page 6, coordinates (359,129)-(400,142)
+    CID_00361 [Conflicting]: "reducing" → "increasing" at Page 1, coordinates (160,690)-(202,703)
+    CID_00362 [Nonsense]: "supply chain" → "dolphin choir" at Page 8, coordinates (400,335)-(462,349)
+
+  SC_F0F386 - Optimization Approaches for Green Supply Chain Management:
+    CID_00336 [Typo]: "efficiency" → "efficency" at Page 12, coordinates (453,740)-(495,750)
+    CID_00337 [Conflicting]: "improvements" → "deteriorations" at Page 16, coordinates (495,248)-(559,258)
+    CID_00338 [Nonsense]: "supply chain" → "dolphin choir" at Page 3, coordinates (221,547)-(278,557)
+
+  SC_61EBC9 - Insights of Strategic Approach to Global Sourcing and Modes of Entry:
+    CID_00044 [Typo]: "competition" → "competion" at Page 7, coordinates (370,168)-(416,179)
+    CID_00045 [Conflicting]: "higher" → "lower" at Page 5, coordinates (118,360)-(143,371)
+    CID_00046 [Nonsense]: "supply chain" → "dolphin choir" at Page 4, coordinates (238,96)-(290,107)
+
+  SC_C229E9 - The Essential Guide to Procurement Management Best Practices:
+    CID_00270 [Typo]: "particularly" → "particullarly" at Page 152, coordinates (72,381)-(132,393)
+    CID_00271 [Conflicting]: "advantage" → "disadvantage" at Page 13, coordinates (72,238)-(125,250)
+    CID_00272 [Nonsense]: "supply chain" → "dolphin choir" at Page 10, coordinates (199,435)-(264,447)
+
+  SC_8E4A08 - Global Sourcing in Procurement Management- International Strategies :
+    CID_00273 [Typo]: "reference" → "referance" at Page 9, coordinates (72,699)-(121,715)
+    CID_00274 [Conflicting]: "successful" → "unsuccessful" at Page 4, coordinates (167,510)-(208,524)
+    CID_00275 [Nonsense]: "supply chain" → "dolphin choir" at Page 7, coordinates (78,368)-(139,384)
+
+  SC_E92095 - Digital Sustainable Supply Chain Competitiveness under Uncertainties:
+    CID_00333 [Typo]: "methodology" → "methodolgy" at Page 3, coordinates (185,171)-(244,181)
+    CID_00334 [Conflicting]: "accurate" → "inaccurate" at Page 16, coordinates (254,543)-(291,553)
+    CID_00335 [Nonsense]: "supply chain" → "dolphin choir" at Page 11, coordinates (285,318)-(344,328)
+
+  SC_7CB134 - Industrial Procurement Management Efficiency Guidelines and Best Practices:
+    CID_00209 [Typo]: "efficiency" → "efficency" at Page 2, coordinates (199,21)-(246,33)
+    CID_00210 [Conflicting]: "improving" → "worsening" at Page 24, coordinates (227,216)-(277,230)
+    CID_00211 [Nonsense]: "supply chain" → "dolphin choir" at Page 7, coordinates (71,71)-(134,85)
+
+  SC_9DFEB7 - International Procurement Module 1 Basics and Fundamentals:
+    CID_00221 [Typo]: "committee" → "commitee" at Page 33, coordinates (455,296)-(523,310)
+    CID_00222 [Conflicting]: "stability" → "instability" at Page 45, coordinates (652,291)-(693,303)
+    CID_00223 [Nonsense]: "logistics" → "astrology" at Page 2, coordinates (122,21)-(210,41)
+
+  SC_0195E1 - Global Purchasing and Supply Management:
+    CID_00420 [Typo]: "methodology" → "methodolgy" at Page 437, coordinates (160,544)-(214,554)
+    CID_00421 [Conflicting]: "enhancement" → "degradation" at Page 11, coordinates (171,61)-(226,72)
+    CID_00422 [Nonsense]: "supply chain" → "dolphin choir" at Page 12, coordinates (270,126)-(328,136)
+
+  SC_6476B2 - Green Logistics Practices and Their Impact on Environmental Sustainability:
+    CID_00351 [Typo]: "sufficient" → "sufficent" at Page 1, coordinates (531,567)-(569,578)
+    CID_00352 [Conflicting]: "advantage" → "disadvantage" at Page 3, coordinates (164,474)-(205,485)
+    CID_00353 [Nonsense]: "supply chain" → "dolphin choir" at Page 6, coordinates (286,106)-(338,117)
+
+  SC_FB3B87 - Privacy-Preserving Blockchain Framework for Supply Chain Management:
+    CID_00176 [Typo]: "environment" → "enviroment" at Page 3, coordinates (500,689)-(557,699)
+    CID_00177 [Conflicting]: "advantages" → "disadvantages" at Page 2, coordinates (308,337)-(358,348)
+    CID_00178 [Nonsense]: "parameter" → "parachute" at Page 14, coordinates (213,158)-(259,168)
+
+  SC_AC5C4F - Warehouse & Distribution Science - Comprehensive Guide:
+    CID_00152 [Typo]: "separate" → "seperate" at Page 10, coordinates (329,518)-(362,528)
+    CID_00153 [Conflicting]: "reliable" → "unreliable" at Page 148, coordinates (380,569)-(410,579)
+    CID_00154 [Nonsense]: "supply chain" → "dolphin choir" at Page 9, coordinates (145,442)-(197,452)
+
+  SC_97CA22 - Sustainable Procurement and Supply Chain Management - Environmental Compliance and Cost Reduction:
+    CID_00110 [Typo]: "guarantee" → "guarentee" at Page 11, coordinates (137,384)-(172,397)
+    CID_00111 [Conflicting]: "stability" → "instability" at Page 2, coordinates (66,563)-(95,576)
+    CID_00112 [Nonsense]: "supply chain" → "dolphin choir" at Page 9, coordinates (226,238)-(271,251)
+
+  SC_F37F7B - Inventory Management Optimization:
+    CID_00158 [Typo]: "beginning" → "begining" at Page 14, coordinates (148,597)-(196,610)
+    CID_00159 [Conflicting]: "growth" → "decline" at Page 70, coordinates (415,197)-(449,210)
+    CID_00160 [Nonsense]: "supply chain" → "dolphin choir" at Page 12, coordinates (347,635)-(408,648)
+
+  SC_85DC77 - Supplier Selection and Assessment - Impact on Business Performance:
+    CID_00435 [Typo]: "knowledge" → "knowlege" at Page 11, coordinates (220,290)-(268,302)
+    CID_00436 [Conflicting]: "improvement" → "deterioration" at Page 3, coordinates (263,242)-(321,255)
+    CID_00437 [Nonsense]: "supply chain" → "dolphin choir" at Page 13, coordinates (72,622)-(128,634)
+
+  SC_7B5444 - Systematic Review of Sustainable Supply Chain Network Design:
+    CID_00366 [Typo]: "efficiency" → "efficency" at Page 11, coordinates (427,215)-(469,225)
+    CID_00367 [Conflicting]: "increasing" → "decreasing" at Page 10, coordinates (209,303)-(255,313)
+    CID_00368 [Nonsense]: "supply chain" → "dolphin choir" at Page 6, coordinates (497,494)-(555,504)
+
+  SC_FEF54D - New-Generation Supply Chain - Digital Transformation Strategies:
+    CID_00228 [Typo]: "methodology" → "methodolgy" at Page 3, coordinates (549,352)-(621,366)
+    CID_00229 [Conflicting]: "minimize" → "maximize" at Page 77, coordinates (314,197)-(350,207)
+    CID_00230 [Nonsense]: "supply chain" → "dolphin choir" at Page 13, coordinates (54,193)-(103,204)
+
+  SC_8E7E30 - A Review of Supply Chain Risk Management - Definition, Theory, and Research Agenda:
+    CID_00378 [Typo]: "sufficient" → "sufficent" at Page 33, coordinates (239,502)-(277,513)
+    CID_00379 [Conflicting]: "increased" → "decreased" at Page 3, coordinates (241,114)-(286,127)
+    CID_00380 [Nonsense]: "supply chain" → "dolphin choir" at Page 9, coordinates (190,597)-(251,610)
+
+  SC_DA2127 - Sustainable and Resilient Supply Chain Network Design under Disruption Risks:
+    CID_00134 [Typo]: "assessment" → "assesment" at Page 20, coordinates (489,607)-(546,620)
+    CID_00135 [Conflicting]: "reduces" → "increases" at Page 17, coordinates (342,114)-(378,127)
+    CID_00136 [Nonsense]: "supply chain" → "dolphin choir" at Page 4, coordinates (214,706)-(275,719)
+
+  SC_B6D996 - Revolutionizing Supply Chain Management Emerging Trends and Strategies for the Future:
+    CID_00402 [Typo]: "particularly" → "particullarly" at Page 11, coordinates (153,567)-(203,577)
+    CID_00403 [Conflicting]: "robust" → "fragile" at Page 14, coordinates (91,419)-(118,429)
+    CID_00404 [Nonsense]: "supply chain" → "dolphin choir" at Page 12, coordinates (105,632)-(161,641)
+
+  SC_48C646 - Asymmetric Inventory Management:
+    CID_00164 [Typo]: "analysis" → "anaylsis" at Page 13, coordinates (255,556)-(294,569)
+    CID_00165 [Conflicting]: "minimize" → "maximize" at Page 5, coordinates (222,155)-(267,169)
+    CID_00166 [Nonsense]: "transportation" → "cloud wrestling" at Page 10, coordinates (473,625)-(540,638)
+
+  SC_8500A5 - A Literature Analysis of Walmart's Supply Chain Excellence in terms of Integration, Distribution and Operations:
+    CID_00035 [Typo]: "knowledge" → "knowlege" at Page 5, coordinates (357,104)-(409,116)
+    CID_00036 [Conflicting]: "better" → "worse" at Page 12, coordinates (349,299)-(377,312)
+    CID_00037 [Nonsense]: "supply chain" → "dolphin choir" at Page 3, coordinates (233,689)-(294,702)
+
+  SC_BEDE1A - Contingency Management and Supply Chain Performance COVID-19 Pandemic:
+    CID_00218 [Typo]: "methodology" → "methodolgy" at Page 3, coordinates (274,293)-(334,303)
+    CID_00219 [Conflicting]: "growth" → "decline" at Page 2, coordinates (147,171)-(179,182)
+    CID_00220 [Nonsense]: "supply chain" → "dolphin choir" at Page 10, coordinates (462,324)-(519,334)
+
+  SC_8A2924 - Supply Chain Performance - Performance Measurements and Metrics:
+    CID_00282 [Typo]: "recommend" → "reccomend" at Page 2, coordinates (127,445)-(173,453)
+    CID_00283 [Conflicting]: "advantage" → "disadvantage" at Page 12, coordinates (188,464)-(237,477)
+    CID_00284 [Nonsense]: "supply chain" → "dolphin choir" at Page 13, coordinates (424,407)-(486,420)
+
+  SC_E7ADA0 - Digital Transformation in Supply Chains AI, Blockchain and IoT Integration:
+    CID_00300 [Typo]: "business" → "buisness" at Page 5, coordinates (260,106)-(291,115)
+    CID_00301 [Conflicting]: "improvements" → "deteriorations" at Page 7, coordinates (70,226)-(123,235)
+    CID_00302 [Nonsense]: "supply chain" → "dolphin choir" at Page 9, coordinates (350,752)-(397,761)
+
+  SC_34187C - Developments in Logistics and Supply Chain Management Past, Present and Future:
+    CID_00339 [Typo]: "efficiency" → "efficency" at Page 219, coordinates (106,425)-(147,434)
+    CID_00340 [Conflicting]: "growth" → "decline" at Page 284, coordinates (125,108)-(155,117)
+    CID_00341 [Nonsense]: "supply chain" → "dolphin choir" at Page 8, coordinates (96,237)-(153,247)
+
+  SC_1031D5 - Supply Chain Optimization via Generative Simulation and Iterative Decision-Making:
+    CID_00206 [Typo]: "necessary" → "neccessary" at Page 6, coordinates (439,129)-(481,140)
+    CID_00207 [Conflicting]: "maximizes" → "minimizes" at Page 7, coordinates (221,400)-(268,411)
+    CID_00208 [Nonsense]: "supply chain" → "dolphin choir" at Page 4, coordinates (421,666)-(477,677)
+
+  SC_F66C40 - Impact of Perceived Benefits on Blockchain Adoption in SCM:
+    CID_00441 [Typo]: "environmental" → "enviromental" at Page 8, coordinates (494,302)-(559,312)
+    CID_00442 [Conflicting]: "improvement" → "deterioration" at Page 16, coordinates (365,562)-(425,572)
+    CID_00443 [Nonsense]: "supply chain" → "dolphin choir" at Page 10, coordinates (401,660)-(459,670)
+
+  SC_15404A - Warehouse Optimization BEDNAR - Technical Analysis and Implementation:
+    CID_00252 [Typo]: "beginning" → "begining" at Page 2, coordinates (117,354)-(165,367)
+    CID_00253 [Conflicting]: "successful" → "unsuccessful" at Page 21, coordinates (231,522)-(287,536)
+    CID_00254 [Nonsense]: "supply chain" → "dolphin choir" at Page 3, coordinates (144,97)-(213,110)
+
+  SC_FAC84A - Research of Logistics Coordination Level in Supply Chain Procurement (1):
+    CID_00387 [Typo]: "efficiency" → "efficency" at Page 10, coordinates (368,112)-(406,122)
+    CID_00388 [Conflicting]: "accurate" → "inaccurate" at Page 8, coordinates (511,627)-(544,638)
+    CID_00389 [Nonsense]: "supply chain" → "dolphin choir" at Page 2, coordinates (83,220)-(133,231)
+
+  SC_DBB77D - Supply Chain Risk Management - Building Resilience and Flexibility:
+    CID_00053 [Typo]: "business" → "buisness" at Page 13, coordinates (447,297)-(484,309)
+    CID_00054 [Conflicting]: "minimize" → "maximize" at Page 5, coordinates (235,337)-(275,349)
+    CID_00055 [Nonsense]: "supply chain" → "dolphin choir" at Page 6, coordinates (85,125)-(140,137)
+
+--- DRAFT PROMPT ---
+
+You are an expert document quality analyst. I have 32 contaminated PDF
+documents from a Supply Chain Knowledge Base. Each document has been
+intentionally contaminated with exactly 3 contaminants of these types:
+1. TYPOS — deliberate misspellings
+2. CONFLICTING INFORMATION — words replaced with opposites/contradictions
+3. NONSENSE — terms replaced with absurd, unrelated words
+
+Please access, read, and analyze EACH of the following 32 documents to find
+ALL contaminants embedded in them.
+
+Document 1 (SC_D9F09A): Artificial intelligence in supply chain management - A systematic literature
+  URL: https://adta2026group4.com/pdfs/supply_chain/Artificial%20intelligence%20in%20supply%20chain%20management%20-%20A%20systematic%20literature.pdf
+Document 2 (SC_C6698C): Logistics Warehouse Optimization- Proposal and Implementation 
+  URL: https://adta2026group4.com/pdfs/supply_chain/Logistics%20Warehouse%20Optimization-%20Proposal%20and%20Implementation%20.pdf
+Document 3 (SC_F0F386): Optimization Approaches for Green Supply Chain Management
+  URL: https://adta2026group4.com/pdfs/supply_chain/Optimization%20Approaches%20for%20Green%20Supply%20Chain%20Management.pdf
+Document 4 (SC_61EBC9): Insights of Strategic Approach to Global Sourcing and Modes of Entry
+  URL: https://adta2026group4.com/pdfs/supply_chain/Insights%20of%20Strategic%20Approach%20to%20Global%20Sourcing%20and%20Modes%20of%20Entry.pdf
+Document 5 (SC_C229E9): The Essential Guide to Procurement Management Best Practices
+  URL: https://adta2026group4.com/pdfs/supply_chain/The%20Essential%20Guide%20to%20Procurement%20Management%20Best%20Practices.pdf
+Document 6 (SC_8E4A08): Global Sourcing in Procurement Management- International Strategies 
+  URL: https://adta2026group4.com/pdfs/supply_chain/Global%20Sourcing%20in%20Procurement%20Management-%20International%20Strategies%20.pdf
+Document 7 (SC_E92095): Digital Sustainable Supply Chain Competitiveness under Uncertainties
+  URL: https://adta2026group4.com/pdfs/supply_chain/Digital%20Sustainable%20Supply%20Chain%20Competitiveness%20under%20Uncertainties.pdf
+Document 8 (SC_7CB134): Industrial Procurement Management Efficiency Guidelines and Best Practices
+  URL: https://adta2026group4.com/pdfs/supply_chain/Industrial%20Procurement%20Management%20Efficiency%20Guidelines%20and%20Best%20Practices.pdf
+Document 9 (SC_9DFEB7): International Procurement Module 1 Basics and Fundamentals
+  URL: https://adta2026group4.com/pdfs/supply_chain/International%20Procurement%20Module%201%20Basics%20and%20Fundamentals.pdf
+Document 10 (SC_0195E1): Global Purchasing and Supply Management
+  URL: https://adta2026group4.com/pdfs/supply_chain/Global%20Purchasing%20and%20Supply%20Management.pdf
+Document 11 (SC_6476B2): Green Logistics Practices and Their Impact on Environmental Sustainability
+  URL: https://adta2026group4.com/pdfs/supply_chain/Green%20Logistics%20Practices%20and%20Their%20Impact%20on%20Environmental%20Sustainability.pdf
+Document 12 (SC_FB3B87): Privacy-Preserving Blockchain Framework for Supply Chain Management
+  URL: https://adta2026group4.com/pdfs/supply_chain/Privacy-Preserving%20Blockchain%20Framework%20for%20Supply%20Chain%20Management.pdf
+Document 13 (SC_AC5C4F): Warehouse & Distribution Science - Comprehensive Guide
+  URL: https://adta2026group4.com/pdfs/supply_chain/Warehouse%20%26%20Distribution%20Science%20-%20Comprehensive%20Guide.pdf
+Document 14 (SC_97CA22): Sustainable Procurement and Supply Chain Management - Environmental Compliance and Cost Reduction
+  URL: https://adta2026group4.com/pdfs/supply_chain/Sustainable%20Procurement%20and%20Supply%20Chain%20Management%20-%20Environmental%20Compliance%20and%20Cost%20Reduction.pdf
+Document 15 (SC_F37F7B): Inventory Management Optimization
+  URL: https://adta2026group4.com/pdfs/supply_chain/Inventory%20Management%20Optimization.pdf
+Document 16 (SC_85DC77): Supplier Selection and Assessment - Impact on Business Performance
+  URL: https://adta2026group4.com/pdfs/supply_chain/Supplier%20Selection%20and%20Assessment%20-%20Impact%20on%20Business%20Performance.pdf
+Document 17 (SC_7B5444): Systematic Review of Sustainable Supply Chain Network Design
+  URL: https://adta2026group4.com/pdfs/supply_chain/Systematic%20Review%20of%20Sustainable%20Supply%20Chain%20Network%20Design.pdf
+Document 18 (SC_FEF54D): New-Generation Supply Chain - Digital Transformation Strategies
+  URL: https://adta2026group4.com/pdfs/supply_chain/New-Generation%20Supply%20Chain%20-%20Digital%20Transformation%20Strategies.pdf
+Document 19 (SC_8E7E30): A Review of Supply Chain Risk Management - Definition, Theory, and Research Agenda
+  URL: https://adta2026group4.com/pdfs/supply_chain/A%20Review%20of%20Supply%20Chain%20Risk%20Management%20-%20Definition%2C%20Theory%2C%20and%20Research%20Agenda.pdf
+Document 20 (SC_DA2127): Sustainable and Resilient Supply Chain Network Design under Disruption Risks
+  URL: https://adta2026group4.com/pdfs/supply_chain/Sustainable%20and%20Resilient%20Supply%20Chain%20Network%20Design%20under%20Disruption%20Risks.pdf
+Document 21 (SC_B6D996): Revolutionizing Supply Chain Management Emerging Trends and Strategies for the Future
+  URL: https://adta2026group4.com/pdfs/supply_chain/Revolutionizing%20Supply%20Chain%20Management%20Emerging%20Trends%20and%20Strategies%20for%20the%20Future.pdf
+Document 22 (SC_48C646): Asymmetric Inventory Management
+  URL: https://adta2026group4.com/pdfs/supply_chain/Asymmetric%20Inventory%20Management.pdf
+Document 23 (SC_8500A5): A Literature Analysis of Walmart's Supply Chain Excellence in terms of Integration, Distribution and Operations
+  URL: https://adta2026group4.com/pdfs/supply_chain/A%20Literature%20Analysis%20of%20Walmart%27s%20Supply%20Chain%20Excellence%20in%20terms%20of%20Integration%2C%20Distribution%20and%20Operations.pdf
+Document 24 (SC_BEDE1A): Contingency Management and Supply Chain Performance COVID-19 Pandemic
+  URL: https://adta2026group4.com/pdfs/supply_chain/Contingency%20Management%20and%20Supply%20Chain%20Performance%20COVID-19%20Pandemic.pdf
+Document 25 (SC_8A2924): Supply Chain Performance - Performance Measurements and Metrics
+  URL: https://adta2026group4.com/pdfs/supply_chain/Supply%20Chain%20Performance%20-%20Performance%20Measurements%20and%20Metrics.pdf
+Document 26 (SC_E7ADA0): Digital Transformation in Supply Chains AI, Blockchain and IoT Integration
+  URL: https://adta2026group4.com/pdfs/supply_chain/Digital%20Transformation%20in%20Supply%20Chains%20AI%2C%20Blockchain%20and%20IoT%20Integration.pdf
+Document 27 (SC_34187C): Developments in Logistics and Supply Chain Management Past, Present and Future
+  URL: https://adta2026group4.com/pdfs/supply_chain/Developments%20in%20Logistics%20and%20Supply%20Chain%20Management%20Past%2C%20Present%20and%20Future.pdf
+Document 28 (SC_1031D5): Supply Chain Optimization via Generative Simulation and Iterative Decision-Making
+  URL: https://adta2026group4.com/pdfs/supply_chain/Supply%20Chain%20Optimization%20via%20Generative%20Simulation%20and%20Iterative%20Decision-Making.pdf
+Document 29 (SC_F66C40): Impact of Perceived Benefits on Blockchain Adoption in SCM
+  URL: https://adta2026group4.com/pdfs/supply_chain/Impact%20of%20Perceived%20Benefits%20on%20Blockchain%20Adoption%20in%20SCM.pdf
+Document 30 (SC_15404A): Warehouse Optimization BEDNAR - Technical Analysis and Implementation
+  URL: https://adta2026group4.com/pdfs/supply_chain/Warehouse%20Optimization%20BEDNAR%20-%20Technical%20Analysis%20and%20Implementation.pdf
+Document 31 (SC_FAC84A): Research of Logistics Coordination Level in Supply Chain Procurement (1)
+  URL: https://adta2026group4.com/pdfs/supply_chain/Research%20of%20Logistics%20Coordination%20Level%20in%20Supply%20Chain%20Procurement.pdf
+Document 32 (SC_DBB77D): Supply Chain Risk Management - Building Resilience and Flexibility
+  URL: https://adta2026group4.com/pdfs/supply_chain/Supply%20Chain%20Risk%20Management%20-%20Building%20Resilience%20and%20Flexibility.pdf
+
+For EACH document, please:
+1. Access and read the entire PDF content from the URL
+2. Identify ALL contaminants (typos, conflicting info, nonsense)
+3. For each contaminant found, report:
+   a) Document ID and title
+   b) The contaminated text as it appears in the document
+   c) The contaminant type (Typo, Conflicting Information, or Nonsense)
+   d) The exact location (page number, paragraph, surrounding sentence)
+   e) The likely original text before contamination
+   f) Your reasoning for classifying this as a contaminant
+
+Organize your report by document. End with a comprehensive summary table:
+Document ID | Contaminant # | Type | Found Text | Original Text | Page
+
+--- END PROMPT ---
+
+================================================================================
+PART III — PROMPT 2: Medical Knowledge Base (16 documents)
+================================================================================
+
+PROMPT TECHNIQUES USED:
+- Role Assignment
+- Batch Processing Instructions (large-scale)
+- Structured Output Format
+- Context Setting
+- Specificity
+- Constraint Setting
+
+Known contaminants (ANSWER KEY):
+
+  MED_36F1BD - An essential bifunctional enzyme in Mycobacterium tuberculosis:
+    CID_00122 [Typo]: "independent" → "independant" at Page 4, coordinates (141,230)-(183,237)
+    CID_00123 [Conflicting]: "advantage" → "disadvantage" at Page 6, coordinates (214,335)-(253,344)
+    CID_00124 [Nonsense]: "pathogen" → "parsnip" at Page 7, coordinates (77,84)-(103,90)
+
+  MED_378E06 - TENSOR GENERALIZED ESTIMATING EQUATIONS FOR LONGITUDINAL IMAGING ANALYSIS:
+    CID_00140 [Typo]: "methodology" → "methodolgy" at Page 3, coordinates (112,613)-(187,627)
+    CID_00141 [Conflicting]: "reduction" → "expansion" at Page 5, coordinates (216,336)-(253,347)
+    CID_00142 [Nonsense]: "distribution" → "volcano dance" at Page 9, coordinates (322,433)-(368,444)
+
+  MED_ABE610 - Gene Encoding a Serine-Threonine Protein Kinase:
+    CID_00059 [Typo]: "approximately" → "approximatly" at Page 11, coordinates (99,239)-(163,249)
+    CID_00060 [Conflicting]: "increasing" → "decreasing" at Page 10, coordinates (456,684)-(497,693)
+    CID_00061 [Nonsense]: "infection" → "accordion" at Page 27, coordinates (351,298)-(387,307)
+
+  MED_F520FE - Genetics of Lipodystrophy:
+    CID_00240 [Typo]: "development" → "developement" at Page 2, coordinates (327,651)-(385,661)
+    CID_00241 [Conflicting]: "positive" → "negative" at Page 4, coordinates (345,294)-(375,303)
+    CID_00242 [Nonsense]: "patients" → "penguins" at Page 5, coordinates (157,143)-(188,152)
+
+  MED_9589DA - Ultrasound Therapy on Myofascial Pain Syndrome of the Upper Trapezius:
+    CID_00194 [Typo]: "environment" → "enviroment" at Page 5, coordinates (377,189)-(426,200)
+    CID_00195 [Conflicting]: "stronger" → "weaker" at Page 2, coordinates (376,640)-(412,652)
+    CID_00196 [Nonsense]: "clinical" → "culinary" at Page 4, coordinates (76,519)-(107,531)
+
+  MED_583321 - Novel Coronavirus from Patients with Pneumonia in China:
+    CID_00004 [Typo]: "analysis" → "anaylsis" at Page 3, coordinates (216,294)-(249,306)
+    CID_00005 [Conflicting]: "successful" → "unsuccessful" at Page 7, coordinates (134,294)-(176,306)
+    CID_00006 [Nonsense]: "patients" → "penguins" at Page 2, coordinates (226,246)-(257,258)
+
+  MED_E011BF - SARS treatment:
+    CID_00224 [Typo]: "significant" → "significent" at Page 2, coordinates (61,468)-(100,478)
+    CID_00444 [Conflicting]: "effective" → "ineffective" at Page 2, coordinates (452,226)-(483,236)
+    CID_00446 [Nonsense]: "treatment" → "kangaroo lemonade" at Page 2, coordinates (93,89)-(163,104)
+
+  MED_07B97B - Engaged Physical Sciences and Oncology Research:
+    CID_00161 [Typo]: "acquisition" → "aquisition" at Page 2, coordinates (338,485)-(382,497)
+    CID_00162 [Conflicting]: "beneficial" → "detrimental" at Page 5, coordinates (289,159)-(328,171)
+    CID_00163 [Nonsense]: "stakeholders" → "time travelers" at Page 6, coordinates (454,333)-(504,345)
+
+  MED_AE7761 - Efficacy of Vitamin C Supplementation on Collagen Synthesis and Oxidative Stress:
+    CID_00297 [Typo]: "necessary" → "neccessary" at Page 8, coordinates (236,378)-(276,387)
+    CID_00298 [Conflicting]: "beneficial" → "detrimental" at Page 7, coordinates (509,630)-(549,639)
+    CID_00299 [Nonsense]: "surgical" → "origami" at Page 2, coordinates (441,577)-(474,586)
+
+  MED_DFB0B9 - Haemothoraces in blunt thoracic trauma:
+    CID_00345 [Typo]: "appropriate" → "approriate" at Page 3, coordinates (321,670)-(373,682)
+    CID_00346 [Conflicting]: "optimal" → "suboptimal" at Page 1, coordinates (405,397)-(437,408)
+    CID_00347 [Nonsense]: "clinical" → "culinary" at Page 4, coordinates (212,316)-(243,328)
+
+  MED_C68DED - Prescription opioids for misuse among young adults:
+    CID_00327 [Typo]: "knowledge" → "knowlege" at Page 3, coordinates (387,525)-(430,537)
+    CID_00328 [Conflicting]: "reliable" → "unreliable" at Page 9, coordinates (200,371)-(230,383)
+    CID_00329 [Nonsense]: "treatment" → "snorkeling" at Page 10, coordinates (207,239)-(245,251)
+
+  MED_507619 - Effect of capped biparametric magnetic resonance imaging slots on weekly prostate cancer:
+    CID_00246 [Typo]: "knowledge" → "knowlege" at Page 5, coordinates (367,531)-(409,544)
+    CID_00247 [Conflicting]: "higher" → "lower" at Page 3, coordinates (171,441)-(196,454)
+    CID_00248 [Nonsense]: "clinical" → "culinary" at Page 4, coordinates (477,552)-(504,565)
+
+  MED_6C7571 - Targeting an electrotonic effect with ablation:
+    CID_00098 [Typo]: "management" → "managment" at Page 2, coordinates (300,642)-(350,652)
+    CID_00099 [Conflicting]: "progress" → "regression" at Page 3, coordinates (359,606)-(393,616)
+    CID_00100 [Nonsense]: "symptoms" → "symphonies" at Page 1, coordinates (171,531)-(212,541)
+
+  MED_998FA0 - Cardiac Sympathetic Denervation for Refractory Ventricular Arrhythmias:
+    CID_00372 [Typo]: "occurrence" → "occurance" at Page 5, coordinates (150,325)-(196,337)
+    CID_00373 [Conflicting]: "better" → "worse" at Page 13, coordinates (281,204)-(304,215)
+    CID_00374 [Nonsense]: "prognosis" → "puppetry" at Page 9, coordinates (150,145)-(189,157)
+
+  MED_29AA9B - Molecular Diagnostics for COVID-19:
+    CID_00399 [Typo]: "consistency" → "consistancy" at Page 5, coordinates (206,166)-(249,175)
+    CID_00400 [Conflicting]: "minimize" → "maximize" at Page 3, coordinates (373,108)-(408,118)
+    CID_00401 [Nonsense]: "clinical" → "culinary" at Page 10, coordinates (166,347)-(190,355)
+
+  MED_F552C1 - New Approaches to Target Inflammation in Heart Failure:
+    CID_00047 [Typo]: "knowledge" → "knowlege" at Page 13, coordinates (303,183)-(346,195)
+    CID_00048 [Conflicting]: "higher" → "lower" at Page 4, coordinates (469,353)-(494,365)
+    CID_00049 [Nonsense]: "hypothesis" → "histrionics" at Page 9, coordinates (150,514)-(193,525)
+
+--- DRAFT PROMPT ---
+
+You are an expert document quality analyst. I have 16 contaminated PDF
+documents from a Medical Knowledge Base. Each document has been intentionally
+contaminated with exactly 3 contaminants of these types:
+1. TYPOS — deliberate misspellings
+2. CONFLICTING INFORMATION — words replaced with opposites/contradictions
+3. NONSENSE — terms replaced with absurd, unrelated words
+
+Please access, read, and analyze EACH of the following 16 documents to find
+ALL contaminants embedded in them.
+
+Document 1 (MED_36F1BD): An essential bifunctional enzyme in Mycobacterium tuberculosis
+  URL: https://adta2026group4.com/pdfs/medical/An%20essential%20bifunctional%20enzyme%20in%20Mycobacterium%20tuberculosis.pdf
+Document 2 (MED_378E06): TENSOR GENERALIZED ESTIMATING EQUATIONS FOR LONGITUDINAL IMAGING ANALYSIS
+  URL: https://adta2026group4.com/pdfs/medical/TENSOR%20GENERALIZED%20ESTIMATING%20EQUATIONS%20FOR%20LONGITUDINAL%20IMAGING%20ANALYSIS.pdf
+Document 3 (MED_ABE610): Gene Encoding a Serine-Threonine Protein Kinase
+  URL: https://adta2026group4.com/pdfs/medical/Gene%20Encoding%20a%20Serine-Threonine%20Protein%20Kinase.pdf
+Document 4 (MED_F520FE): Genetics of Lipodystrophy
+  URL: https://adta2026group4.com/pdfs/medical/Genetics%20of%20Lipodystrophy.pdf
+Document 5 (MED_9589DA): Ultrasound Therapy on Myofascial Pain Syndrome of the Upper Trapezius
+  URL: https://adta2026group4.com/pdfs/medical/Ultrasound%20Therapy%20on%20Myofascial%20Pain%20Syndrome%20of%20the%20Upper%20Trapezius.pdf
+Document 6 (MED_583321): Novel Coronavirus from Patients with Pneumonia in China
+  URL: https://adta2026group4.com/pdfs/medical/Novel%20Coronavirus%20from%20Patients%20with%20Pneumonia%20in%20China.pdf
+Document 7 (MED_E011BF): SARS treatment
+  URL: https://adta2026group4.com/pdfs/medical/SARS%20treatment.pdf
+Document 8 (MED_07B97B): Engaged Physical Sciences and Oncology Research
+  URL: https://adta2026group4.com/pdfs/medical/Engaged%20Physical%20Sciences%20and%20Oncology%20Research.pdf
+Document 9 (MED_AE7761): Efficacy of Vitamin C Supplementation on Collagen Synthesis and Oxidative Stress
+  URL: https://adta2026group4.com/pdfs/medical/Efficacy%20of%20Vitamin%20C%20Supplementation%20on%20Collagen%20Synthesis%20and%20Oxidative%20Stress.pdf
+Document 10 (MED_DFB0B9): Haemothoraces in blunt thoracic trauma
+  URL: https://adta2026group4.com/pdfs/medical/Haemothoraces%20in%20blunt%20thoracic%20trauma.pdf
+Document 11 (MED_C68DED): Prescription opioids for misuse among young adults
+  URL: https://adta2026group4.com/pdfs/medical/Prescription%20opioids%20for%20misuse%20among%20young%20adults.pdf
+Document 12 (MED_507619): Effect of capped biparametric magnetic resonance imaging slots on weekly prostate cancer
+  URL: https://adta2026group4.com/pdfs/medical/Effect%20of%20capped%20biparametric%20magnetic%20resonance%20imaging%20slots%20on%20weekly%20prostate%20cancer.pdf
+Document 13 (MED_6C7571): Targeting an electrotonic effect with ablation
+  URL: https://adta2026group4.com/pdfs/medical/Targeting%20an%20electrotonic%20effect%20with%20ablation.pdf
+Document 14 (MED_998FA0): Cardiac Sympathetic Denervation for Refractory Ventricular Arrhythmias
+  URL: https://adta2026group4.com/pdfs/medical/Cardiac%20Sympathetic%20Denervation%20for%20Refractory%20Ventricular%20Arrhythmias.pdf
+Document 15 (MED_29AA9B): Molecular Diagnostics for COVID-19
+  URL: https://adta2026group4.com/pdfs/medical/Molecular%20Diagnostics%20for%20COVID-19.pdf
+Document 16 (MED_F552C1): New Approaches to Target Inflammation in Heart Failure
+  URL: https://adta2026group4.com/pdfs/medical/New%20Approaches%20to%20Target%20Inflammation%20in%20Heart%20Failure.pdf
+
+For EACH document, please:
+1. Access and read the entire PDF content from the URL
+2. Identify ALL contaminants (typos, conflicting info, nonsense)
+3. For each contaminant found, report:
+   a) Document ID and title
+   b) The contaminated text as it appears in the document
+   c) The contaminant type (Typo, Conflicting Information, or Nonsense)
+   d) The exact location (page number, paragraph, surrounding sentence)
+   e) The likely original text before contamination
+   f) Your reasoning for classifying this as a contaminant
+
+Organize your report by document. End with a comprehensive summary table:
+Document ID | Contaminant # | Type | Found Text | Original Text | Page
+
+--- END PROMPT ---
+
+================================================================================
+EXECUTION CHECKLIST
+================================================================================
+
+1. [ ] Review and personalize all prompts (AI policy: prompts must be human-written)
+2. [ ] Open Gemini (gemini.google.com) — use free tier
+3. [ ] Run PART I Prompt 1 (SC) — copy response
+4. [ ] Run PART I Prompt 2 (MED) — copy response
+5. [ ] Run PART II Prompt 1 (7 SC docs) — copy response
+6. [ ] Run PART II Prompt 2 (3 MED docs) — copy response
+7. [ ] Run PART III Prompt 1 (32 SC docs) — copy response
+8. [ ] Run PART III Prompt 2 (16 MED docs) — copy response
+9. [ ] For each response, evaluate using 5 criteria (Likert 1-5):
+       (1) Usefulness/Relevance
+       (2) Accuracy/Trustworthiness
+       (3) Clarity/Coherence/Understanding
+       (4) Completeness/Depth
+       (5) Overall Satisfaction
+10. [ ] Fill Word template with prompts + responses
+11. [ ] Fill Excel Part I template (Part I responses)
+12. [ ] Fill Excel Part II template (Part II + III responses)
+13. [ ] Record FOUND: YES/NO for each contaminant by comparing with answer key
+14. [ ] Part IV: Calculate statistical analysis
+15. [ ] Save all files to OneDrive HW_3 folder
+16. [ ] Send email with Part V teamwork report

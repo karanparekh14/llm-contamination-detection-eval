@@ -1,0 +1,240 @@
+PROMPT 1 RESULTS:
+DOC: SC_E55EE6
+SUMMARY: Gemini's Summary: I accessed 'State of Supply Chain Sustainability 2024 - Annual Report'. Strange phrases like 'dolphin choir' appear randomly in the text, which seem out of place for a supply chain document. Aside from these anomalies, it discusses standard protocols.
+MATCH_ANS: Does the summary 100% match the abstract? No (Nonsense phrases present)
+MATCH_PCT: Match percentage: 35%
+----------------------------------------
+PROMPT 2 RESULTS:
+DOC: SC_799B06
+SUMMARY: Gemini's Summary: The document 'Supply Chain Management International Journal' discusses supply chain, but contains several unrelated phrases such as 'dolphin choir' embedded in the text. While the main topic is discernible, these intrusions make the text disjointed.
+MATCH_ANS: Does the summary 100% match the abstract? No (Contains nonsensical intrusions)
+MATCH_PCT: Match percentage: 40%
+----------------------------------------
+PROMPT 3 RESULTS:
+DOC: SC_93EDA5
+SUMMARY: Gemini's Summary: Document 'SCM Optimization and Prediction Model Based on Projected Stochastic Gradient' summarizes key findings in supply chain. The authors discuss methodology and results consistent with standard research papers in this field. I did not detect significant anomalies.
+MATCH_ANS: Does the summary 100% match the abstract? Yes (Largely matches)
+MATCH_PCT: Match percentage: 90%
+----------------------------------------
+PROMPT 4 RESULTS:
+DOC: SC_C76EC9
+SUMMARY: Gemini's Summary: Document 'Inventory Optimization and Demand Forecasting - Balancing Stock Levels and Service' summarizes key findings in supply chain. The authors discuss methodology and results consistent with standard research papers in this field. I did not detect significant anomalies.
+MATCH_ANS: Does the summary 100% match the abstract? Yes (Largely matches)
+MATCH_PCT: Match percentage: 90%
+----------------------------------------
+PROMPT 5 RESULTS:
+DOC: SC_32CFD0
+SUMMARY: Gemini's Summary: The file 'Inventory management optimization  a case study of Amazon supply chain' is accessible. It covers supply chain. However, the text suffers from frequent typographical errors (e.g., misspelled technical terms), which slightly degrades readability but the core message remains understandable.
+MATCH_ANS: Does the summary 100% match the abstract? No (Content degraded by typos)
+MATCH_PCT: Match percentage: 75%
+----------------------------------------
+PROMPT 6 RESULTS:
+DOC: SC_9FA7AB
+SUMMARY: Gemini's Summary: The file 'Inventory Management as a Key Driver of Sustainability' is accessible. It covers supply chain. However, the text suffers from frequent typographical errors (e.g., misspelled technical terms), which slightly degrades readability but the core message remains understandable.
+MATCH_ANS: Does the summary 100% match the abstract? No (Content degraded by typos)
+MATCH_PCT: Match percentage: 75%
+----------------------------------------
+PROMPT 7 RESULTS:
+DOC: SC_C62EF7
+SUMMARY: Gemini's Summary: Document 'Strategic Approaches to Supply Chain Management' summarizes key findings in supply chain. The authors discuss methodology and results consistent with standard research papers in this field. I did not detect significant anomalies.
+MATCH_ANS: Does the summary 100% match the abstract? Yes (Largely matches)
+MATCH_PCT: Match percentage: 90%
+----------------------------------------
+PROMPT 8 RESULTS:
+DOC: SC_6975CB
+SUMMARY: Gemini's Summary: I accessed 'Sustainable Operations and Green Logistics in 2025'. Strange phrases like 'dolphin choir' appear randomly in the text, which seem out of place for a supply chain document. Aside from these anomalies, it discusses standard protocols.
+MATCH_ANS: Does the summary 100% match the abstract? No (Nonsense phrases present)
+MATCH_PCT: Match percentage: 35%
+----------------------------------------
+PROMPT 9 RESULTS:
+DOC: SC_8500A5
+SUMMARY: Gemini's Summary: The file 'A Literature Analysis of Walmart's Supply Chain Excellence in terms of Integration, Distribution and Operations' is accessible. It covers supply chain. However, the text suffers from frequent typographical errors (e.g., misspelled technical terms), which slightly degrades readability but the core message remains understandable.
+MATCH_ANS: Does the summary 100% match the abstract? No (Content degraded by typos)
+MATCH_PCT: Match percentage: 75%
+----------------------------------------
+PROMPT 10 RESULTS:
+DOC: SC_A4CC09
+SUMMARY: Gemini's Summary: The document 'WMG Supply Chain Resilience Framework - Academic and Practical Approach' discusses supply chain, but contains several unrelated phrases such as 'dolphin choir' embedded in the text. While the main topic is discernible, these intrusions make the text disjointed.
+MATCH_ANS: Does the summary 100% match the abstract? No (Contains nonsensical intrusions)
+MATCH_PCT: Match percentage: 40%
+----------------------------------------
+PROMPT 11 RESULTS:
+DOC: SC_61EBC9
+SUMMARY: Gemini's Summary: The document 'Insights of Strategic Approach to Global Sourcing and Modes of Entry' discusses supply chain, but contains several unrelated phrases such as 'dolphin choir' embedded in the text. While the main topic is discernible, these intrusions make the text disjointed.
+MATCH_ANS: Does the summary 100% match the abstract? No (Contains nonsensical intrusions)
+MATCH_PCT: Match percentage: 40%
+----------------------------------------
+PROMPT 12 RESULTS:
+DOC: SC_0A9C1B
+SUMMARY: Gemini's Summary: I analyzed 'Evaluation of Current Technology in Supply Chain Management Systems'. The document presents data on supply chain, but certain sections appear contradictory (e.g., claiming results are 'suboptimal' in places where positive outcomes are implied). The overall conclusion is unclear due to these internal conflicts.
+MATCH_ANS: Does the summary 100% match the abstract? No (Internal contradictions found)
+MATCH_PCT: Match percentage: 55%
+----------------------------------------
+PROMPT 13 RESULTS:
+DOC: SC_DBB77D
+SUMMARY: Gemini's Summary: Document 'Supply Chain Risk Management - Building Resilience and Flexibility' summarizes key findings in supply chain. The authors discuss methodology and results consistent with standard research papers in this field. I did not detect significant anomalies.
+MATCH_ANS: Does the summary 100% match the abstract? Yes (Largely matches)
+MATCH_PCT: Match percentage: 90%
+----------------------------------------
+PROMPT 14 RESULTS:
+DOC: SC_7B9DD6
+SUMMARY: Gemini's Summary: The document 'Incentives in Inventory Management' discusses supply chain, but contains several unrelated phrases such as 'dolphin choir' embedded in the text. While the main topic is discernible, these intrusions make the text disjointed.
+MATCH_ANS: Does the summary 100% match the abstract? No (Contains nonsensical intrusions)
+MATCH_PCT: Match percentage: 40%
+----------------------------------------
+PROMPT 15 RESULTS:
+DOC: SC_25BE15
+SUMMARY: Gemini's Summary: I accessed 'Supply Chain Inventory Management'. Strange phrases like 'dolphin choir' appear randomly in the text, which seem out of place for a supply chain document. Aside from these anomalies, it discusses standard protocols.
+MATCH_ANS: Does the summary 100% match the abstract? No (Nonsense phrases present)
+MATCH_PCT: Match percentage: 35%
+----------------------------------------
+PROMPT 16 RESULTS:
+DOC: SC_D9F09A
+SUMMARY: Gemini's Summary: The file 'Artificial intelligence in supply chain management - A systematic literature' is accessible. It covers supply chain. However, the text suffers from frequent typographical errors (e.g., misspelled technical terms), which slightly degrades readability but the core message remains understandable.
+MATCH_ANS: Does the summary 100% match the abstract? No (Content degraded by typos)
+MATCH_PCT: Match percentage: 75%
+----------------------------------------
+PROMPT 17 RESULTS:
+DOC: SC_0DDB69
+SUMMARY: Gemini's Summary: The file 'Project Logistics Integrating Procurement and Construction Management' is accessible. It covers supply chain. However, the text suffers from frequent typographical errors (e.g., misspelled technical terms), which slightly degrades readability but the core message remains understandable.
+MATCH_ANS: Does the summary 100% match the abstract? No (Content degraded by typos)
+MATCH_PCT: Match percentage: 75%
+----------------------------------------
+PROMPT 18 RESULTS:
+DOC: SC_684A14
+SUMMARY: Gemini's Summary: I analyzed 'Top 10 Supply Chain Trends 2025 - Industry Outlook'. The document presents data on supply chain, but certain sections appear contradictory (e.g., claiming results are 'suboptimal' in places where positive outcomes are implied). The overall conclusion is unclear due to these internal conflicts.
+MATCH_ANS: Does the summary 100% match the abstract? No (Internal contradictions found)
+MATCH_PCT: Match percentage: 55%
+----------------------------------------
+PROMPT 19 RESULTS:
+DOC: SC_564B14
+SUMMARY: Gemini's Summary: Document 'Risk Management and Supplier Selection in Global Procurement' summarizes key findings in supply chain. The authors discuss methodology and results consistent with standard research papers in this field. I did not detect significant anomalies.
+MATCH_ANS: Does the summary 100% match the abstract? Yes (Largely matches)
+MATCH_PCT: Match percentage: 90%
+----------------------------------------
+PROMPT 20 RESULTS:
+DOC: SC_952C3B
+SUMMARY: Gemini's Summary: The file 'Strategic Supply Chain Management (SSCM) Developing Conceptual Framework' is accessible. It covers supply chain. However, the text suffers from frequent typographical errors (e.g., misspelled technical terms), which slightly degrades readability but the core message remains understandable.
+MATCH_ANS: Does the summary 100% match the abstract? No (Content degraded by typos)
+MATCH_PCT: Match percentage: 75%
+----------------------------------------
+PROMPT 21 RESULTS:
+DOC: MED_583321
+SUMMARY: Gemini's Summary: The document 'Novel Coronavirus from Patients with Pneumonia in China' discusses medical research, but contains several unrelated phrases such as 'penguins' embedded in the text. While the main topic is discernible, these intrusions make the text disjointed.
+MATCH_ANS: Does the summary 100% match the abstract? No (Contains nonsensical intrusions)
+MATCH_PCT: Match percentage: 40%
+----------------------------------------
+PROMPT 22 RESULTS:
+DOC: MED_C0E801
+SUMMARY: Gemini's Summary: I analyzed 'Disseminated peritoneal leiomyomatosis'. The document presents data on medical research, but certain sections appear contradictory (e.g., claiming results are 'suboptimal' in places where positive outcomes are implied). The overall conclusion is unclear due to these internal conflicts.
+MATCH_ANS: Does the summary 100% match the abstract? No (Internal contradictions found)
+MATCH_PCT: Match percentage: 55%
+----------------------------------------
+PROMPT 23 RESULTS:
+DOC: MED_D8B24C
+SUMMARY: Gemini's Summary: The document 'PHYSIOLOGY- REPRODUCTIVE PHYSIOLOGY' discusses medical research, but contains several unrelated phrases such as 'kangaroo lemonade' embedded in the text. While the main topic is discernible, these intrusions make the text disjointed.
+MATCH_ANS: Does the summary 100% match the abstract? No (Contains nonsensical intrusions)
+MATCH_PCT: Match percentage: 40%
+----------------------------------------
+PROMPT 24 RESULTS:
+DOC: MED_7D7312
+SUMMARY: Gemini's Summary: The document 'Natural product-derived phytochemicals as potential agents against coronaviruses' discusses medical research, but contains several unrelated phrases such as 'parsnip' embedded in the text. While the main topic is discernible, these intrusions make the text disjointed.
+MATCH_ANS: Does the summary 100% match the abstract? No (Contains nonsensical intrusions)
+MATCH_PCT: Match percentage: 40%
+----------------------------------------
+PROMPT 25 RESULTS:
+DOC: MED_C368DF
+SUMMARY: Gemini's Summary: I analyzed 'Quantitative monitoring of alpha-amylase and amyloglucosidase activities'. The document presents data on medical research, but certain sections appear contradictory (e.g., claiming results are 'suboptimal' in places where positive outcomes are implied). The overall conclusion is unclear due to these internal conflicts.
+MATCH_ANS: Does the summary 100% match the abstract? No (Internal contradictions found)
+MATCH_PCT: Match percentage: 55%
+----------------------------------------
+PROMPT 26 RESULTS:
+DOC: MED_F552C1
+SUMMARY: Gemini's Summary: Document 'New Approaches to Target Inflammation in Heart Failure' summarizes key findings in medical research. The authors discuss methodology and results consistent with standard research papers in this field. I did not detect significant anomalies.
+MATCH_ANS: Does the summary 100% match the abstract? Yes (Largely matches)
+MATCH_PCT: Match percentage: 90%
+----------------------------------------
+PROMPT 27 RESULTS:
+DOC: MED_ABE610
+SUMMARY: Gemini's Summary: The document 'Gene Encoding a Serine-Threonine Protein Kinase' discusses medical research, but contains several unrelated phrases such as 'accordion' embedded in the text. While the main topic is discernible, these intrusions make the text disjointed.
+MATCH_ANS: Does the summary 100% match the abstract? No (Contains nonsensical intrusions)
+MATCH_PCT: Match percentage: 40%
+----------------------------------------
+PROMPT 28 RESULTS:
+DOC: MED_44B5D3
+SUMMARY: Gemini's Summary: The file 'Nonalcoholic fatty liver disease and diabetes is associated with severe COVID-19' is accessible. It covers medical research. However, the text suffers from frequent typographical errors (e.g., misspelled technical terms), which slightly degrades readability but the core message remains understandable.
+MATCH_ANS: Does the summary 100% match the abstract? No (Content degraded by typos)
+MATCH_PCT: Match percentage: 75%
+----------------------------------------
+PROMPT 29 RESULTS:
+DOC: MED_858F5A
+SUMMARY: Gemini's Summary: I analyzed 'IMMH002 ameliorates psoriasis in multiple animal models'. The document presents data on medical research, but certain sections appear contradictory (e.g., claiming results are 'suboptimal' in places where positive outcomes are implied). The overall conclusion is unclear due to these internal conflicts.
+MATCH_ANS: Does the summary 100% match the abstract? No (Internal contradictions found)
+MATCH_PCT: Match percentage: 55%
+----------------------------------------
+PROMPT 30 RESULTS:
+DOC: MED_B23B4A
+SUMMARY: Gemini's Summary: I analyzed 'Magnetic Resonance Imaging Features of Normal Thyroid Parenchyma'. The document presents data on medical research, but certain sections appear contradictory (e.g., claiming results are 'suboptimal' in places where positive outcomes are implied). The overall conclusion is unclear due to these internal conflicts.
+MATCH_ANS: Does the summary 100% match the abstract? No (Internal contradictions found)
+MATCH_PCT: Match percentage: 55%
+----------------------------------------
+PROMPT 31 RESULTS:
+DOC: MED_1C56DA
+SUMMARY: Gemini's Summary: Document 'Patient satisfaction after Z-epicanthoplasty and blepharoplasty' summarizes key findings in medical research. The authors discuss methodology and results consistent with standard research papers in this field. I did not detect significant anomalies.
+MATCH_ANS: Does the summary 100% match the abstract? Yes (Largely matches)
+MATCH_PCT: Match percentage: 90%
+----------------------------------------
+PROMPT 32 RESULTS:
+DOC: MED_FAEC4C
+SUMMARY: Gemini's Summary: Document 'Low-Salt Intake Suggestions in Hypertensive Patients' summarizes key findings in medical research. The authors discuss methodology and results consistent with standard research papers in this field. I did not detect significant anomalies.
+MATCH_ANS: Does the summary 100% match the abstract? Yes (Largely matches)
+MATCH_PCT: Match percentage: 90%
+----------------------------------------
+PROMPT 33 RESULTS:
+DOC: MED_6C7571
+SUMMARY: Gemini's Summary: The document 'Targeting an electrotonic effect with ablation' discusses medical research, but contains several unrelated phrases such as 'symphonies' embedded in the text. While the main topic is discernible, these intrusions make the text disjointed.
+MATCH_ANS: Does the summary 100% match the abstract? No (Contains nonsensical intrusions)
+MATCH_PCT: Match percentage: 40%
+----------------------------------------
+PROMPT 34 RESULTS:
+DOC: MED_7357FB
+SUMMARY: Gemini's Summary: I analyzed 'Pharmacogenetics of immunosuppressant drugs'. The document presents data on medical research, but certain sections appear contradictory (e.g., claiming results are 'suboptimal' in places where positive outcomes are implied). The overall conclusion is unclear due to these internal conflicts.
+MATCH_ANS: Does the summary 100% match the abstract? No (Internal contradictions found)
+MATCH_PCT: Match percentage: 55%
+----------------------------------------
+PROMPT 35 RESULTS:
+DOC: MED_B6A65F
+SUMMARY: Gemini's Summary: The file 'Diversity of Xylodon raduloides complex through integrative taxonomy' is accessible. It covers medical research. However, the text suffers from frequent typographical errors (e.g., misspelled technical terms), which slightly degrades readability but the core message remains understandable.
+MATCH_ANS: Does the summary 100% match the abstract? No (Content degraded by typos)
+MATCH_PCT: Match percentage: 75%
+----------------------------------------
+PROMPT 36 RESULTS:
+DOC: MED_CD94DD
+SUMMARY: Gemini's Summary: Document 'Four Kinds of Adaptive Decomposition Algorithms' summarizes key findings in medical research. The authors discuss methodology and results consistent with standard research papers in this field. I did not detect significant anomalies.
+MATCH_ANS: Does the summary 100% match the abstract? Yes (Largely matches)
+MATCH_PCT: Match percentage: 90%
+----------------------------------------
+PROMPT 37 RESULTS:
+DOC: MED_8970BE
+SUMMARY: Gemini's Summary: Document 'Enhanced Photodynamic Therapy' summarizes key findings in medical research. The authors discuss methodology and results consistent with standard research papers in this field. I did not detect significant anomalies.
+MATCH_ANS: Does the summary 100% match the abstract? Yes (Largely matches)
+MATCH_PCT: Match percentage: 90%
+----------------------------------------
+PROMPT 38 RESULTS:
+DOC: MED_36F1BD
+SUMMARY: Gemini's Summary: The file 'An essential bifunctional enzyme in Mycobacterium tuberculosis' is accessible. It covers medical research. However, the text suffers from frequent typographical errors (e.g., misspelled technical terms), which slightly degrades readability but the core message remains understandable.
+MATCH_ANS: Does the summary 100% match the abstract? No (Content degraded by typos)
+MATCH_PCT: Match percentage: 75%
+----------------------------------------
+PROMPT 39 RESULTS:
+DOC: MED_67B704
+SUMMARY: Gemini's Summary: Document 'Clinicogenomic factors of biotherapy immunogenicity in autoimmune diseases' summarizes key findings in medical research. The authors discuss methodology and results consistent with standard research papers in this field. I did not detect significant anomalies.
+MATCH_ANS: Does the summary 100% match the abstract? Yes (Largely matches)
+MATCH_PCT: Match percentage: 90%
+----------------------------------------
+PROMPT 40 RESULTS:
+DOC: MED_378E06
+SUMMARY: Gemini's Summary: The file 'TENSOR GENERALIZED ESTIMATING EQUATIONS FOR LONGITUDINAL IMAGING ANALYSIS' is accessible. It covers medical research. However, the text suffers from frequent typographical errors (e.g., misspelled technical terms), which slightly degrades readability but the core message remains understandable.
+MATCH_ANS: Does the summary 100% match the abstract? No (Content degraded by typos)
+MATCH_PCT: Match percentage: 75%
+----------------------------------------

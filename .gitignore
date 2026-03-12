@@ -1,0 +1,10 @@
+# Ignore large data folders and non-essential files
+one drive/
+ADTA5760--Group-4/
+Reference/
+*.xlsx
+*.pdf
+*.docx
+__pycache__/
+*.pyc
+.env

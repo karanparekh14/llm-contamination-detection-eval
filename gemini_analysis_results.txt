@@ -1,0 +1,118 @@
+==========================================================================================
+GEMINI RESPONSE ANALYSIS — Comparison Against Known Answer Key
+==========================================================================================
+
+PROMPT 1: SC_7E5AA0 (Part I - Supply Chain, 1 doc)
+------------------------------------------------------------
+Gemini found: 6 contaminants
+Answer key has: 3 contaminants
+
+  CID_00197 [Typo]: "efficiency" → "efficency" (Key: P7)
+    FOUND: NO — NOT FOUND by Gemini
+  CID_00198 [Conflicting]: "positively" → "negatively" (Key: P15)
+    FOUND: NO — NOT FOUND by Gemini
+  CID_00199 [Nonsense]: "supply chain" → "dolphin choir" (Key: P12)
+    FOUND: NO — NOT FOUND by Gemini
+
+  SCORE: 0/3 of our embedded contaminants correctly identified
+  NOTE: Gemini found 6 items but 3 of our 3 were missed.
+  Gemini found 6 items NOT in our answer key (false positives or pre-existing issues)
+
+PROMPT 2: MED_0A4C1E (Part I - Medical, 1 doc)
+------------------------------------------------------------
+Gemini found: 3 contaminants
+Answer key has: 3 contaminants
+
+  CID_00188 [Typo]: "recommend" → "reccomend" (Key: P1)
+    FOUND: YES — Gemini: 'reccomend ations' (P1)
+  CID_00189 [Conflicting]: "robust" → "fragile" (Key: P7)
+    FOUND: YES — Gemini: 'fragile ness' (P6)
+  CID_00190 [Nonsense]: "parameter" → "parachute" (Key: P5)
+    FOUND: YES — Gemini: 'model parachute' (P5)
+
+  SCORE: 3/3 correctly identified
+
+PROMPT 3: 7 SC Documents (Part II - Supply Chain)
+------------------------------------------------------------
+  SC_E256CF: 2/3 matched
+    ✓ CID_00191 [Typo] "significent" — YES: Gemini: 'significent' (P14)
+    ✗ CID_00192 [Conflicting] "increases" — NO: NOT FOUND by Gemini
+    ✓ CID_00193 [Nonsense] "dolphin choir" — YES: Gemini: 'dolphin choir' (P2)
+
+  SC_82604E: 1/3 matched
+    ✗ CID_00414 [Typo] "significane" — NO: NOT FOUND by Gemini
+    ✗ CID_00415 [Conflicting] "ineffective" — NO: NOT FOUND by Gemini
+    ✓ CID_00416 [Nonsense] "dolphin choir" — YES: Gemini: 'dolphi hoir' (P5)
+
+  SC_A4CC09: 2/3 matched
+    ✗ CID_00041 [Typo] "infastructure" — NO: NOT FOUND by Gemini
+    ✓ CID_00042 [Conflicting] "disadvantage" — YES: Gemini: 'disadvantage' (P24)
+    ✓ CID_00043 [Nonsense] "dolphin choir" — YES: Gemini: 'dolphin choirresilience' (P3)
+
+  SC_046CB7: 3/3 matched
+    ✓ CID_00306 [Typo] "threshhold" — YES: Gemini: 'threshhol' (P1)
+    ✓ CID_00307 [Conflicting] "disadvantages" — YES: Gemini: 'disadvantage' (P6)
+    ✓ CID_00308 [Nonsense] "dolphin choir" — YES: Gemini: 'dolphin choir' (P5)
+
+  SC_7B0EBD: 3/3 matched
+    ✓ CID_00234 [Typo] "aquisition" — YES: Gemini: 'aquisition' (P40)
+    ✓ CID_00235 [Conflicting] "decreases" — YES: Gemini: 'decreases' (P162)
+    ✓ CID_00236 [Nonsense] "dolphin choir" — YES: Gemini: 'dolphin choir' (P13)
+
+  SC_799B06: 2/3 matched
+    ✗ CID_00011 [Typo] "responsibilty" — NO: NOT FOUND by Gemini
+    ✓ CID_00012 [Conflicting] "expansion" — YES: Gemini: 'expansion' (P14)
+    ✓ CID_00013 [Nonsense] "dolphin choir" — YES: Gemini: 'dolphin choir' (P11)
+
+  SC_8F419D: 3/3 matched
+    ✓ CID_00324 [Typo] "privelege" — YES: Gemini: 'privelege' (Px)
+    ✓ CID_00325 [Conflicting] "degradation" — YES: Gemini: 'degradation' (P9)
+    ✓ CID_00326 [Nonsense] "dolphin choir" — YES: Gemini: 'dolphin choir' (P243)
+
+  TOTAL SCORE: 16/21
+
+PROMPT 4: 3 MED Documents (Part II - Medical)
+------------------------------------------------------------
+  MED_67B704: 2/3 matched
+    ✓ CID_00131 [Typo] "labratory" — YES: Gemini: 'labratory' (P7)
+    ✗ CID_00132 [Conflicting] "increasing" — NO: NOT FOUND by Gemini
+    ✓ CID_00133 [Nonsense] "penguins" — YES: Gemini: 'penguinare' (P5)
+
+  MED_1C56DA: 3/3 matched
+    ✓ CID_00074 [Typo] "knowlege" — YES: Gemini: 'AC no lege MENTS' (P3)
+    ✓ CID_00075 [Conflicting] "unfavorable" — YES: Gemini: 'unfavorablutcomes' (P1)
+    ✓ CID_00076 [Nonsense] "snorkeling" — YES: Gemini: 'snorkeling' (P2)
+
+  MED_B6A65F: 1/3 matched
+    ✗ CID_00104 [Typo] "knowlege" — NO: NOT FOUND by Gemini
+    ✗ CID_00105 [Conflicting] "decreased" — NO: NOT FOUND by Gemini
+    ✓ CID_00106 [Nonsense] "fishbowl" — YES: Gemini: 'fishbowl' (P5)
+
+  TOTAL SCORE: 6/9
+
+PROMPT 5: 32 SC Documents (Part III - Supply Chain)
+------------------------------------------------------------
+  STATUS: FAILED — Gemini refused to access the URLs
+  FOUND: 0/96 contaminants
+
+PROMPT 6: 16 MED Documents (Part III - Medical)
+------------------------------------------------------------
+  STATUS: FAILED — Gemini refused to access the URLs
+  FOUND: 0/48 contaminants
+
+==========================================================================================
+OVERALL SUMMARY
+==========================================================================================
+Prompt 1 (Part I SC):    0/3   contaminants matched
+Prompt 2 (Part I MED):   3/3   contaminants matched
+Prompt 3 (Part II SC):   16/21  contaminants matched
+Prompt 4 (Part II MED):  6/9   contaminants matched
+Prompt 5 (Part III SC):  0/96  FAILED (Gemini refused)
+Prompt 6 (Part III MED): 0/48  FAILED (Gemini refused)
+
+TOTAL: 25/180 contaminants correctly identified (13.9%)
+
+CRITICAL ISSUES:
+1. Prompts 5 & 6 (80% of all contaminants) completely FAILED — Gemini refused URL access
+2. Prompt 1 found extra contaminants not in our key (may be real issues OR hallucinations)
+3. Some type/page mismatches in Prompts 3 & 4 (Gemini found the right text but wrong page/type)

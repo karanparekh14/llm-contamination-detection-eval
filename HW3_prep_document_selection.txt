@@ -1,0 +1,815 @@
+================================================================================
+HW3 PREPARATION - DOCUMENT SELECTION & CONTAMINANT REFERENCE
+Group 4 | Generated with seed=42 | ADTA-DAST 5770
+================================================================================
+
+Total documents selected: 60
+  Part I:   1 SC + 1 MED = 2
+  Part II:  7 SC + 3 MED = 10
+  Part III: 32 SC + 16 MED = 48
+  TOTAL: 60 unique documents
+  Remaining unused: 60 SC + 30 MED
+
+================================================================================
+  PART I (2 documents: 1 SC + 1 MED)
+================================================================================
+
+  --- Supply Chain Documents ---
+
+  [1] SC_7E5AA0: Supply Chain Management Challenges in Competitive World - Strategic Responses
+      URL: https://adta2026group4.com/pdfs/supply_chain/Supply Chain Management Challenges in Competitive World - Strategic Responses.pdf
+      Contaminants (3):
+        - CID_00197 [Typo]: "efficiency" -> "efficency"
+          Location: Page 7, coordinates (428,709)-(467,723)
+          Explanation: efficiency → efficency (misspelling)
+        - CID_00198 [Conflicting]: "positively" -> "negatively"
+          Location: Page 15, coordinates (435,193)-(474,207)
+          Explanation: positively → negatively (meaning reversed)
+        - CID_00199 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 12, coordinates (147,216)-(197,228)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  --- Medical Documents ---
+
+  [1] MED_0A4C1E: Power Determination During Drug Development
+      URL: https://adta2026group4.com/pdfs/medical/Power Determination During Drug Development.pdf
+      Contaminants (3):
+        - CID_00188 [Typo]: "recommend" -> "reccomend"
+          Location: Page 1, coordinates (75,615)-(123,625)
+          Explanation: recommend → reccomend (misspelling)
+        - CID_00189 [Conflicting]: "robust" -> "fragile"
+          Location: Page 7, coordinates (183,182)-(209,193)
+          Explanation: robust → fragile (meaning reversed)
+        - CID_00190 [Nonsense]: "parameter" -> "parachute"
+          Location: Page 5, coordinates (351,534)-(392,545)
+          Explanation: parameter → parachute (absurd replacement)
+
+================================================================================
+  PART II (10 documents: 7 SC + 3 MED)
+================================================================================
+
+  --- Supply Chain Documents ---
+
+  [1] SC_E256CF: Issues in Supply Chain Management Contemporary Challenges
+      URL: https://adta2026group4.com/pdfs/supply_chain/Issues in Supply Chain Management Contemporary Challenges.pdf
+      Contaminants (3):
+        - CID_00191 [Typo]: "significant" -> "significent"
+          Location: Page 12, coordinates (518,341)-(564,356)
+          Explanation: significant → significent (misspelling)
+        - CID_00192 [Conflicting]: "reduces" -> "increases"
+          Location: Page 10, coordinates (223,258)-(257,273)
+          Explanation: reduces → increases (meaning reversed)
+        - CID_00193 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 2, coordinates (223,474)-(268,485)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [2] SC_82604E: Contemporary Challenges in Logistics and Supply Chain Management
+      URL: https://adta2026group4.com/pdfs/supply_chain/Contemporary Challenges in Logistics and Supply Chain Management.pdf
+      Contaminants (3):
+        - CID_00414 [Typo]: "significance" -> "significane"
+          Location: Page 42, coordinates (270,415)-(318,428)
+          Explanation: significance → significane (misspelling)
+        - CID_00415 [Conflicting]: "effective" -> "ineffective"
+          Location: Page 12, coordinates (73,239)-(108,252)
+          Explanation: effective → ineffective (meaning reversed)
+        - CID_00416 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 4, coordinates (293,119)-(399,139)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [3] SC_A4CC09: WMG Supply Chain Resilience Framework - Academic and Practical Approach
+      URL: https://adta2026group4.com/pdfs/supply_chain/WMG Supply Chain Resilience Framework - Academic and Practical Approach.pdf
+      Contaminants (3):
+        - CID_00041 [Typo]: "infrastructure" -> "infastructure"
+          Location: Page 8, coordinates (83,304)-(115,312)
+          Explanation: infrastructure → infastructure (misspelling)
+        - CID_00042 [Conflicting]: "advantage" -> "disadvantage"
+          Location: Page 24, coordinates (465,404)-(514,420)
+          Explanation: advantage → disadvantage (meaning reversed)
+        - CID_00043 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 3, coordinates (168,269)-(225,285)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [4] SC_046CB7: Research on Inventory Strategy for Maximizing Cost-Effectiveness in Supply Chain
+      URL: https://adta2026group4.com/pdfs/supply_chain/Research on Inventory Strategy for Maximizing Cost-Effectiveness in Supply Chain.pdf
+      Contaminants (3):
+        - CID_00306 [Typo]: "threshold" -> "threshhold"
+          Location: Page 1, coordinates (381,309)-(418,318)
+          Explanation: threshold → threshhold (misspelling)
+        - CID_00307 [Conflicting]: "advantages" -> "disadvantages"
+          Location: Page 6, coordinates (393,482)-(443,492)
+          Explanation: advantages → disadvantages (meaning reversed)
+        - CID_00308 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 5, coordinates (233,366)-(292,376)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [5] SC_7B0EBD: United Nations Procurement Manual - Official Guidelines
+      URL: https://adta2026group4.com/pdfs/supply_chain/United Nations Procurement Manual - Official Guidelines.pdf
+      Contaminants (3):
+        - CID_00234 [Typo]: "acquisition" -> "aquisition"
+          Location: Page 4, coordinates (213,403)-(262,418)
+          Explanation: acquisition → aquisition (misspelling)
+        - CID_00235 [Conflicting]: "increases" -> "decreases"
+          Location: Page 163, coordinates (192,173)-(234,188)
+          Explanation: increases → decreases (meaning reversed)
+        - CID_00236 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 14, coordinates (356,298)-(412,312)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [6] SC_799B06: Supply Chain Management International Journal
+      URL: https://adta2026group4.com/pdfs/supply_chain/Supply Chain Management International Journal.pdf
+      Contaminants (3):
+        - CID_00011 [Typo]: "responsibility" -> "responsibilty"
+          Location: Page 5, coordinates (153,623)-(216,635)
+          Explanation: responsibility → responsibilty (misspelling)
+        - CID_00012 [Conflicting]: "reduction" -> "expansion"
+          Location: Page 15, coordinates (326,629)-(372,641)
+          Explanation: reduction → expansion (meaning reversed)
+        - CID_00013 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 12, coordinates (324,336)-(385,349)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [7] SC_8F419D: Logistics and Supply Chain Management (4th Edition Overview)
+      URL: https://adta2026group4.com/pdfs/supply_chain/Logistics and Supply Chain Management (4th Edition Overview).pdf
+      Contaminants (3):
+        - CID_00324 [Typo]: "privilege" -> "privelege"
+          Location: Page 11, coordinates (215,377)-(248,386)
+          Explanation: privilege → privelege (misspelling)
+        - CID_00325 [Conflicting]: "enhancement" -> "degradation"
+          Location: Page 22, coordinates (276,510)-(331,519)
+          Explanation: enhancement → degradation (meaning reversed)
+        - CID_00326 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 10, coordinates (189,204)-(240,213)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  --- Medical Documents ---
+
+  [1] MED_67B704: Clinicogenomic factors of biotherapy immunogenicity in autoimmune disease
+      URL: https://adta2026group4.com/pdfs/medical/Clinicogenomic factors of biotherapy immunogenicity in autoimmune disease.pdf
+      Contaminants (3):
+        - CID_00131 [Typo]: "laboratory" -> "labratory"
+          Location: Page 7, coordinates (389,380)-(430,390)
+          Explanation: laboratory → labratory (misspelling)
+        - CID_00132 [Conflicting]: "reducing" -> "increasing"
+          Location: Page 25, coordinates (492,387)-(522,395)
+          Explanation: reducing → increasing (meaning reversed)
+        - CID_00133 [Nonsense]: "patients" -> "penguins"
+          Location: Page 5, coordinates (481,142)-(513,152)
+          Explanation: patients → penguins (absurd replacement)
+
+  [2] MED_1C56DA: Patient satisfaction after Z-epicanthoplasty and blepharoplasty
+      URL: https://adta2026group4.com/pdfs/medical/Patient satisfaction after Z-epicanthoplasty and blepharoplasty.pdf
+      Contaminants (3):
+        - CID_00074 [Typo]: "knowledge" -> "knowlege"
+          Location: Page 3, coordinates (318,507)-(385,520)
+          Explanation: knowledge → knowlege (misspelling)
+        - CID_00075 [Conflicting]: "favorable" -> "unfavorable"
+          Location: Page 1, coordinates (472,263)-(509,276)
+          Explanation: favorable → unfavorable (meaning reversed)
+        - CID_00076 [Nonsense]: "treatment" -> "snorkeling"
+          Location: Page 2, coordinates (455,653)-(493,666)
+          Explanation: treatment → snorkeling (absurd replacement)
+
+  [3] MED_B6A65F: Diversity of Xylodon raduloides complex through integrative taxonomy
+      URL: https://adta2026group4.com/pdfs/medical/Diversity of Xylodon raduloides complex through integrative taxonomy.pdf
+      Contaminants (3):
+        - CID_00104 [Typo]: "knowledge" -> "knowlege"
+          Location: Page 17, coordinates (313,136)-(349,144)
+          Explanation: knowledge → knowlege (misspelling)
+        - CID_00105 [Conflicting]: "increased" -> "decreased"
+          Location: Page 2, coordinates (166,532)-(203,542)
+          Explanation: increased → decreased (meaning reversed)
+        - CID_00106 [Nonsense]: "framework" -> "fishbowl"
+          Location: Page 5, coordinates (179,652)-(223,662)
+          Explanation: framework → fishbowl (absurd replacement)
+
+================================================================================
+  PART III (48 documents: 32 SC + 16 MED)
+================================================================================
+
+  --- Supply Chain Documents ---
+
+  [1] SC_D9F09A: Artificial intelligence in supply chain management - A systematic literature
+      URL: https://adta2026group4.com/pdfs/supply_chain/Artificial intelligence in supply chain management - A systematic literature.pdf
+      Contaminants (3):
+        - CID_00077 [Typo]: "assessment" -> "assesment"
+          Location: Page 6, coordinates (146,355)-(182,368)
+          Explanation: assessment → assesment (misspelling)
+        - CID_00078 [Conflicting]: "improvements" -> "deteriorations"
+          Location: Page 11, coordinates (255,259)-(265,299)
+          Explanation: improvements → deteriorations (meaning reversed)
+        - CID_00079 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 14, coordinates (215,702)-(251,712)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [2] SC_C6698C: Logistics Warehouse Optimization- Proposal and Implementation 
+      URL: https://adta2026group4.com/pdfs/supply_chain/Logistics Warehouse Optimization- Proposal and Implementation .pdf
+      Contaminants (3):
+        - CID_00360 [Typo]: "business" -> "buisness"
+          Location: Page 6, coordinates (359,129)-(400,142)
+          Explanation: business → buisness (misspelling)
+        - CID_00361 [Conflicting]: "reducing" -> "increasing"
+          Location: Page 1, coordinates (160,690)-(202,703)
+          Explanation: reducing → increasing (meaning reversed)
+        - CID_00362 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 8, coordinates (400,335)-(462,349)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [3] SC_F0F386: Optimization Approaches for Green Supply Chain Management
+      URL: https://adta2026group4.com/pdfs/supply_chain/Optimization Approaches for Green Supply Chain Management.pdf
+      Contaminants (3):
+        - CID_00336 [Typo]: "efficiency" -> "efficency"
+          Location: Page 12, coordinates (453,740)-(495,750)
+          Explanation: efficiency → efficency (misspelling)
+        - CID_00337 [Conflicting]: "improvements" -> "deteriorations"
+          Location: Page 16, coordinates (495,248)-(559,258)
+          Explanation: improvements → deteriorations (meaning reversed)
+        - CID_00338 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 3, coordinates (221,547)-(278,557)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [4] SC_61EBC9: Insights of Strategic Approach to Global Sourcing and Modes of Entry
+      URL: https://adta2026group4.com/pdfs/supply_chain/Insights of Strategic Approach to Global Sourcing and Modes of Entry.pdf
+      Contaminants (3):
+        - CID_00044 [Typo]: "competition" -> "competion"
+          Location: Page 7, coordinates (370,168)-(416,179)
+          Explanation: competition → competion (misspelling)
+        - CID_00045 [Conflicting]: "higher" -> "lower"
+          Location: Page 5, coordinates (118,360)-(143,371)
+          Explanation: higher → lower (meaning reversed)
+        - CID_00046 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 4, coordinates (238,96)-(290,107)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [5] SC_C229E9: The Essential Guide to Procurement Management Best Practices
+      URL: https://adta2026group4.com/pdfs/supply_chain/The Essential Guide to Procurement Management Best Practices.pdf
+      Contaminants (3):
+        - CID_00270 [Typo]: "particularly" -> "particullarly"
+          Location: Page 152, coordinates (72,381)-(132,393)
+          Explanation: particularly → particullarly (misspelling)
+        - CID_00271 [Conflicting]: "advantage" -> "disadvantage"
+          Location: Page 13, coordinates (72,238)-(125,250)
+          Explanation: advantage → disadvantage (meaning reversed)
+        - CID_00272 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 10, coordinates (199,435)-(264,447)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [6] SC_8E4A08: Global Sourcing in Procurement Management- International Strategies 
+      URL: https://adta2026group4.com/pdfs/supply_chain/Global Sourcing in Procurement Management- International Strategies .pdf
+      Contaminants (3):
+        - CID_00273 [Typo]: "reference" -> "referance"
+          Location: Page 9, coordinates (72,699)-(121,715)
+          Explanation: reference → referance (misspelling)
+        - CID_00274 [Conflicting]: "successful" -> "unsuccessful"
+          Location: Page 4, coordinates (167,510)-(208,524)
+          Explanation: successful → unsuccessful (meaning reversed)
+        - CID_00275 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 7, coordinates (78,368)-(139,384)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [7] SC_E92095: Digital Sustainable Supply Chain Competitiveness under Uncertainties
+      URL: https://adta2026group4.com/pdfs/supply_chain/Digital Sustainable Supply Chain Competitiveness under Uncertainties.pdf
+      Contaminants (3):
+        - CID_00333 [Typo]: "methodology" -> "methodolgy"
+          Location: Page 3, coordinates (185,171)-(244,181)
+          Explanation: methodology → methodolgy (misspelling)
+        - CID_00334 [Conflicting]: "accurate" -> "inaccurate"
+          Location: Page 16, coordinates (254,543)-(291,553)
+          Explanation: accurate → inaccurate (meaning reversed)
+        - CID_00335 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 11, coordinates (285,318)-(344,328)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [8] SC_7CB134: Industrial Procurement Management Efficiency Guidelines and Best Practices
+      URL: https://adta2026group4.com/pdfs/supply_chain/Industrial Procurement Management Efficiency Guidelines and Best Practices.pdf
+      Contaminants (3):
+        - CID_00209 [Typo]: "efficiency" -> "efficency"
+          Location: Page 2, coordinates (199,21)-(246,33)
+          Explanation: efficiency → efficency (misspelling)
+        - CID_00210 [Conflicting]: "improving" -> "worsening"
+          Location: Page 24, coordinates (227,216)-(277,230)
+          Explanation: improving → worsening (meaning reversed)
+        - CID_00211 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 7, coordinates (71,71)-(134,85)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [9] SC_9DFEB7: International Procurement Module 1 Basics and Fundamentals
+      URL: https://adta2026group4.com/pdfs/supply_chain/International Procurement Module 1 Basics and Fundamentals.pdf
+      Contaminants (3):
+        - CID_00221 [Typo]: "committee" -> "commitee"
+          Location: Page 33, coordinates (455,296)-(523,310)
+          Explanation: committee → commitee (misspelling)
+        - CID_00222 [Conflicting]: "stability" -> "instability"
+          Location: Page 45, coordinates (652,291)-(693,303)
+          Explanation: stability → instability (meaning reversed)
+        - CID_00223 [Nonsense]: "logistics" -> "astrology"
+          Location: Page 2, coordinates (122,21)-(210,41)
+          Explanation: logistics → astrology (absurd replacement)
+
+  [10] SC_0195E1: Global Purchasing and Supply Management
+      URL: https://adta2026group4.com/pdfs/supply_chain/Global Purchasing and Supply Management.pdf
+      Contaminants (3):
+        - CID_00420 [Typo]: "methodology" -> "methodolgy"
+          Location: Page 437, coordinates (160,544)-(214,554)
+          Explanation: methodology → methodolgy (misspelling)
+        - CID_00421 [Conflicting]: "enhancement" -> "degradation"
+          Location: Page 11, coordinates (171,61)-(226,72)
+          Explanation: enhancement → degradation (meaning reversed)
+        - CID_00422 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 12, coordinates (270,126)-(328,136)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [11] SC_6476B2: Green Logistics Practices and Their Impact on Environmental Sustainability
+      URL: https://adta2026group4.com/pdfs/supply_chain/Green Logistics Practices and Their Impact on Environmental Sustainability.pdf
+      Contaminants (3):
+        - CID_00351 [Typo]: "sufficient" -> "sufficent"
+          Location: Page 1, coordinates (531,567)-(569,578)
+          Explanation: sufficient → sufficent (misspelling)
+        - CID_00352 [Conflicting]: "advantage" -> "disadvantage"
+          Location: Page 3, coordinates (164,474)-(205,485)
+          Explanation: advantage → disadvantage (meaning reversed)
+        - CID_00353 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 6, coordinates (286,106)-(338,117)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [12] SC_FB3B87: Privacy-Preserving Blockchain Framework for Supply Chain Management
+      URL: https://adta2026group4.com/pdfs/supply_chain/Privacy-Preserving Blockchain Framework for Supply Chain Management.pdf
+      Contaminants (3):
+        - CID_00176 [Typo]: "environment" -> "enviroment"
+          Location: Page 3, coordinates (500,689)-(557,699)
+          Explanation: environment → enviroment (misspelling)
+        - CID_00177 [Conflicting]: "advantages" -> "disadvantages"
+          Location: Page 2, coordinates (308,337)-(358,348)
+          Explanation: advantages → disadvantages (meaning reversed)
+        - CID_00178 [Nonsense]: "parameter" -> "parachute"
+          Location: Page 14, coordinates (213,158)-(259,168)
+          Explanation: parameter → parachute (absurd replacement)
+
+  [13] SC_AC5C4F: Warehouse & Distribution Science - Comprehensive Guide
+      URL: https://adta2026group4.com/pdfs/supply_chain/Warehouse & Distribution Science - Comprehensive Guide.pdf
+      Contaminants (3):
+        - CID_00152 [Typo]: "separate" -> "seperate"
+          Location: Page 10, coordinates (329,518)-(362,528)
+          Explanation: separate → seperate (misspelling)
+        - CID_00153 [Conflicting]: "reliable" -> "unreliable"
+          Location: Page 148, coordinates (380,569)-(410,579)
+          Explanation: reliable → unreliable (meaning reversed)
+        - CID_00154 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 9, coordinates (145,442)-(197,452)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [14] SC_97CA22: Sustainable Procurement and Supply Chain Management - Environmental Compliance and Cost Reduction
+      URL: https://adta2026group4.com/pdfs/supply_chain/Sustainable Procurement and Supply Chain Management - Environmental Compliance and Cost Reduction.pdf
+      Contaminants (3):
+        - CID_00110 [Typo]: "guarantee" -> "guarentee"
+          Location: Page 11, coordinates (137,384)-(172,397)
+          Explanation: guarantee → guarentee (misspelling)
+        - CID_00111 [Conflicting]: "stability" -> "instability"
+          Location: Page 2, coordinates (66,563)-(95,576)
+          Explanation: stability → instability (meaning reversed)
+        - CID_00112 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 9, coordinates (226,238)-(271,251)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [15] SC_F37F7B: Inventory Management Optimization
+      URL: https://adta2026group4.com/pdfs/supply_chain/Inventory Management Optimization.pdf
+      Contaminants (3):
+        - CID_00158 [Typo]: "beginning" -> "begining"
+          Location: Page 14, coordinates (148,597)-(196,610)
+          Explanation: beginning → begining (misspelling)
+        - CID_00159 [Conflicting]: "growth" -> "decline"
+          Location: Page 70, coordinates (415,197)-(449,210)
+          Explanation: growth → decline (meaning reversed)
+        - CID_00160 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 12, coordinates (347,635)-(408,648)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [16] SC_85DC77: Supplier Selection and Assessment - Impact on Business Performance
+      URL: https://adta2026group4.com/pdfs/supply_chain/Supplier Selection and Assessment - Impact on Business Performance.pdf
+      Contaminants (3):
+        - CID_00435 [Typo]: "knowledge" -> "knowlege"
+          Location: Page 11, coordinates (220,290)-(268,302)
+          Explanation: knowledge → knowlege (misspelling)
+        - CID_00436 [Conflicting]: "improvement" -> "deterioration"
+          Location: Page 3, coordinates (263,242)-(321,255)
+          Explanation: improvement → deterioration (meaning reversed)
+        - CID_00437 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 13, coordinates (72,622)-(128,634)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [17] SC_7B5444: Systematic Review of Sustainable Supply Chain Network Design
+      URL: https://adta2026group4.com/pdfs/supply_chain/Systematic Review of Sustainable Supply Chain Network Design.pdf
+      Contaminants (3):
+        - CID_00366 [Typo]: "efficiency" -> "efficency"
+          Location: Page 11, coordinates (427,215)-(469,225)
+          Explanation: efficiency → efficency (misspelling)
+        - CID_00367 [Conflicting]: "increasing" -> "decreasing"
+          Location: Page 10, coordinates (209,303)-(255,313)
+          Explanation: increasing → decreasing (meaning reversed)
+        - CID_00368 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 6, coordinates (497,494)-(555,504)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [18] SC_FEF54D: New-Generation Supply Chain - Digital Transformation Strategies
+      URL: https://adta2026group4.com/pdfs/supply_chain/New-Generation Supply Chain - Digital Transformation Strategies.pdf
+      Contaminants (3):
+        - CID_00228 [Typo]: "methodology" -> "methodolgy"
+          Location: Page 3, coordinates (549,352)-(621,366)
+          Explanation: methodology → methodolgy (misspelling)
+        - CID_00229 [Conflicting]: "minimize" -> "maximize"
+          Location: Page 77, coordinates (314,197)-(350,207)
+          Explanation: minimize → maximize (meaning reversed)
+        - CID_00230 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 13, coordinates (54,193)-(103,204)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [19] SC_8E7E30: A Review of Supply Chain Risk Management - Definition, Theory, and Research Agenda
+      URL: https://adta2026group4.com/pdfs/supply_chain/A Review of Supply Chain Risk Management - Definition, Theory, and Research Agenda.pdf
+      Contaminants (3):
+        - CID_00378 [Typo]: "sufficient" -> "sufficent"
+          Location: Page 33, coordinates (239,502)-(277,513)
+          Explanation: sufficient → sufficent (misspelling)
+        - CID_00379 [Conflicting]: "increased" -> "decreased"
+          Location: Page 3, coordinates (241,114)-(286,127)
+          Explanation: increased → decreased (meaning reversed)
+        - CID_00380 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 9, coordinates (190,597)-(251,610)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [20] SC_DA2127: Sustainable and Resilient Supply Chain Network Design under Disruption Risks
+      URL: https://adta2026group4.com/pdfs/supply_chain/Sustainable and Resilient Supply Chain Network Design under Disruption Risks.pdf
+      Contaminants (3):
+        - CID_00134 [Typo]: "assessment" -> "assesment"
+          Location: Page 20, coordinates (489,607)-(546,620)
+          Explanation: assessment → assesment (misspelling)
+        - CID_00135 [Conflicting]: "reduces" -> "increases"
+          Location: Page 17, coordinates (342,114)-(378,127)
+          Explanation: reduces → increases (meaning reversed)
+        - CID_00136 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 4, coordinates (214,706)-(275,719)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [21] SC_B6D996: Revolutionizing Supply Chain Management Emerging Trends and Strategies for the Future
+      URL: https://adta2026group4.com/pdfs/supply_chain/Revolutionizing Supply Chain Management Emerging Trends and Strategies for the Future.pdf
+      Contaminants (3):
+        - CID_00402 [Typo]: "particularly" -> "particullarly"
+          Location: Page 11, coordinates (153,567)-(203,577)
+          Explanation: particularly → particullarly (misspelling)
+        - CID_00403 [Conflicting]: "robust" -> "fragile"
+          Location: Page 14, coordinates (91,419)-(118,429)
+          Explanation: robust → fragile (meaning reversed)
+        - CID_00404 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 12, coordinates (105,632)-(161,641)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [22] SC_48C646: Asymmetric Inventory Management
+      URL: https://adta2026group4.com/pdfs/supply_chain/Asymmetric Inventory Management.pdf
+      Contaminants (3):
+        - CID_00164 [Typo]: "analysis" -> "anaylsis"
+          Location: Page 13, coordinates (255,556)-(294,569)
+          Explanation: analysis → anaylsis (misspelling)
+        - CID_00165 [Conflicting]: "minimize" -> "maximize"
+          Location: Page 5, coordinates (222,155)-(267,169)
+          Explanation: minimize → maximize (meaning reversed)
+        - CID_00166 [Nonsense]: "transportation" -> "cloud wrestling"
+          Location: Page 10, coordinates (473,625)-(540,638)
+          Explanation: transportation → cloud wrestling (absurd replacement)
+
+  [23] SC_8500A5: A Literature Analysis of Walmart's Supply Chain Excellence in terms of Integration, Distribution and Operations
+      URL: https://adta2026group4.com/pdfs/supply_chain/A Literature Analysis of Walmart's Supply Chain Excellence in terms of Integration, Distribution and Operations.pdf
+      Contaminants (3):
+        - CID_00035 [Typo]: "knowledge" -> "knowlege"
+          Location: Page 5, coordinates (357,104)-(409,116)
+          Explanation: knowledge → knowlege (misspelling)
+        - CID_00036 [Conflicting]: "better" -> "worse"
+          Location: Page 12, coordinates (349,299)-(377,312)
+          Explanation: better → worse (meaning reversed)
+        - CID_00037 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 3, coordinates (233,689)-(294,702)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [24] SC_BEDE1A: Contingency Management and Supply Chain Performance COVID-19 Pandemic
+      URL: https://adta2026group4.com/pdfs/supply_chain/Contingency Management and Supply Chain Performance COVID-19 Pandemic.pdf
+      Contaminants (3):
+        - CID_00218 [Typo]: "methodology" -> "methodolgy"
+          Location: Page 3, coordinates (274,293)-(334,303)
+          Explanation: methodology → methodolgy (misspelling)
+        - CID_00219 [Conflicting]: "growth" -> "decline"
+          Location: Page 2, coordinates (147,171)-(179,182)
+          Explanation: growth → decline (meaning reversed)
+        - CID_00220 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 10, coordinates (462,324)-(519,334)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [25] SC_8A2924: Supply Chain Performance - Performance Measurements and Metrics
+      URL: https://adta2026group4.com/pdfs/supply_chain/Supply Chain Performance - Performance Measurements and Metrics.pdf
+      Contaminants (3):
+        - CID_00282 [Typo]: "recommend" -> "reccomend"
+          Location: Page 2, coordinates (127,445)-(173,453)
+          Explanation: recommend → reccomend (misspelling)
+        - CID_00283 [Conflicting]: "advantage" -> "disadvantage"
+          Location: Page 12, coordinates (188,464)-(237,477)
+          Explanation: advantage → disadvantage (meaning reversed)
+        - CID_00284 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 13, coordinates (424,407)-(486,420)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [26] SC_E7ADA0: Digital Transformation in Supply Chains AI, Blockchain and IoT Integration
+      URL: https://adta2026group4.com/pdfs/supply_chain/Digital Transformation in Supply Chains AI, Blockchain and IoT Integration.pdf
+      Contaminants (3):
+        - CID_00300 [Typo]: "business" -> "buisness"
+          Location: Page 5, coordinates (260,106)-(291,115)
+          Explanation: business → buisness (misspelling)
+        - CID_00301 [Conflicting]: "improvements" -> "deteriorations"
+          Location: Page 7, coordinates (70,226)-(123,235)
+          Explanation: improvements → deteriorations (meaning reversed)
+        - CID_00302 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 9, coordinates (350,752)-(397,761)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [27] SC_34187C: Developments in Logistics and Supply Chain Management Past, Present and Future
+      URL: https://adta2026group4.com/pdfs/supply_chain/Developments in Logistics and Supply Chain Management Past, Present and Future.pdf
+      Contaminants (3):
+        - CID_00339 [Typo]: "efficiency" -> "efficency"
+          Location: Page 219, coordinates (106,425)-(147,434)
+          Explanation: efficiency → efficency (misspelling)
+        - CID_00340 [Conflicting]: "growth" -> "decline"
+          Location: Page 284, coordinates (125,108)-(155,117)
+          Explanation: growth → decline (meaning reversed)
+        - CID_00341 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 8, coordinates (96,237)-(153,247)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [28] SC_1031D5: Supply Chain Optimization via Generative Simulation and Iterative Decision-Making
+      URL: https://adta2026group4.com/pdfs/supply_chain/Supply Chain Optimization via Generative Simulation and Iterative Decision-Making.pdf
+      Contaminants (3):
+        - CID_00206 [Typo]: "necessary" -> "neccessary"
+          Location: Page 6, coordinates (439,129)-(481,140)
+          Explanation: necessary → neccessary (misspelling)
+        - CID_00207 [Conflicting]: "maximizes" -> "minimizes"
+          Location: Page 7, coordinates (221,400)-(268,411)
+          Explanation: maximizes → minimizes (meaning reversed)
+        - CID_00208 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 4, coordinates (421,666)-(477,677)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [29] SC_F66C40: Impact of Perceived Benefits on Blockchain Adoption in SCM
+      URL: https://adta2026group4.com/pdfs/supply_chain/Impact of Perceived Benefits on Blockchain Adoption in SCM.pdf
+      Contaminants (3):
+        - CID_00441 [Typo]: "environmental" -> "enviromental"
+          Location: Page 8, coordinates (494,302)-(559,312)
+          Explanation: environmental → enviromental (misspelling)
+        - CID_00442 [Conflicting]: "improvement" -> "deterioration"
+          Location: Page 16, coordinates (365,562)-(425,572)
+          Explanation: improvement → deterioration (meaning reversed)
+        - CID_00443 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 10, coordinates (401,660)-(459,670)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [30] SC_15404A: Warehouse Optimization BEDNAR - Technical Analysis and Implementation
+      URL: https://adta2026group4.com/pdfs/supply_chain/Warehouse Optimization BEDNAR - Technical Analysis and Implementation.pdf
+      Contaminants (3):
+        - CID_00252 [Typo]: "beginning" -> "begining"
+          Location: Page 2, coordinates (117,354)-(165,367)
+          Explanation: beginning → begining (misspelling)
+        - CID_00253 [Conflicting]: "successful" -> "unsuccessful"
+          Location: Page 21, coordinates (231,522)-(287,536)
+          Explanation: successful → unsuccessful (meaning reversed)
+        - CID_00254 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 3, coordinates (144,97)-(213,110)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [31] SC_FAC84A: Research of Logistics Coordination Level in Supply Chain Procurement (1)
+      URL: https://adta2026group4.com/pdfs/supply_chain/Research of Logistics Coordination Level in Supply Chain Procurement (1).pdf
+      Contaminants (3):
+        - CID_00387 [Typo]: "efficiency" -> "efficency"
+          Location: Page 10, coordinates (368,112)-(406,122)
+          Explanation: efficiency → efficency (misspelling)
+        - CID_00388 [Conflicting]: "accurate" -> "inaccurate"
+          Location: Page 8, coordinates (511,627)-(544,638)
+          Explanation: accurate → inaccurate (meaning reversed)
+        - CID_00389 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 2, coordinates (83,220)-(133,231)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  [32] SC_DBB77D: Supply Chain Risk Management - Building Resilience and Flexibility
+      URL: https://adta2026group4.com/pdfs/supply_chain/Supply Chain Risk Management - Building Resilience and Flexibility.pdf
+      Contaminants (3):
+        - CID_00053 [Typo]: "business" -> "buisness"
+          Location: Page 13, coordinates (447,297)-(484,309)
+          Explanation: business → buisness (misspelling)
+        - CID_00054 [Conflicting]: "minimize" -> "maximize"
+          Location: Page 5, coordinates (235,337)-(275,349)
+          Explanation: minimize → maximize (meaning reversed)
+        - CID_00055 [Nonsense]: "supply chain" -> "dolphin choir"
+          Location: Page 6, coordinates (85,125)-(140,137)
+          Explanation: supply chain → dolphin choir (absurd replacement)
+
+  --- Medical Documents ---
+
+  [1] MED_36F1BD: An essential bifunctional enzyme in Mycobacterium tuberculosis
+      URL: https://adta2026group4.com/pdfs/medical/An essential bifunctional enzyme in Mycobacterium tuberculosis.pdf
+      Contaminants (3):
+        - CID_00122 [Typo]: "independent" -> "independant"
+          Location: Page 4, coordinates (141,230)-(183,237)
+          Explanation: independent → independant (misspelling)
+        - CID_00123 [Conflicting]: "advantage" -> "disadvantage"
+          Location: Page 6, coordinates (214,335)-(253,344)
+          Explanation: advantage → disadvantage (meaning reversed)
+        - CID_00124 [Nonsense]: "pathogen" -> "parsnip"
+          Location: Page 7, coordinates (77,84)-(103,90)
+          Explanation: pathogen → parsnip (absurd replacement)
+
+  [2] MED_378E06: TENSOR GENERALIZED ESTIMATING EQUATIONS FOR LONGITUDINAL IMAGING ANALYSIS
+      URL: https://adta2026group4.com/pdfs/medical/TENSOR GENERALIZED ESTIMATING EQUATIONS FOR LONGITUDINAL IMAGING ANALYSIS.pdf
+      Contaminants (3):
+        - CID_00140 [Typo]: "methodology" -> "methodolgy"
+          Location: Page 3, coordinates (112,613)-(187,627)
+          Explanation: methodology → methodolgy (misspelling)
+        - CID_00141 [Conflicting]: "reduction" -> "expansion"
+          Location: Page 5, coordinates (216,336)-(253,347)
+          Explanation: reduction → expansion (meaning reversed)
+        - CID_00142 [Nonsense]: "distribution" -> "volcano dance"
+          Location: Page 9, coordinates (322,433)-(368,444)
+          Explanation: distribution → volcano dance (absurd replacement)
+
+  [3] MED_ABE610: Gene Encoding a Serine-Threonine Protein Kinase
+      URL: https://adta2026group4.com/pdfs/medical/Gene Encoding a Serine-Threonine Protein Kinase.pdf
+      Contaminants (3):
+        - CID_00059 [Typo]: "approximately" -> "approximatly"
+          Location: Page 11, coordinates (99,239)-(163,249)
+          Explanation: approximately → approximatly (misspelling)
+        - CID_00060 [Conflicting]: "increasing" -> "decreasing"
+          Location: Page 10, coordinates (456,684)-(497,693)
+          Explanation: increasing → decreasing (meaning reversed)
+        - CID_00061 [Nonsense]: "infection" -> "accordion"
+          Location: Page 27, coordinates (351,298)-(387,307)
+          Explanation: infection → accordion (absurd replacement)
+
+  [4] MED_F520FE: Genetics of Lipodystrophy
+      URL: https://adta2026group4.com/pdfs/medical/Genetics of Lipodystrophy.pdf
+      Contaminants (3):
+        - CID_00240 [Typo]: "development" -> "developement"
+          Location: Page 2, coordinates (327,651)-(385,661)
+          Explanation: development → developement (misspelling)
+        - CID_00241 [Conflicting]: "positive" -> "negative"
+          Location: Page 4, coordinates (345,294)-(375,303)
+          Explanation: positive → negative (meaning reversed)
+        - CID_00242 [Nonsense]: "patients" -> "penguins"
+          Location: Page 5, coordinates (157,143)-(188,152)
+          Explanation: patients → penguins (absurd replacement)
+
+  [5] MED_9589DA: Ultrasound Therapy on Myofascial Pain Syndrome of the Upper Trapezius
+      URL: https://adta2026group4.com/pdfs/medical/Ultrasound Therapy on Myofascial Pain Syndrome of the Upper Trapezius.pdf
+      Contaminants (3):
+        - CID_00194 [Typo]: "environment" -> "enviroment"
+          Location: Page 5, coordinates (377,189)-(426,200)
+          Explanation: environment → enviroment (misspelling)
+        - CID_00195 [Conflicting]: "stronger" -> "weaker"
+          Location: Page 2, coordinates (376,640)-(412,652)
+          Explanation: stronger → weaker (meaning reversed)
+        - CID_00196 [Nonsense]: "clinical" -> "culinary"
+          Location: Page 4, coordinates (76,519)-(107,531)
+          Explanation: clinical → culinary (absurd replacement)
+
+  [6] MED_583321: Novel Coronavirus from Patients with Pneumonia in China
+      URL: https://adta2026group4.com/pdfs/medical/Novel Coronavirus from Patients with Pneumonia in China.pdf
+      Contaminants (3):
+        - CID_00004 [Typo]: "analysis" -> "anaylsis"
+          Location: Page 3, coordinates (216,294)-(249,306)
+          Explanation: analysis → anaylsis (misspelling)
+        - CID_00005 [Conflicting]: "successful" -> "unsuccessful"
+          Location: Page 7, coordinates (134,294)-(176,306)
+          Explanation: successful → unsuccessful (meaning reversed)
+        - CID_00006 [Nonsense]: "patients" -> "penguins"
+          Location: Page 2, coordinates (226,246)-(257,258)
+          Explanation: patients → penguins (absurd replacement)
+
+  [7] MED_E011BF: SARS treatment
+      URL: https://adta2026group4.com/pdfs/medical/SARS treatment.pdf
+      Contaminants (3):
+        - CID_00224 [Typo]: "significant" -> "significent"
+          Location: Page 2, coordinates (61,468)-(100,478)
+          Explanation: significant → significent (misspelling)
+        - CID_00444 [Conflicting]: "effective" -> "ineffective"
+          Location: Page 2, coordinates (452,226)-(483,236)
+          Explanation: effective → ineffective (meaning reversed)
+        - CID_00446 [Nonsense]: "treatment" -> "kangaroo lemonade"
+          Location: Page 2, coordinates (93,89)-(163,104)
+          Explanation: treatment → kangaroo lemonade (absurd replacement)
+
+  [8] MED_07B97B: Engaged Physical Sciences and Oncology Research
+      URL: https://adta2026group4.com/pdfs/medical/Engaged Physical Sciences and Oncology Research.pdf
+      Contaminants (3):
+        - CID_00161 [Typo]: "acquisition" -> "aquisition"
+          Location: Page 2, coordinates (338,485)-(382,497)
+          Explanation: acquisition → aquisition (misspelling)
+        - CID_00162 [Conflicting]: "beneficial" -> "detrimental"
+          Location: Page 5, coordinates (289,159)-(328,171)
+          Explanation: beneficial → detrimental (meaning reversed)
+        - CID_00163 [Nonsense]: "stakeholders" -> "time travelers"
+          Location: Page 6, coordinates (454,333)-(504,345)
+          Explanation: stakeholders → time travelers (absurd replacement)
+
+  [9] MED_AE7761: Efficacy of Vitamin C Supplementation on Collagen Synthesis and Oxidative Stress
+      URL: https://adta2026group4.com/pdfs/medical/Efficacy of Vitamin C Supplementation on Collagen Synthesis and Oxidative Stress.pdf
+      Contaminants (3):
+        - CID_00297 [Typo]: "necessary" -> "neccessary"
+          Location: Page 8, coordinates (236,378)-(276,387)
+          Explanation: necessary → neccessary (misspelling)
+        - CID_00298 [Conflicting]: "beneficial" -> "detrimental"
+          Location: Page 7, coordinates (509,630)-(549,639)
+          Explanation: beneficial → detrimental (meaning reversed)
+        - CID_00299 [Nonsense]: "surgical" -> "origami"
+          Location: Page 2, coordinates (441,577)-(474,586)
+          Explanation: surgical → origami (absurd replacement)
+
+  [10] MED_DFB0B9: Haemothoraces in blunt thoracic trauma
+      URL: https://adta2026group4.com/pdfs/medical/Haemothoraces in blunt thoracic trauma.pdf
+      Contaminants (3):
+        - CID_00345 [Typo]: "appropriate" -> "approriate"
+          Location: Page 3, coordinates (321,670)-(373,682)
+          Explanation: appropriate → approriate (misspelling)
+        - CID_00346 [Conflicting]: "optimal" -> "suboptimal"
+          Location: Page 1, coordinates (405,397)-(437,408)
+          Explanation: optimal → suboptimal (meaning reversed)
+        - CID_00347 [Nonsense]: "clinical" -> "culinary"
+          Location: Page 4, coordinates (212,316)-(243,328)
+          Explanation: clinical → culinary (absurd replacement)
+
+  [11] MED_C68DED: Prescription opioids for misuse among young adults
+      URL: https://adta2026group4.com/pdfs/medical/Prescription opioids for misuse among young adults.pdf
+      Contaminants (3):
+        - CID_00327 [Typo]: "knowledge" -> "knowlege"
+          Location: Page 3, coordinates (387,525)-(430,537)
+          Explanation: knowledge → knowlege (misspelling)
+        - CID_00328 [Conflicting]: "reliable" -> "unreliable"
+          Location: Page 9, coordinates (200,371)-(230,383)
+          Explanation: reliable → unreliable (meaning reversed)
+        - CID_00329 [Nonsense]: "treatment" -> "snorkeling"
+          Location: Page 10, coordinates (207,239)-(245,251)
+          Explanation: treatment → snorkeling (absurd replacement)
+
+  [12] MED_507619: Effect of capped biparametric magnetic resonance imaging slots on weekly prostate cancer
+      URL: https://adta2026group4.com/pdfs/medical/Effect of capped biparametric magnetic resonance imaging slots on weekly prostate cancer.pdf
+      Contaminants (3):
+        - CID_00246 [Typo]: "knowledge" -> "knowlege"
+          Location: Page 5, coordinates (367,531)-(409,544)
+          Explanation: knowledge → knowlege (misspelling)
+        - CID_00247 [Conflicting]: "higher" -> "lower"
+          Location: Page 3, coordinates (171,441)-(196,454)
+          Explanation: higher → lower (meaning reversed)
+        - CID_00248 [Nonsense]: "clinical" -> "culinary"
+          Location: Page 4, coordinates (477,552)-(504,565)
+          Explanation: clinical → culinary (absurd replacement)
+
+  [13] MED_6C7571: Targeting an electrotonic effect with ablation
+      URL: https://adta2026group4.com/pdfs/medical/Targeting an electrotonic effect with ablation.pdf
+      Contaminants (3):
+        - CID_00098 [Typo]: "management" -> "managment"
+          Location: Page 2, coordinates (300,642)-(350,652)
+          Explanation: management → managment (misspelling)
+        - CID_00099 [Conflicting]: "progress" -> "regression"
+          Location: Page 3, coordinates (359,606)-(393,616)
+          Explanation: progress → regression (meaning reversed)
+        - CID_00100 [Nonsense]: "symptoms" -> "symphonies"
+          Location: Page 1, coordinates (171,531)-(212,541)
+          Explanation: symptoms → symphonies (absurd replacement)
+
+  [14] MED_998FA0: Cardiac Sympathetic Denervation for Refractory Ventricular Arrhythmias
+      URL: https://adta2026group4.com/pdfs/medical/Cardiac Sympathetic Denervation for Refractory Ventricular Arrhythmias.pdf
+      Contaminants (3):
+        - CID_00372 [Typo]: "occurrence" -> "occurance"
+          Location: Page 5, coordinates (150,325)-(196,337)
+          Explanation: occurrence → occurance (misspelling)
+        - CID_00373 [Conflicting]: "better" -> "worse"
+          Location: Page 13, coordinates (281,204)-(304,215)
+          Explanation: better → worse (meaning reversed)
+        - CID_00374 [Nonsense]: "prognosis" -> "puppetry"
+          Location: Page 9, coordinates (150,145)-(189,157)
+          Explanation: prognosis → puppetry (absurd replacement)
+
+  [15] MED_29AA9B: Molecular Diagnostics for COVID-19
+      URL: https://adta2026group4.com/pdfs/medical/Molecular Diagnostics for COVID-19.pdf
+      Contaminants (3):
+        - CID_00399 [Typo]: "consistency" -> "consistancy"
+          Location: Page 5, coordinates (206,166)-(249,175)
+          Explanation: consistency → consistancy (misspelling)
+        - CID_00400 [Conflicting]: "minimize" -> "maximize"
+          Location: Page 3, coordinates (373,108)-(408,118)
+          Explanation: minimize → maximize (meaning reversed)
+        - CID_00401 [Nonsense]: "clinical" -> "culinary"
+          Location: Page 10, coordinates (166,347)-(190,355)
+          Explanation: clinical → culinary (absurd replacement)
+
+  [16] MED_F552C1: New Approaches to Target Inflammation in Heart Failure
+      URL: https://adta2026group4.com/pdfs/medical/New Approaches to Target Inflammation in Heart Failure.pdf
+      Contaminants (3):
+        - CID_00047 [Typo]: "knowledge" -> "knowlege"
+          Location: Page 13, coordinates (303,183)-(346,195)
+          Explanation: knowledge → knowlege (misspelling)
+        - CID_00048 [Conflicting]: "higher" -> "lower"
+          Location: Page 4, coordinates (469,353)-(494,365)
+          Explanation: higher → lower (meaning reversed)
+        - CID_00049 [Nonsense]: "hypothesis" -> "histrionics"
+          Location: Page 9, coordinates (150,514)-(193,525)
+          Explanation: hypothesis → histrionics (absurd replacement)

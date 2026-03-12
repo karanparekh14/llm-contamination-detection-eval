@@ -1,0 +1,280 @@
+PROMPT 1:
+  URL: https://adta2026group4.com/pdfs/supply_chain/State of Supply Chain Sustainability 2024 - Annual Report
+  Doc ID: SC_E55EE6
+  Title: State of Supply Chain Sustainability 2024 - Annual Report
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 2:
+  URL: https://adta2026group4.com/pdfs/supply_chain/Supply Chain Management International Journal
+  Doc ID: SC_799B06
+  Title: Supply Chain Management International Journal
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 3:
+  URL: https://adta2026group4.com/pdfs/supply_chain/SCM Optimization and Prediction Model Based on Projected Stochastic Gradient
+  Doc ID: SC_93EDA5
+  Title: SCM Optimization and Prediction Model Based on Projected Stochastic Gradient
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 4:
+  URL: https://adta2026group4.com/pdfs/supply_chain/Inventory Optimization and Demand Forecasting - Balancing Stock Levels and Service
+  Doc ID: SC_C76EC9
+  Title: Inventory Optimization and Demand Forecasting - Balancing Stock Levels and Service
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 5:
+  URL: https://adta2026group4.com/pdfs/supply_chain/Inventory management optimization  a case study of Amazon supply chain
+  Doc ID: SC_32CFD0
+  Title: Inventory management optimization  a case study of Amazon supply chain
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 6:
+  URL: https://adta2026group4.com/pdfs/supply_chain/Inventory Management as a Key Driver of Sustainability
+  Doc ID: SC_9FA7AB
+  Title: Inventory Management as a Key Driver of Sustainability
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 7:
+  URL: https://adta2026group4.com/pdfs/supply_chain/Strategic Approaches to Supply Chain Management
+  Doc ID: SC_C62EF7
+  Title: Strategic Approaches to Supply Chain Management
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 8:
+  URL: https://adta2026group4.com/pdfs/supply_chain/Sustainable Operations and Green Logistics in 2025
+  Doc ID: SC_6975CB
+  Title: Sustainable Operations and Green Logistics in 2025
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 9:
+  URL: https://adta2026group4.com/pdfs/supply_chain/A Literature Analysis of Walmart's Supply Chain Excellence in terms of Integration, Distribution and Operations
+  Doc ID: SC_8500A5
+  Title: A Literature Analysis of Walmart's Supply Chain Excellence in terms of Integration, Distribution and Operations
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 10:
+  URL: https://adta2026group4.com/pdfs/supply_chain/WMG Supply Chain Resilience Framework - Academic and Practical Approach
+  Doc ID: SC_A4CC09
+  Title: WMG Supply Chain Resilience Framework - Academic and Practical Approach
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 11:
+  URL: https://adta2026group4.com/pdfs/supply_chain/Insights of Strategic Approach to Global Sourcing and Modes of Entry
+  Doc ID: SC_61EBC9
+  Title: Insights of Strategic Approach to Global Sourcing and Modes of Entry
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 12:
+  URL: https://adta2026group4.com/pdfs/supply_chain/Evaluation of Current Technology in Supply Chain Management Systems
+  Doc ID: SC_0A9C1B
+  Title: Evaluation of Current Technology in Supply Chain Management Systems
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 13:
+  URL: https://adta2026group4.com/pdfs/supply_chain/Supply Chain Risk Management - Building Resilience and Flexibility
+  Doc ID: SC_DBB77D
+  Title: Supply Chain Risk Management - Building Resilience and Flexibility
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 14:
+  URL: https://adta2026group4.com/pdfs/supply_chain/Incentives in Inventory Management
+  Doc ID: SC_7B9DD6
+  Title: Incentives in Inventory Management
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 15:
+  URL: https://adta2026group4.com/pdfs/supply_chain/Supply Chain Inventory Management
+  Doc ID: SC_25BE15
+  Title: Supply Chain Inventory Management
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 16:
+  URL: https://adta2026group4.com/pdfs/supply_chain/Artificial intelligence in supply chain management - A systematic literature
+  Doc ID: SC_D9F09A
+  Title: Artificial intelligence in supply chain management - A systematic literature
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 17:
+  URL: https://adta2026group4.com/pdfs/supply_chain/Project Logistics Integrating Procurement and Construction Management
+  Doc ID: SC_0DDB69
+  Title: Project Logistics Integrating Procurement and Construction Management
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 18:
+  URL: https://adta2026group4.com/pdfs/supply_chain/Top 10 Supply Chain Trends 2025 - Industry Outlook
+  Doc ID: SC_684A14
+  Title: Top 10 Supply Chain Trends 2025 - Industry Outlook
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 19:
+  URL: https://adta2026group4.com/pdfs/supply_chain/Risk Management and Supplier Selection in Global Procurement
+  Doc ID: SC_564B14
+  Title: Risk Management and Supplier Selection in Global Procurement
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 20:
+  URL: https://adta2026group4.com/pdfs/supply_chain/Strategic Supply Chain Management (SSCM) Developing Conceptual Framework and Research Propositions
+  Doc ID: SC_952C3B
+  Title: Strategic Supply Chain Management (SSCM) Developing Conceptual Framework and Research Propositions
+  Category: supply_chain
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 21:
+  URL: https://adta2026group4.com/pdfs/medical/Novel Coronavirus from Patients with Pneumonia in China
+  Doc ID: MED_583321
+  Title: Novel Coronavirus from Patients with Pneumonia in China
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 22:
+  URL: https://adta2026group4.com/pdfs/medical/Disseminated peritoneal leiomyomatosis
+  Doc ID: MED_C0E801
+  Title: Disseminated peritoneal leiomyomatosis
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 23:
+  URL: https://adta2026group4.com/pdfs/medical/PHYSIOLOGY- REPRODUCTIVE PHYSIOLOGY
+  Doc ID: MED_D8B24C
+  Title: PHYSIOLOGY- REPRODUCTIVE PHYSIOLOGY
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 24:
+  URL: https://adta2026group4.com/pdfs/medical/Natural product-derived phytochemicals as potential agents against coronaviruses
+  Doc ID: MED_7D7312
+  Title: Natural product-derived phytochemicals as potential agents against coronaviruses
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 25:
+  URL: https://adta2026group4.com/pdfs/medical/Quantitative monitoring of alpha-amylase and amyloglucosidase
+  Doc ID: MED_C368DF
+  Title: Quantitative monitoring of alpha-amylase and amyloglucosidase
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 26:
+  URL: https://adta2026group4.com/pdfs/medical/New Approaches to Target Inflammation in Heart Failure
+  Doc ID: MED_F552C1
+  Title: New Approaches to Target Inflammation in Heart Failure
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 27:
+  URL: https://adta2026group4.com/pdfs/medical/Gene Encoding a Serine-Threonine Protein Kinase
+  Doc ID: MED_ABE610
+  Title: Gene Encoding a Serine-Threonine Protein Kinase
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 28:
+  URL: https://adta2026group4.com/pdfs/medical/Nonalcoholic fatty liver disease and diabetes is associated with decreased CYP3A4
+  Doc ID: MED_44B5D3
+  Title: Nonalcoholic fatty liver disease and diabetes is associated with decreased CYP3A4
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 29:
+  URL: https://adta2026group4.com/pdfs/medical/IMMH002 ameliorates psoriasis in multiple animal models
+  Doc ID: MED_858F5A
+  Title: IMMH002 ameliorates psoriasis in multiple animal models
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 30:
+  URL: https://adta2026group4.com/pdfs/medical/Magnetic Resonance Imaging Features of Normal Thyroid Parenchyma
+  Doc ID: MED_B23B4A
+  Title: Magnetic Resonance Imaging Features of Normal Thyroid Parenchyma
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 31:
+  URL: https://adta2026group4.com/pdfs/medical/Patient satisfaction after Z-epicanthoplasty and blepharoplasty
+  Doc ID: MED_1C56DA
+  Title: Patient satisfaction after Z-epicanthoplasty and blepharoplasty
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 32:
+  URL: https://adta2026group4.com/pdfs/medical/Low-Salt Intake Suggestions in Hypertensive Patients
+  Doc ID: MED_FAEC4C
+  Title: Low-Salt Intake Suggestions in Hypertensive Patients
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 33:
+  URL: https://adta2026group4.com/pdfs/medical/Targeting an electrotonic effect with ablation
+  Doc ID: MED_6C7571
+  Title: Targeting an electrotonic effect with ablation
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 34:
+  URL: https://adta2026group4.com/pdfs/medical/Pharmacogenetics of immunosuppressant drugs
+  Doc ID: MED_7357FB
+  Title: Pharmacogenetics of immunosuppressant drugs
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 35:
+  URL: https://adta2026group4.com/pdfs/medical/Diversity of Xylodon raduloides complex through integrative taxonomy
+  Doc ID: MED_B6A65F
+  Title: Diversity of Xylodon raduloides complex through integrative taxonomy
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 36:
+  URL: https://adta2026group4.com/pdfs/medical/Four Kinds of Adaptive Decomposition Algorithms
+  Doc ID: MED_CD94DD
+  Title: Four Kinds of Adaptive Decomposition Algorithms
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 37:
+  URL: https://adta2026group4.com/pdfs/medical/Enhanced Photodynamic Therapy
+  Doc ID: MED_8970BE
+  Title: Enhanced Photodynamic Therapy
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 38:
+  URL: https://adta2026group4.com/pdfs/medical/An essential bifunctional enzyme in Mycobacterium tuberculosis
+  Doc ID: MED_36F1BD
+  Title: An essential bifunctional enzyme in Mycobacterium tuberculosis
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 39:
+  URL: https://adta2026group4.com/pdfs/medical/Clinicogenomic factors of biotherapy immunogenicity in autoimmune disease
+  Doc ID: MED_67B704
+  Title: Clinicogenomic factors of biotherapy immunogenicity in autoimmune disease
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
+PROMPT 40:
+  URL: https://adta2026group4.com/pdfs/medical/TENSOR GENERALIZED ESTIMATING EQUATIONS FOR LONGITUDINAL IMAGING ANALYSIS
+  Doc ID: MED_378E06
+  Title: TENSOR GENERALIZED ESTIMATING EQUATIONS FOR LONGITUDINAL IMAGING ANALYSIS
+  Category: medical
+  Contaminations: Typo, Conflicting, Nonsense
+
