@@ -1,4 +1,4 @@
-# ADTA 5770 — LLM Knowledge-Contamination Evaluation
+# LLM Knowledge Contamination Evaluation
 
 > **Course:** ADTA 5770 · University of North Texas  
 > **Contaminated Knowledge Base:** [adta-5760-group-4.vercel.app](https://adta-5760-group-4.vercel.app)
@@ -13,16 +13,16 @@ This project builds a **contamination-detection evaluation pipeline** for Google
 
 | Stage | Description | Documents |
 |-------|-------------|-----------|
-| **Part I** — Single-Doc Baseline | One supply-chain + one medical PDF, full contaminant list provided | 2 |
-| **Part II** — Multi-Doc Batch | 7 SC + 3 MED papers, evaluate batch reasoning | 10 |
-| **Part III** — Scaled Evaluation | Remaining corpus in batched prompts (5A/5B/6A/6B) | 138 |
-| **Part IV** — Response Scoring & Analysis | Statistical evaluation of Gemini's detection performance | — |
+| **Part I: Single-Doc Baseline** | One supply-chain and one medical PDF, full contaminant list provided | 2 |
+| **Part II: Multi-Doc Batch** | 7 SC + 3 MED papers, evaluate batch reasoning | 10 |
+| **Part III: Scaled Evaluation** | Remaining corpus in batched prompts (5A/5B/6A/6B) | 138 |
+| **Part IV: Response Scoring & Analysis** | Statistical evaluation of Gemini's detection performance | n/a |
 
 ## Key Results
 
 - Gemini's detection performance **degrades significantly** as batch size increases  
 - **Fabricated citations** are the easiest contamination type to detect  
-- **Statistical manipulations** are the hardest — often missed entirely  
+- **Statistical manipulations** are the hardest, and are often missed entirely  
 - Single-document prompts achieve the highest precision  
 
 ## Repository Structure
@@ -58,8 +58,8 @@ python analyze_all_gemini_responses.py
 python hw3_part_iv_analysis.py
 ```
 
-> **Note:** The contaminated PDFs and source CSV are hosted separately in the [ADTA5760--Group-4](https://github.com/karanparekh14/ADTA5760--Group-4) repository.
+> **Note:** The contaminated PDFs and source CSV are hosted separately in the [genai-rag-qa-portfolio](https://github.com/karanparekh14/genai-rag-qa-portfolio) repository.
 
-## Team — Group 4
+## Team (Group 4)
 
 Karan Parekh · Sanjana PR · Sana Mhapsekar · Medina Maloku
