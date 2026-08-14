@@ -1,5 +1,7 @@
 # LLM Knowledge Contamination Evaluation
 
+> **Paper:** *When Auditors Fabricate: Batch-Size Degradation and Confident Hallucination in LLM Detection of Planted Document Contamination*  
+> **DOI:** [10.5281/zenodo.21939088](https://doi.org/10.5281/zenodo.21939088)  
 > **Course:** ADTA 5770 · University of North Texas  
 > **Contaminated Knowledge Base:** [adta-5760-group-4.vercel.app](https://adta-5760-group-4.vercel.app)
 
@@ -7,7 +9,7 @@
 
 Can Large Language Models detect deliberately planted misinformation in academic papers?
 
-This project builds a **contamination-detection evaluation pipeline** for Google Gemini. We injected **450 contaminants** (factual errors, fabricated citations, statistical manipulation) into **150 academic PDFs** spanning supply chain management and medical research, then systematically prompted Gemini through escalating difficulty tiers to measure its detection accuracy.
+This project builds a **contamination-detection evaluation pipeline** for Google Gemini 3.0 Pro. We injected **450 contaminants** of three types (typographical corruption, semantic reversal, and absurd out-of-context insertion) into **150 academic PDFs** spanning supply chain management and medical research, then systematically prompted the model through escalating batch sizes to measure its detection accuracy. Responses are scored against a **180-contaminant answer key covering 60 documents**.
 
 ## Evaluation Pipeline
 
@@ -20,10 +22,10 @@ This project builds a **contamination-detection evaluation pipeline** for Google
 
 ## Key Results
 
-- Gemini's detection performance **degrades significantly** as batch size increases  
-- **Fabricated citations** are the easiest contamination type to detect  
-- **Statistical manipulations** are the hardest, and are often missed entirely  
-- Single-document prompts achieve the highest precision  
+- **Detection collapses as batch size grows.** Recovery was 50% on single documents (3/6) and 60% on small batches (18/30), but fell to **2.8% on large batches (4/144)**.
+- **The failure mode at scale is fabrication, not abstention.** Rather than reporting incomplete processing, the model returned confident findings that included contaminants it invented itself, absurdities such as "telepathic squirrel" and "quantum-powered toaster" that appear in no document.
+- **Plausible corruptions are missed most often.** Absurd insertions were recovered at 75%, while semantic reversals and typographical corruptions were each recovered at only 50%. The contamination types most likely to occur in the wild are the ones the model catches least.
+- **Small, bounded prompts are the only reliable regime**, and every reported finding still needs mechanical verification against the source text.
 
 ## Repository Structure
 
@@ -59,6 +61,10 @@ python hw3_part_iv_analysis.py
 ```
 
 > **Note:** The contaminated PDFs and source CSV are hosted separately in the [genai-rag-qa-portfolio](https://github.com/karanparekh14/genai-rag-qa-portfolio) repository.
+
+## Citation
+
+Parekh, K., Pendyala Ravinder, S., Mhapsekar, S., & Maloku, M. (2026). *When Auditors Fabricate: Batch-Size Degradation and Confident Hallucination in LLM Detection of Planted Document Contamination*. Zenodo. https://doi.org/10.5281/zenodo.21939088
 
 ## Team (Group 4)
 
