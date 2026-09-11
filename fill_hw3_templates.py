@@ -162,16 +162,27 @@ FOUND_MAP = {
 }
 
 # ============================================================================
-# LIKERT SCORES — based on our analysis of how well Gemini performed
+# LIKERT SCORES, COURSE TEMPLATE SELF EVALUATION ONLY
 # ============================================================================
-# Per-contaminant Likert scores (Self evaluation)
+# These values are REQUIRED BY THE ASSIGNMENT TEMPLATE and are NOT observations.
+#
+# They are assigned by rule from whether a contaminant was FOUND and from which
+# prompt produced the response. Nobody rated anything. No human or model scored
+# these responses on a Likert scale. Any pattern in these numbers is therefore a
+# property of the function below, not a finding about Gemini.
+#
+# NO RESULT IN THE PAPER RESTS ON THESE SCORES. Every reported number comes from
+# programmatic scoring against the answer key in analyze_all_gemini_responses.py,
+# with manual adjudication of page and type mismatches. A claim that did rest on
+# these ratings was removed in version 3 of the paper for exactly this reason.
+# See the Likert note in README.md.
+#
 # Criteria: C1=Usefulness, C2=Accuracy, C3=Clarity, C4=Completeness, C5=Overall
-# Score is assigned per contaminant based on whether it was FOUND and the overall
-# quality of the response for that document/prompt
 
 def get_likert_scores(cid, found, prompt_label):
     """
-    Assign Likert scores (1-5) for each contaminant based on FOUND status and prompt quality.
+    Assign course-template self-evaluation scores (1-5) by rule from FOUND status
+    and prompt label. These are not measurements and no paper result uses them.
     
     For Part I & II where Gemini actually tried to read the docs:
     - FOUND=YES: higher scores (3-5)
