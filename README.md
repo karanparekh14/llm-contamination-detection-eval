@@ -6,6 +6,15 @@
 > **Course:** ADTA 5770 · University of North Texas  
 > **Contaminated Knowledge Base:** [adta-5760-group-4.vercel.app](https://adta-5760-group-4.vercel.app)
 
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> <img src="https://img.shields.io/badge/Gemini%20API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini API"> <a href="https://arxiv.org/abs/2609.09696"><img src="https://img.shields.io/badge/arXiv%202609.09696-B31B1B?style=flat-square&logo=arxiv&logoColor=white" alt="arXiv 2609.09696"></a> <a href="https://doi.org/10.5281/zenodo.21939087"><img src="https://img.shields.io/badge/DOI%2010.5281%2Fzenodo.21939087-1682D4?style=flat-square&logo=zenodo&logoColor=white" alt="DOI 10.5281/zenodo.21939087"></a> <img src="https://img.shields.io/badge/CC%20BY%204.0%20paper-EF9421?style=flat-square&logo=creativecommons&logoColor=white" alt="CC BY 4.0 paper">
+</p>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/results-dark.svg">
+  <img alt="Recovery of planted contaminants: 50% on single documents, 60% on small batches, 2.8% on large batches, with 95% Wilson intervals" src="assets/results-light.svg" width="100%">
+</picture>
+
 ## Overview
 
 Can Large Language Models detect deliberately planted misinformation in academic papers?

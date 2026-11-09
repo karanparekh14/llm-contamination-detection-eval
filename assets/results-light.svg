@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640" role="img" aria-label="LLM contamination detection: recovery collapses from about 50 to 60 percent on small batches to 2.8 percent on large ones">
+<title>LLM contamination detection: recovery collapses from about 50 to 60 percent on small batches to 2.8 percent on large ones</title>
+<rect width="1200" height="640" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+<text x="40" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#1f2328" text-anchor="start">When auditors fabricate</text>
+<text x="40" y="82" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" fill="#57606a" text-anchor="start">450 contaminants planted in 150 PDFs. How many could Gemini find as batches grew? Scored against a 180-item answer key, 60 documents.</text>
+<rect x="40.0" y="112" width="259.0" height="118" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<circle cx="64.0" cy="138" r="13" fill="#e7f0fb" stroke="#0969da" stroke-width="1.4"/>
+<text x="64.0" y="143" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#0969da" text-anchor="middle">1</text>
+<text x="86.0" y="143" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1f2328" text-anchor="start">Plant</text>
+<text x="56.0" y="172.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">450 contaminants in</text>
+<text x="56.0" y="189.75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">150 PDFs, 3 types</text>
+<defs><marker id="arrow1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker><marker id="arrow1s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker></defs>
+<path d="M 301.0 171.0 L 324.0 171.0" fill="none" stroke="#0969da" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow1)"/>
+<rect x="327.0" y="112" width="259.0" height="118" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<circle cx="351.0" cy="138" r="13" fill="#e7f0fb" stroke="#0969da" stroke-width="1.4"/>
+<text x="351.0" y="143" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#0969da" text-anchor="middle">2</text>
+<text x="373.0" y="143" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1f2328" text-anchor="start">Prompt</text>
+<text x="343.0" y="172.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">single document,</text>
+<text x="343.0" y="189.75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">small batch, large</text>
+<text x="343.0" y="207.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">batches</text>
+<defs><marker id="arrow2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker><marker id="arrow2s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker></defs>
+<path d="M 588.0 171.0 L 611.0 171.0" fill="none" stroke="#0969da" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow2)"/>
+<rect x="614.0" y="112" width="259.0" height="118" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<circle cx="638.0" cy="138" r="13" fill="#e7f0fb" stroke="#0969da" stroke-width="1.4"/>
+<text x="638.0" y="143" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#0969da" text-anchor="middle">3</text>
+<text x="660.0" y="143" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1f2328" text-anchor="start">Score</text>
+<text x="630.0" y="172.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">programmatically</text>
+<text x="630.0" y="189.75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">against the key, with</text>
+<text x="630.0" y="207.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">manual adjudication</text>
+<defs><marker id="arrow3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker><marker id="arrow3s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#0969da"/></marker></defs>
+<path d="M 875.0 171.0 L 898.0 171.0" fill="none" stroke="#0969da" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow3)"/>
+<rect x="901.0" y="112" width="259.0" height="118" rx="12" fill="#ffffff" stroke="#d0d7de" stroke-width="1.2"/>
+<circle cx="925.0" cy="138" r="13" fill="#e7f0fb" stroke="#0969da" stroke-width="1.4"/>
+<text x="925.0" y="143" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#0969da" text-anchor="middle">4</text>
+<text x="947.0" y="143" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1f2328" text-anchor="start">Test</text>
+<text x="917.0" y="172.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">two-proportion z,</text>
+<text x="917.0" y="189.75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">95% Wilson</text>
+<text x="917.0" y="207.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="start">intervals</text>
+<text x="40" y="278" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#8c959f" text-anchor="start">SHARE OF PLANTED CONTAMINANTS RECOVERED, WITH 95% WILSON INTERVALS</text>
+<text x="40" y="318.4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1f2328" text-anchor="start">Single document (3/6)</text>
+<rect x="270" y="298" width="600" height="30" rx="6" fill="#f6f8fa"/>
+<rect x="270" y="298" width="300.0" height="30" rx="6" fill="#0969da"/>
+<line x1="382.8" y1="313.0" x2="757.2" y2="313.0" stroke="#1f2328" stroke-width="1.6"/>
+<line x1="382.8" y1="306.0" x2="382.8" y2="320.0" stroke="#1f2328" stroke-width="1.6"/>
+<line x1="757.2" y1="306.0" x2="757.2" y2="320.0" stroke="#1f2328" stroke-width="1.6"/>
+<text x="884" y="318.4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1f2328" text-anchor="start">50%</text>
+<text x="40" y="366.4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1f2328" text-anchor="start">Small batch (18/30)</text>
+<rect x="270" y="346" width="600" height="30" rx="6" fill="#f6f8fa"/>
+<rect x="270" y="346" width="360.0" height="30" rx="6" fill="#0969da"/>
+<line x1="523.8" y1="361.0" x2="722.4" y2="361.0" stroke="#1f2328" stroke-width="1.6"/>
+<line x1="523.8" y1="354.0" x2="523.8" y2="368.0" stroke="#1f2328" stroke-width="1.6"/>
+<line x1="722.4" y1="354.0" x2="722.4" y2="368.0" stroke="#1f2328" stroke-width="1.6"/>
+<text x="884" y="366.4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1f2328" text-anchor="start">60%</text>
+<text x="40" y="414.4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1f2328" text-anchor="start">Large batches (4/144)</text>
+<rect x="270" y="394" width="600" height="30" rx="6" fill="#f6f8fa"/>
+<rect x="270" y="394" width="16.8" height="30" rx="6" fill="#0969da"/>
+<line x1="276.6" y1="409.0" x2="311.4" y2="409.0" stroke="#1f2328" stroke-width="1.6"/>
+<line x1="276.6" y1="402.0" x2="276.6" y2="416.0" stroke="#1f2328" stroke-width="1.6"/>
+<line x1="311.4" y1="402.0" x2="311.4" y2="416.0" stroke="#1f2328" stroke-width="1.6"/>
+<text x="884" y="414.4" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="700" fill="#1f2328" text-anchor="start">2.8%</text>
+<rect x="940" y="290" width="220" height="140" rx="12" fill="#ffebe9" stroke="#cf222e" stroke-width="1.3"/>
+<text x="958" y="318" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="800" fill="#cf222e" text-anchor="start">The collapse</text>
+<text x="958" y="344.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start">z = 8.58, p &lt; 1e-17</text>
+<text x="958" y="361.75" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start">small vs single:</text>
+<text x="958" y="379.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start">z = 0.45, p = 0.65</text>
+<text x="958" y="397.25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="400" fill="#1f2328" text-anchor="start">(not resolvable)</text>
+<rect x="40" y="452" width="1120" height="164" rx="12" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.2"/>
+<text x="60" y="480" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14.5" font-weight="700" fill="#1f2328" text-anchor="start">What failed, and how</text>
+<circle cx="64" cy="503" r="3.5" fill="#cf222e"/>
+<text x="76" y="508" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#1f2328" text-anchor="start">At scale the model did not abstain: it reported confident findings, including contaminants it invented (“telepathic squirrel”).</text>
+<circle cx="64" cy="530" r="3.5" fill="#8c959f"/>
+<text x="76" y="535" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">Absurd insertions were caught most (9/12); semantic reversals and typos only half the time (6/12 each).</text>
+<circle cx="64" cy="557" r="3.5" fill="#8c959f"/>
+<text x="76" y="562" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">Every regime referenced documents by URL, so context overload and silent retrieval failure cannot be separated here.</text>
+<circle cx="64" cy="584" r="3.5" fill="#8c959f"/>
+<text x="76" y="589" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" font-weight="400" fill="#57606a" text-anchor="start">Small, bounded prompts were the only reliable regime, and every finding still needs checking against the source text.</text>
+</svg>
